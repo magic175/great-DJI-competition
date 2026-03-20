@@ -1,0 +1,7 @@
+[01m[K/home/hldrz/IntelligentUAVChampionship/basic_dev/src/path_sender/src/path_sender.cpp:[m[K In member function ‘[01m[Kvoid PathSender::timeCB(const ros::TimerEvent&)[m[K’:
+[01m[K/home/hldrz/IntelligentUAVChampionship/basic_dev/src/path_sender/src/path_sender.cpp:224:61:[m[K [01;31m[Kerror: [m[Kexpression cannot be used as a function
+  224 |       if(PathSender::dist3D(current_pos_ , end_point(end_num[01;31m[K)[m[K) < 5.0)
+      |                                                             [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/path_sender.dir/build.make:63：CMakeFiles/path_sender.dir/src/path_sender.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:251：CMakeFiles/path_sender.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

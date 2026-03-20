@@ -1,0 +1,4 @@
+Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/imu_gps_odometry/imu_gps_odometry
+Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/pkgconfig/imu_gps_odometry.pc
+Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/imu_gps_odometry/cmake/imu_gps_odometryConfig-version.cmake
+Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/imu_gps_odometry/cmake/imu_gps_odometryConfig.cmake

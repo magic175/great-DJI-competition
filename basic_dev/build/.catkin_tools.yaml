@@ -1,0 +1,6 @@
+devel_space: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel
+install: false
+install_space: /home/hldrz/IntelligentUAVChampionship/basic_dev/install
+profile: default
+source_space: /home/hldrz/IntelligentUAVChampionship/basic_dev/src
+workspace: /home/hldrz/IntelligentUAVChampionship/basic_dev

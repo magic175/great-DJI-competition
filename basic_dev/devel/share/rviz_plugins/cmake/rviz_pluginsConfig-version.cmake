@@ -1,0 +1,1 @@
+/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/rviz_plugins/share/rviz_plugins/cmake/rviz_pluginsConfig-version.cmake

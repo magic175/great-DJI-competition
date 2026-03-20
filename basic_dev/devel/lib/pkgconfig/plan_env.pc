@@ -1,0 +1,1 @@
+/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/plan_env/lib/pkgconfig/plan_env.pc

@@ -1,0 +1,1 @@
+/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/imu_gps_odometry/lib/pkgconfig/imu_gps_odometry.pc

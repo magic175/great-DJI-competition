@@ -1,0 +1,1 @@
+/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_utils/share/traj_utils/cmake/traj_utils-msg-paths.cmake

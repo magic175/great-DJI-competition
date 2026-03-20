@@ -1,0 +1,8 @@
+prefix=/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/swarm_bridge
+
+Name: swarm_bridge
+Description: Description of swarm_bridge
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: traj_utils quadrotor_msgs

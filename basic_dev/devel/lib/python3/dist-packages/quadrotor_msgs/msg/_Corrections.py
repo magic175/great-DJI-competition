@@ -1,0 +1,1 @@
+/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_Corrections.py

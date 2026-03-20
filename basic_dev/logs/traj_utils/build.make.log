@@ -1,0 +1,59 @@
+[35m[1mScanning dependencies of target traj_utils[0m
+[  5%] [32mBuilding CXX object CMakeFiles/traj_utils.dir/src/planning_visualization.cpp.o[0m
+[35m[1mScanning dependencies of target _traj_utils_generate_messages_check_deps_PolyTraj[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  5%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target _traj_utils_generate_messages_check_deps_DataDisp[0m
+[  5%] Built target geometry_msgs_generate_messages_py
+[  5%] Built target _traj_utils_generate_messages_check_deps_PolyTraj
+[35m[1mScanning dependencies of target _traj_utils_generate_messages_check_deps_MINCOTraj[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  5%] Built target geometry_msgs_generate_messages_nodejs
+[  5%] Built target _traj_utils_generate_messages_check_deps_DataDisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  5%] Built target std_msgs_generate_messages_nodejs
+[  5%] Built target geometry_msgs_generate_messages_lisp
+[  5%] Built target std_msgs_generate_messages_eus
+[  5%] Built target geometry_msgs_generate_messages_eus
+[  5%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  5%] Built target _traj_utils_generate_messages_check_deps_MINCOTraj
+[  5%] Built target geometry_msgs_generate_messages_cpp
+[  5%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target traj_utils_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target traj_utils_generate_messages_py[0m
+[35m[1mScanning dependencies of target traj_utils_generate_messages_eus[0m
+[35m[1mScanning dependencies of target traj_utils_generate_messages_nodejs[0m
+[ 10%] [34m[1mGenerating Lisp code from traj_utils/DataDisp.msg[0m
+[ 15%] [34m[1mGenerating Python from MSG traj_utils/DataDisp[0m
+[ 21%] [34m[1mGenerating EusLisp code from traj_utils/DataDisp.msg[0m
+[ 26%] [34m[1mGenerating Javascript code from traj_utils/DataDisp.msg[0m
+[ 31%] [34m[1mGenerating EusLisp code from traj_utils/PolyTraj.msg[0m
+[ 36%] [34m[1mGenerating EusLisp code from traj_utils/MINCOTraj.msg[0m
+[ 42%] [34m[1mGenerating Lisp code from traj_utils/PolyTraj.msg[0m
+[ 47%] [34m[1mGenerating Python from MSG traj_utils/PolyTraj[0m
+[35m[1mScanning dependencies of target traj_utils_generate_messages_cpp[0m
+[ 52%] [34m[1mGenerating C++ code from traj_utils/PolyTraj.msg[0m
+[ 57%] [34m[1mGenerating C++ code from traj_utils/DataDisp.msg[0m
+[ 63%] [34m[1mGenerating Javascript code from traj_utils/PolyTraj.msg[0m
+[ 68%] [34m[1mGenerating Javascript code from traj_utils/MINCOTraj.msg[0m
+[ 73%] [34m[1mGenerating C++ code from traj_utils/MINCOTraj.msg[0m
+[ 78%] [34m[1mGenerating EusLisp manifest code for traj_utils[0m
+[ 84%] [34m[1mGenerating Lisp code from traj_utils/MINCOTraj.msg[0m
+[ 84%] Built target traj_utils_generate_messages_nodejs
+[ 89%] [34m[1mGenerating Python from MSG traj_utils/MINCOTraj[0m
+[ 89%] Built target traj_utils_generate_messages_lisp
+[ 89%] Built target traj_utils_generate_messages_cpp
+[ 94%] [34m[1mGenerating Python msg __init__.py for traj_utils[0m
+[ 94%] Built target traj_utils_generate_messages_py
+[ 94%] Built target traj_utils_generate_messages_eus
+[35m[1mScanning dependencies of target traj_utils_generate_messages[0m
+[ 94%] Built target traj_utils_generate_messages
+[100%] [32m[1mLinking CXX shared library /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_utils/lib/libtraj_utils.so[0m
+[100%] Built target traj_utils

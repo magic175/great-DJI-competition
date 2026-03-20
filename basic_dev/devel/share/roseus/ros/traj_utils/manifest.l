@@ -1,0 +1,1 @@
+/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_utils/share/roseus/ros/traj_utils/manifest.l

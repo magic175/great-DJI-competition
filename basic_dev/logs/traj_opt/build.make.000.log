@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target traj_opt[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/traj_opt.dir/src/poly_traj_optimizer.cpp.o[0m
+[01m[K/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/traj_opt/src/poly_traj_optimizer.cpp:[m[K In member function ‘[01m[Kbool ego_planner::PolyTrajOptimizer::optimizeTrajectory(const MatrixXd&, const MatrixXd&, const MatrixXd&, const VectorXd&, double&)[m[K’:
+[01m[K/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/traj_opt/src/poly_traj_optimizer.cpp:75:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktotal_time_ms[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   75 |       double [01;35m[Ktotal_time_ms[m[K = (t2 - t0).toSec() * 1000;
+      |              [01;35m[K^~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so[0m
+[100%] Built target traj_opt

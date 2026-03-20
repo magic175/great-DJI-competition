@@ -1,0 +1,1 @@
+/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/drone_detect/share/drone_detect/cmake/drone_detectConfig-version.cmake

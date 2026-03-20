@@ -1,0 +1,1 @@
+/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgsConfig-version.cmake

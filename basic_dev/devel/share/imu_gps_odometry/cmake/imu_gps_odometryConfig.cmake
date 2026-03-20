@@ -1,0 +1,1 @@
+/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/imu_gps_odometry/share/imu_gps_odometry/cmake/imu_gps_odometryConfig.cmake

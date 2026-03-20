@@ -1,0 +1,1 @@
+/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/livox_ros_driver2/share/roseus/ros/livox_ros_driver2/msg/CustomPoint.l

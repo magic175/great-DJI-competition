@@ -1,0 +1,1 @@
+/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/share/traj_opt/cmake/traj_optConfig-version.cmake

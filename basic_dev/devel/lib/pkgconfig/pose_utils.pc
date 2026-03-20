@@ -1,0 +1,1 @@
+/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/pose_utils/lib/pkgconfig/pose_utils.pc

@@ -1,0 +1,1 @@
+/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/random_goals/lib/pkgconfig/random_goals.pc

@@ -1,0 +1,1 @@
+/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_sender/share/gennodejs/ros/path_sender/msg/WayPoints.js

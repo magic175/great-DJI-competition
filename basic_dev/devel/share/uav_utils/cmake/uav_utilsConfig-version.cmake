@@ -1,0 +1,1 @@
+/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/uav_utils/share/uav_utils/cmake/uav_utilsConfig-version.cmake

@@ -1,0 +1,36 @@
+[01m[K/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/PX4CtrlFSM.cpp:[m[K In member function ‘[01m[Kvoid PX4CtrlFSM::toggle_offboard_mode(bool)[m[K’:
+[01m[K/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/PX4CtrlFSM.cpp:116:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Klast_request[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  116 |  ros::Time [01;35m[Klast_request[m[K = ros::Time::now();
+      |            [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/controller.cpp:[m[K In member function ‘[01m[Kvoid Controller::update(const Desired_State_t&, const Odom_Data_t&, const Imu_Data_t&, Controller_Output_t&, SO3_Controller_Output_t&)[m[K’:
+[01m[K/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/controller.cpp:201:25:[m[K [01;31m[Kerror: [m[K‘[01m[KwRc[m[K’ was not declared in this scope
+  201 | Eigen::Vector3d u_v_i = [01;31m[KwRc[m[K * Kvi * cRw * int_e_v;
+      |                         [01;31m[K^~~[m[K
+[01m[K/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/controller.cpp:201:37:[m[K [01;31m[Kerror: [m[K‘[01m[KcRw[m[K’ was not declared in this scope
+  201 | Eigen::Vector3d u_v_i = wRc * Kvi * [01;31m[KcRw[m[K * int_e_v;
+      |                                     [01;31m[K^~~[m[K
+[01m[K/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/controller.cpp:228:28:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst std::vector<double> integration_enable_limits[m[K’
+  228 |  const std::vector<double> [01;31m[Kintegration_enable_limits[m[K = {0.1, 0.1, 0.1};
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/controller.cpp:191:27:[m[K [01;36m[Knote: [m[K‘[01m[Kconst std::vector<double> integration_enable_limits[m[K’ previously declared here
+  191 | const std::vector<double> [01;36m[Kintegration_enable_limits[m[K = {0.5, 0.5, 0.5}; // 原来是0.1
+      |                           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/controller.cpp:235:28:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst std::vector<double> integration_output_limits[m[K’
+  235 |  const std::vector<double> [01;31m[Kintegration_output_limits[m[K = {0.6, 0.6, 0.6};
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/controller.cpp:200:27:[m[K [01;36m[Knote: [m[K‘[01m[Kconst std::vector<double> integration_output_limits[m[K’ previously declared here
+  200 | const std::vector<double> [01;36m[Kintegration_output_limits[m[K = {0.6, 0.6, 0.6};
+      |                           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/controller.cpp:237:18:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[KEigen::Vector3d u_v_i[m[K’
+  237 |  Eigen::Vector3d [01;31m[Ku_v_i[m[K = wRc * Kvi * cRw * int_e_v;
+      |                  [01;31m[K^~~~~[m[K
+[01m[K/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/controller.cpp:201:17:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::Vector3d u_v_i[m[K’ previously declared here
+  201 | Eigen::Vector3d [01;36m[Ku_v_i[m[K = wRc * Kvi * cRw * int_e_v;
+      |                 [01;36m[K^~~~~[m[K
+[01m[K/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/controller.cpp:260:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ku_yaw[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  260 |  double [01;35m[Ku_yaw[m[K = Kyaw * e_yaw;
+      |         [01;35m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/px4ctrl_node.dir/build.make:102：CMakeFiles/px4ctrl_node.dir/src/controller.cpp.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[1]: *** [CMakeFiles/Makefile2:220：CMakeFiles/px4ctrl_node.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

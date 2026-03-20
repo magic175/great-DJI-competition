@@ -1,0 +1,1 @@
+/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/poscmd_2_odom/share/poscmd_2_odom/cmake/poscmd_2_odomConfig-version.cmake

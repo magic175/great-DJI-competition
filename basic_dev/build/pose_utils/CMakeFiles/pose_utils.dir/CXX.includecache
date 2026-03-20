@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/pose_utils/include/pose_utils.h
+iostream
+-
+armadillo
+/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/pose_utils/include/armadillo
+
+/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/pose_utils/src/pose_utils.cpp
+pose_utils.h
+/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/pose_utils/src/pose_utils.h
+

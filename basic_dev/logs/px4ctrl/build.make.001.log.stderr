@@ -1,0 +1,16 @@
+[01m[K/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/controller.cpp:[m[K In member function ‘[01m[Kvoid Controller::update(const Desired_State_t&, const Odom_Data_t&, const Imu_Data_t&, Controller_Output_t&, SO3_Controller_Output_t&)[m[K’:
+[01m[K/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/controller.cpp:246:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ku_yaw[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  246 |  double [01;35m[Ku_yaw[m[K = Kyaw * e_yaw;
+      |         [01;35m[K^~~~~[m[K
+[01m[K/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/controller.cpp:261:24:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Krpy[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  261 |  const Eigen::Vector3d [01;35m[Krpy[m[K = desired_attitude.toRotationMatrix().eulerAngles(0, 1, 2);
+      |                        [01;35m[K^~~[m[K
+[01m[K/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/controller.cpp:268:40:[m[K [01;35m[Kwarning: [m[K‘[01m[Kreference_inputs.Controller_Output_t::yaw_rate[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  268 |  u.yaw_rate = [01;35m[Kreference_inputs.yaw_rate+feedback_bodyrates.z()[m[K;
+      |               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/controller.cpp:267:44:[m[K [01;35m[Kwarning: [m[K‘[01m[Kreference_inputs.Controller_Output_t::pitch_rate[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  267 |  u.pitch_rate = [01;35m[Kreference_inputs.pitch_rate+feedback_bodyrates.y()[m[K;
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/controller.cpp:266:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kreference_inputs.Controller_Output_t::roll_rate[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  266 |  u.roll_rate = [01;35m[Kreference_inputs.roll_rate+feedback_bodyrates.x()[m[K;
+      |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K

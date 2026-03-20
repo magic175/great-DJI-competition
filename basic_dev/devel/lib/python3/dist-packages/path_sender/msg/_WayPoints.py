@@ -1,0 +1,1 @@
+/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_sender/lib/python3/dist-packages/path_sender/msg/_WayPoints.py

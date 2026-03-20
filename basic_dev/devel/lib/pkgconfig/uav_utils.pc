@@ -1,0 +1,1 @@
+/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/uav_utils/lib/pkgconfig/uav_utils.pc

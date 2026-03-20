@@ -1,0 +1,4 @@
+Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/pkgconfig/px4ctrl.pc
+Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/px4ctrl/px4ctrl_node
+Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/px4ctrl/cmake/px4ctrlConfig-version.cmake
+Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/px4ctrl/cmake/px4ctrlConfig.cmake

@@ -1,0 +1,4 @@
+Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/libselected_points_publisher.so
+Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/pkgconfig/selected_points_publisher.pc
+Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/selected_points_publisher/cmake/selected_points_publisherConfig.cmake
+Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/selected_points_publisher/cmake/selected_points_publisherConfig-version.cmake

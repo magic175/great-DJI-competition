@@ -1,1 +1,0 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_sender/share/roseus/ros/path_sender/msg/WayPoints.l

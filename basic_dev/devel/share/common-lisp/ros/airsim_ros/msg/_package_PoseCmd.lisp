@@ -1,1 +1,0 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/airsim_ros/share/common-lisp/ros/airsim_ros/msg/_package_PoseCmd.lisp

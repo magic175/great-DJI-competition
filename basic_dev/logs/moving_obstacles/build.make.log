@@ -1,4 +1,0 @@
-[35m[1mScanning dependencies of target moving_obstacles[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/moving_obstacles.dir/src/moving_obstacles.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/moving_obstacles/lib/moving_obstacles/moving_obstacles[0m
-[100%] Built target moving_obstacles

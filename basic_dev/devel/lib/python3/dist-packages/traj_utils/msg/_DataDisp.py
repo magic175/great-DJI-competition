@@ -1,1 +1,0 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_utils/lib/python3/dist-packages/traj_utils/msg/_DataDisp.py

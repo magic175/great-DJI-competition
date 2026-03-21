@@ -1,9 +1,0 @@
-[35m[1mScanning dependencies of target plan_env[0m
-[ 33%] [32mBuilding CXX object CMakeFiles/plan_env.dir/src/grid_map.cpp.o[0m
-[ 66%] [32mBuilding CXX object CMakeFiles/plan_env.dir/src/raycast.cpp.o[0m
-[01m[K/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/plan_env/src/grid_map.cpp:[m[K In member function ‘[01m[Kvoid GridMap::publishMapInflate()[m[K’:
-[01m[K/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/plan_env/src/grid_map.cpp:886:19:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kheading[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
-  886 |   Eigen::Vector3d [01;35m[Kheading[m[K = (md_.camera_r_m_ * md_.cam2body_.block<3, 3>(0, 0).transpose()).block<3, 1>(0, 0);
-      |                   [01;35m[K^~~~~~~[m[K
-[100%] [32m[1mLinking CXX shared library /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/plan_env/lib/libplan_env.so[0m
-[100%] Built target plan_env

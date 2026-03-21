@@ -2,6 +2,7 @@
 #define _PATH_SENDER_HPP_
 
 #include <ros/ros.h>
+#include <ros/package.h>
 #include <image_transport/image_transport.h>
 #include "airsim_ros/VelCmd.h"
 #include "airsim_ros/PoseCmd.h"
@@ -34,9 +35,9 @@ private:
         {0.0, 0.0, 0.0},
         {0, 0, 0},
         {143, -286, 8},
-        {547, -518, 30},
+        {545, -518, 30},
         {1349, 103, 9.8},
-        {1176, 424, 78},
+        {1178, 423, 104},//z=78
         {783, 675, 5},
         {2, 287, 3},
         {713, 728, 14},
@@ -65,9 +66,9 @@ private:
         {0, 0, 0},
         {-13.5671, 1.03407e-05, 2.7},
         {129.405, -287.628, 10.8939},
-        {536.148, -525.205, 32.0722},
+        {548, -518, 32},// {536.148, -525.205, 32.0722},
         {1363.09, 102.74, 10.20006},
-        {1189.11, 424.908, 80.1408},
+        {1189.11, 424.908, 104.1408},//z=80
         {794.359, 682.403, 5.89},
         {-13.5633, 292.444, 3.84371},
         {710.375, 743.833, 14.8641},
@@ -90,12 +91,17 @@ public:
     geometry_msgs::Point station[13];
     geometry_msgs::Point Transit_hub[13];
     geometry_msgs::Point end_point[13];
+    geometry_msgs::Point station_NED[13];
+    geometry_msgs::Point Transit_hub_NED[13];
+    geometry_msgs::Point end_point_NED[13];
     geometry_msgs::Point current_pos_;
+    geometry_msgs::Point temp_end_goal{};
     bool initial_num_get = false;
     bool end_num_get = false;
     bool path_get  = false;
+    bool initial_path_done = false;
 
-    int initial_num=0, end_num=0;
+    int initial_num=0, end_num=0,next_initial_num=3;//逻辑需要，便于使用，暂且初始化为3
     std::vector<geometry_msgs::Point> path;
     PathSender(ros::NodeHandle *nh);
     void timeCB(const ros::TimerEvent& event);

@@ -1,1 +1,0 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/manual_take_over/share/manual_take_over/cmake/manual_take_overConfig.cmake

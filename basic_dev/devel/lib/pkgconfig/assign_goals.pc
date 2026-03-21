@@ -1,1 +1,0 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/assign_goals/lib/pkgconfig/assign_goals.pc

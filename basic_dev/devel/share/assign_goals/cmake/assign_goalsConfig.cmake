@@ -1,1 +1,0 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/assign_goals/share/assign_goals/cmake/assign_goalsConfig.cmake

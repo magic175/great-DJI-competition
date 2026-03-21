@@ -1,1 +1,0 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/share/px4ctrl/cmake/px4ctrlConfig-version.cmake

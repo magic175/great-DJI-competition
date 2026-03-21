@@ -1,1 +1,0 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/airsim_ros/share/airsim_ros/cmake/airsim_rosConfig-version.cmake

@@ -1,1 +1,0 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/airsim_ros/include/airsim_ros/CarState.h

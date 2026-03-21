@@ -1,1 +1,0 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/livox_ros_driver2/lib/python3/dist-packages/livox_ros_driver2/__init__.py

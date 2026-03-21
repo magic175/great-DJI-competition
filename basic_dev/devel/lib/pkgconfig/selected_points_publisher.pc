@@ -1,1 +1,0 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/pkgconfig/selected_points_publisher.pc

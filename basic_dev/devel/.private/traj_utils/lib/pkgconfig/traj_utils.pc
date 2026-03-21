@@ -1,8 +1,0 @@
-prefix=/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_utils
-
-Name: traj_utils
-Description: Description of traj_utils
-Version: 0.0.0
-Cflags: -I/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_utils/include -I/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/traj_utils/include
-Libs: -L${prefix}/lib -ltraj_utils
-Requires: message_runtime

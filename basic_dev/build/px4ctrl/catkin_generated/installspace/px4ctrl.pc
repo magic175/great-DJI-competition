@@ -1,8 +1,0 @@
-prefix=/home/hldrz/IntelligentUAVChampionship/basic_dev/install
-
-Name: px4ctrl
-Description: Description of px4ctrl
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: roscpp quadrotor_msgs uav_utils

@@ -1,5 +1,0 @@
-[35m[1mScanning dependencies of target imu_gps_odometry[0m
-[ 33%] [32mBuilding CXX object CMakeFiles/imu_gps_odometry.dir/src/imu_gps_odometry.cpp.o[0m
-[ 66%] [32mBuilding CXX object CMakeFiles/imu_gps_odometry.dir/src/eskf.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/imu_gps_odometry/lib/imu_gps_odometry/imu_gps_odometry[0m
-[100%] Built target imu_gps_odometry

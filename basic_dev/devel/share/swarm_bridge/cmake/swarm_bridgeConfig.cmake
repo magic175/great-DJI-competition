@@ -1,1 +1,0 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/swarm_bridge/share/swarm_bridge/cmake/swarm_bridgeConfig.cmake

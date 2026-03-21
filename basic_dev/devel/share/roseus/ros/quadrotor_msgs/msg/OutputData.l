@@ -1,1 +1,0 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/share/roseus/ros/quadrotor_msgs/msg/OutputData.l

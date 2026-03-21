@@ -1,1 +1,0 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/fast_lio/share/common-lisp/ros/fast_lio/msg/_package_Pose6D.lisp

@@ -1,1 +1,0 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_sender/share/path_sender/cmake/path_sender-msg-paths.cmake

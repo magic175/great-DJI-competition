@@ -1,1 +1,0 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_utils/include/traj_utils/MINCOTraj.h

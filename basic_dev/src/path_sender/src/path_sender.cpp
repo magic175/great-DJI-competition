@@ -61,7 +61,7 @@ void PathSender::POintSet()
         {
             station[i].x = station_[i].x;
             station[i].y = station_[i].y;
-            station[i].z = station_[i].z;
+            station[i].z = station_[i].z + 0.2;
 
             Transit_hub[i].x = Transit_hub_[i].x;
             Transit_hub[i].y = Transit_hub_[i].y;
@@ -70,18 +70,32 @@ void PathSender::POintSet()
             end_point[i].x = end_point_[i].x;
             end_point[i].y = end_point_[i].y;
             end_point[i].z = end_point_[i].z;
+
+            station_NED[i].x = station_[i].x;
+            station_NED[i].y = -station_[i].y;
+            station_NED[i].z = -station_[i].z;
+
+            Transit_hub_NED[i].x = Transit_hub_[i].x;
+            Transit_hub_NED[i].y = -Transit_hub_[i].y;
+            Transit_hub_NED[i].z = -Transit_hub_[i].z;
+
+            end_point_NED[i].x = end_point_[i].x;
+            end_point_NED[i].y = -end_point_[i].y;
+            end_point_NED[i].z = -end_point_[i].z;
         }
 }
 PathSender::PathSender(ros::NodeHandle *nh)
 {  
 
     POintSet();
-    paths=loadPathsFromYAML(std::string("/home/hldrz/IntelligentUAVChampionship/basic_dev/src/path_sender/config/paths.yaml"));
+    std::string path = ros::package::getPath("path_sender") + "/config/paths.yaml";
+    paths = loadPathsFromYAML(path);
+    // paths=loadPathsFromYAML(std::string("/home/hldrz/IntelligentUAVChampionship/basic_dev/src/path_sender/config/paths.yaml"));
     //无人机信息通过如下命令订阅，当收到消息时自动回调对应的函数
     initial_pose_suber = nh->subscribe<geometry_msgs::PoseStamped>("/airsim_node/initial_pose", 1, std::bind(&PathSender::initial_pose_cb, this, std::placeholders::_1));//状态真值，用于赛道一
     end_pose_suber = nh->subscribe<geometry_msgs::PoseStamped>("/airsim_node/end_goal", 1, std::bind(&PathSender::end_pose_cb, this, std::placeholders::_1));//状态真值，用于赛道一
     gps_pose_suber = nh->subscribe<geometry_msgs::PoseStamped>("/airsim_node/drone_1/gps", 1, std::bind(&PathSender::gps_pose_cb, this, std::placeholders::_1));
-     timer = nh->createTimer(ros::Duration(1.0),&PathSender::timeCB,this);
+     timer = nh->createTimer(ros::Duration(2.0),&PathSender::timeCB,this);
 
     waypoint_publisher = nh->advertise<path_sender::WayPoints>("/waypoints", 1);
     edited_gps_publisher = nh->advertise<geometry_msgs::PoseWithCovarianceStamped>("/airsim_node/drone_1/edited_gps", 1);
@@ -95,12 +109,12 @@ PathSender::~PathSender()
 
 
 void PathSender::initial_pose_cb(const geometry_msgs::PoseStamped::ConstPtr& msg)
-{ 
+{ //单次执行
   //std::cout<<"initial_num_get:"<<initial_num_get<<"initian_num="<<initial_num<<std::endl;
   if(!initial_num_get)
   for(int i=1;i<=12;i++)
   {
-    if(PathSender::dist3D(msg->pose.position , station[i]) <5.0)
+    if(PathSender::dist3D(msg->pose.position , station_NED[i]) <5.0)
     {
       initial_num = i;
       initial_num_get = true;
@@ -114,13 +128,22 @@ void PathSender::initial_pose_cb(const geometry_msgs::PoseStamped::ConstPtr& msg
 void PathSender::end_pose_cb(const geometry_msgs::PoseStamped::ConstPtr& msg)
 {
  // std::cout<<"end_num_get:"<<end_num_get<<"end_num="<<end_num<<std::endl;
-  if(!end_num_get)
+  
+//   if(!end_num_get)
   for(int i=1;i<=12;i++)
   {
-    if(PathSender::dist3D(msg->pose.position , station[i]) <10.0 )
+    //检查end_goal是否更新
+    if(PathSender::dist3D(msg->pose.position , station_NED[i]) <5.0 && 
+        (msg->pose.position.x != temp_end_goal.x ||
+         msg->pose.position.y != temp_end_goal.y ||
+         msg->pose.position.z != temp_end_goal.z ))
     {
       end_num = i;
       end_num_get = true;
+      path_get = false;//开放路径重组入口
+      temp_end_goal.x = msg->pose.position.x;
+      temp_end_goal.y = msg->pose.position.y;
+      temp_end_goal.z = msg->pose.position.z; 
       ROS_WARN("end_num_get = true;");
       break;
     }
@@ -194,6 +217,14 @@ void PathSender::timeCB(const ros::TimerEvent& event)
     {
       if(initial_num_get && end_num_get)
       {
+        if(initial_path_done)
+        {
+            initial_num = next_initial_num;
+            next_initial_num = end_num;
+        }
+        ROS_WARN("next_initial_num=%d,initial_num=%d,end_num=%d",
+                next_initial_num,initial_num,end_num
+            );
           path= paths[initial_num-1];//将起点到第一个转运站的路径加入
           path.emplace_back(Transit_hub[initial_num]);//中枢入口
           path.emplace_back(Transit_hub[end_num]);//中枢出口
@@ -215,6 +246,11 @@ void PathSender::timeCB(const ros::TimerEvent& event)
           std::cout<<"path_get"<<std::endl;
 
           path_get=true;
+
+          path_sender::WayPoints path;
+          path.points = this->path;
+          waypoint_publisher.publish(path);
+          ROS_ERROR("path_get=true;");
       }
     }
     else
@@ -222,13 +258,14 @@ void PathSender::timeCB(const ros::TimerEvent& event)
       path_sender::WayPoints path;
       path.points = this->path;
       waypoint_publisher.publish(path);
-
-      if(PathSender::dist3D(current_pos_ , end_point[end_num]) < 5.0)
-        {
-           initial_num_get = false;
-           end_num_get = false;
-           path_get = false;
-        }
+      ROS_WARN("--SENDING--");
+    //   if(PathSender::dist3D(current_pos_ , end_point_NED[end_num]) < 5.0)
+    //     {
+    //     //    initial_num_get = false;
+    //        end_num_get = false;
+    //        path_get = false;
+      if(!initial_path_done)initial_path_done = true;
+        
     }  
     static int cnt = 0;
     if(cnt++ % 5 == 0) {

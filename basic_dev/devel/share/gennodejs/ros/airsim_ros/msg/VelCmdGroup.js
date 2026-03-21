@@ -1,1 +1,0 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/airsim_ros/share/gennodejs/ros/airsim_ros/msg/VelCmdGroup.js

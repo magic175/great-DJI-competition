@@ -1,1 +1,0 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/ego_planner/share/ego_planner/cmake/ego_plannerConfig.cmake

@@ -1,1 +1,0 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/share/selected_points_publisher/cmake/selected_points_publisherConfig-version.cmake

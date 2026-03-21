@@ -1,1 +1,0 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_sender/share/common-lisp/ros/path_sender/msg/path_sender-msg.asd

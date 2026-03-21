@@ -1,1 +1,0 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/local_sensing_node/lib/pkgconfig/local_sensing_node.pc

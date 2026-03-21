@@ -1,8 +1,0 @@
-[35m[1mScanning dependencies of target traj2odom_node[0m
-[35m[1mScanning dependencies of target bridge_node_udp[0m
-[ 25%] [32mBuilding CXX object CMakeFiles/bridge_node_udp.dir/src/bridge_node_udp.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/traj2odom_node.dir/src/traj2odom_node.cpp.o[0m
-[ 75%] [32m[1mLinking CXX executable /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/swarm_bridge/lib/swarm_bridge/bridge_node_udp[0m
-[ 75%] Built target bridge_node_udp
-[100%] [32m[1mLinking CXX executable /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/swarm_bridge/lib/swarm_bridge/traj2odom_node[0m
-[100%] Built target traj2odom_node

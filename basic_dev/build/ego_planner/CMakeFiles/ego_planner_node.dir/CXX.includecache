@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_sender/include/path_sender/WayPoints.h
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/path_sender/include/path_sender/WayPoints.h
 string
 -
 vector
@@ -24,7 +24,7 @@ ros/message_operations.h
 geometry_msgs/Point.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/include/quadrotor_msgs/GoalSet.h
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/quadrotor_msgs/include/quadrotor_msgs/GoalSet.h
 string
 -
 vector
@@ -40,7 +40,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_utils/include/traj_utils/DataDisp.h
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_utils/include/traj_utils/DataDisp.h
 string
 -
 vector
@@ -58,7 +58,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_utils/include/traj_utils/MINCOTraj.h
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_utils/include/traj_utils/MINCOTraj.h
 string
 -
 vector
@@ -74,7 +74,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_utils/include/traj_utils/PolyTraj.h
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_utils/include/traj_utils/PolyTraj.h
 string
 -
 vector
@@ -90,7 +90,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/path_searching/include/path_searching/dyn_a_star.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/path_searching/include/path_searching/dyn_a_star.h
 iostream
 -
 ros/ros.h
@@ -104,7 +104,7 @@ plan_env/grid_map.h
 queue
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/plan_env/include/plan_env/grid_map.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/plan_env/include/plan_env/grid_map.h
 Eigen/Eigen
 -
 Eigen/StdVector
@@ -144,13 +144,13 @@ message_filters/time_synchronizer.h
 plan_env/raycast.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/plan_env/include/plan_env/raycast.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/plan_env/include/plan_env/raycast.h
 Eigen/Eigen
 -
 vector
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/plan_manage/include/plan_manage/ego_replan_fsm.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/plan_manage/include/plan_manage/ego_replan_fsm.h
 Eigen/Eigen
 -
 algorithm
@@ -192,7 +192,7 @@ traj_utils/MINCOTraj.h
 path_sender/WayPoints.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/plan_manage/include/plan_manage/planner_manager.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/plan_manage/include/plan_manage/planner_manager.h
 stdlib.h
 -
 optimizer/poly_traj_optimizer.h
@@ -210,7 +210,7 @@ traj_utils/planning_visualization.h
 optimizer/poly_traj_utils.hpp
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/ego_planner_node.cpp
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/ego_planner_node.cpp
 ros/ros.h
 -
 visualization_msgs/Marker.h
@@ -218,21 +218,21 @@ visualization_msgs/Marker.h
 plan_manage/ego_replan_fsm.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/ego_replan_fsm.cpp
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/ego_replan_fsm.cpp
 plan_manage/ego_replan_fsm.h
 -
 tf2_geometry_msgs/tf2_geometry_msgs.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/planner_manager.cpp
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/planner_manager.cpp
 plan_manage/planner_manager.h
 -
 thread
 -
 visualization_msgs/Marker.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/visualization_msgs/Marker.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/visualization_msgs/Marker.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/traj_opt/include/optimizer/lbfgs.hpp
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/traj_opt/include/optimizer/lbfgs.hpp
 cstdint
 -
 cstdio
@@ -246,7 +246,7 @@ cfloat
 cmath
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/traj_opt/include/optimizer/poly_traj_optimizer.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/traj_opt/include/optimizer/poly_traj_optimizer.h
 Eigen/Eigen
 -
 path_searching/dyn_a_star.h
@@ -256,15 +256,15 @@ plan_env/grid_map.h
 ros/ros.h
 -
 optimizer/lbfgs.hpp
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/traj_opt/include/optimizer/optimizer/lbfgs.hpp
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/traj_opt/include/optimizer/optimizer/lbfgs.hpp
 traj_utils/plan_container.hpp
 -
 poly_traj_utils.hpp
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/traj_opt/include/optimizer/poly_traj_utils.hpp
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/traj_opt/include/optimizer/poly_traj_utils.hpp
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/traj_opt/include/optimizer/poly_traj_utils.hpp
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/traj_opt/include/optimizer/poly_traj_utils.hpp
 root_finder.hpp
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/traj_opt/include/optimizer/root_finder.hpp
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/traj_opt/include/optimizer/root_finder.hpp
 iostream
 -
 cmath
@@ -274,7 +274,7 @@ vector
 Eigen/Eigen
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/traj_opt/include/optimizer/root_finder.hpp
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/traj_opt/include/optimizer/root_finder.hpp
 cfloat
 -
 cmath
@@ -284,7 +284,7 @@ set
 Eigen/Eigen
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/traj_utils/include/traj_utils/plan_container.hpp
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/traj_utils/include/traj_utils/plan_container.hpp
 Eigen/Eigen
 -
 vector
@@ -294,7 +294,7 @@ ros/ros.h
 optimizer/poly_traj_utils.hpp
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/traj_utils/include/traj_utils/planning_visualization.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/traj_utils/include/traj_utils/planning_visualization.h
 eigen3/Eigen/Eigen
 -
 algorithm

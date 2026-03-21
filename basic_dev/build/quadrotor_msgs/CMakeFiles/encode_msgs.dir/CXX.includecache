@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/include/quadrotor_msgs/AuxCommand.h
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/quadrotor_msgs/include/quadrotor_msgs/AuxCommand.h
 string
 -
 vector
@@ -22,7 +22,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/include/quadrotor_msgs/Gains.h
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/quadrotor_msgs/include/quadrotor_msgs/Gains.h
 string
 -
 vector
@@ -38,7 +38,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/include/quadrotor_msgs/SO3Command.h
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/quadrotor_msgs/include/quadrotor_msgs/SO3Command.h
 string
 -
 vector
@@ -62,7 +62,7 @@ geometry_msgs/Quaternion.h
 quadrotor_msgs/AuxCommand.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/include/quadrotor_msgs/TRPYCommand.h
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/quadrotor_msgs/include/quadrotor_msgs/TRPYCommand.h
 string
 -
 vector
@@ -82,9 +82,9 @@ std_msgs/Header.h
 quadrotor_msgs/AuxCommand.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/quadrotor_msgs/include/quadrotor_msgs/comm_types.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/quadrotor_msgs/include/quadrotor_msgs/comm_types.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/quadrotor_msgs/include/quadrotor_msgs/encode_msgs.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/quadrotor_msgs/include/quadrotor_msgs/encode_msgs.h
 stdint.h
 -
 vector
@@ -96,9 +96,9 @@ quadrotor_msgs/TRPYCommand.h
 quadrotor_msgs/Gains.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/quadrotor_msgs/src/encode_msgs.cpp
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/quadrotor_msgs/src/encode_msgs.cpp
 quadrotor_msgs/encode_msgs.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/quadrotor_msgs/src/quadrotor_msgs/encode_msgs.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/quadrotor_msgs/src/quadrotor_msgs/encode_msgs.h
 quadrotor_msgs/comm_types.h
 -
 

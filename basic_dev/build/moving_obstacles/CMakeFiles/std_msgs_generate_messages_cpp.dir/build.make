@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/moving_obstacles
+CMAKE_SOURCE_DIR = /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/moving_obstacles
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/moving_obstacles
+CMAKE_BINARY_DIR = /home/dawn/great-DJI-competition/basic_dev/build/moving_obstacles
 
 # Utility rule file for std_msgs_generate_messages_cpp.
 
@@ -67,6 +67,6 @@ CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 
 CMakeFiles/std_msgs_generate_messages_cpp.dir/depend:
-	cd /home/hldrz/IntelligentUAVChampionship/basic_dev/build/moving_obstacles && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/moving_obstacles /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/moving_obstacles /home/hldrz/IntelligentUAVChampionship/basic_dev/build/moving_obstacles /home/hldrz/IntelligentUAVChampionship/basic_dev/build/moving_obstacles /home/hldrz/IntelligentUAVChampionship/basic_dev/build/moving_obstacles/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dawn/great-DJI-competition/basic_dev/build/moving_obstacles && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/moving_obstacles /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/moving_obstacles /home/dawn/great-DJI-competition/basic_dev/build/moving_obstacles /home/dawn/great-DJI-competition/basic_dev/build/moving_obstacles /home/dawn/great-DJI-competition/basic_dev/build/moving_obstacles/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
 

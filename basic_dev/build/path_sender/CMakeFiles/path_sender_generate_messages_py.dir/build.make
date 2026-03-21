@@ -43,34 +43,34 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/src/path_sender
+CMAKE_SOURCE_DIR = /home/dawn/great-DJI-competition/basic_dev/src/path_sender
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/path_sender
+CMAKE_BINARY_DIR = /home/dawn/great-DJI-competition/basic_dev/build/path_sender
 
 # Utility rule file for path_sender_generate_messages_py.
 
 # Include the progress variables for this target.
 include CMakeFiles/path_sender_generate_messages_py.dir/progress.make
 
-CMakeFiles/path_sender_generate_messages_py: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_sender/lib/python3/dist-packages/path_sender/msg/_WayPoints.py
-CMakeFiles/path_sender_generate_messages_py: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_sender/lib/python3/dist-packages/path_sender/msg/__init__.py
+CMakeFiles/path_sender_generate_messages_py: /home/dawn/great-DJI-competition/basic_dev/devel/.private/path_sender/lib/python3/dist-packages/path_sender/msg/_WayPoints.py
+CMakeFiles/path_sender_generate_messages_py: /home/dawn/great-DJI-competition/basic_dev/devel/.private/path_sender/lib/python3/dist-packages/path_sender/msg/__init__.py
 
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_sender/lib/python3/dist-packages/path_sender/msg/_WayPoints.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_sender/lib/python3/dist-packages/path_sender/msg/_WayPoints.py: /home/hldrz/IntelligentUAVChampionship/basic_dev/src/path_sender/msg/WayPoints.msg
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_sender/lib/python3/dist-packages/path_sender/msg/_WayPoints.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hldrz/IntelligentUAVChampionship/basic_dev/build/path_sender/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG path_sender/WayPoints"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/hldrz/IntelligentUAVChampionship/basic_dev/src/path_sender/msg/WayPoints.msg -Ipath_sender:/home/hldrz/IntelligentUAVChampionship/basic_dev/src/path_sender/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p path_sender -o /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_sender/lib/python3/dist-packages/path_sender/msg
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/path_sender/lib/python3/dist-packages/path_sender/msg/_WayPoints.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/path_sender/lib/python3/dist-packages/path_sender/msg/_WayPoints.py: /home/dawn/great-DJI-competition/basic_dev/src/path_sender/msg/WayPoints.msg
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/path_sender/lib/python3/dist-packages/path_sender/msg/_WayPoints.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dawn/great-DJI-competition/basic_dev/build/path_sender/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG path_sender/WayPoints"
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/dawn/great-DJI-competition/basic_dev/src/path_sender/msg/WayPoints.msg -Ipath_sender:/home/dawn/great-DJI-competition/basic_dev/src/path_sender/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p path_sender -o /home/dawn/great-DJI-competition/basic_dev/devel/.private/path_sender/lib/python3/dist-packages/path_sender/msg
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_sender/lib/python3/dist-packages/path_sender/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_sender/lib/python3/dist-packages/path_sender/msg/__init__.py: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_sender/lib/python3/dist-packages/path_sender/msg/_WayPoints.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hldrz/IntelligentUAVChampionship/basic_dev/build/path_sender/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python msg __init__.py for path_sender"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_sender/lib/python3/dist-packages/path_sender/msg --initpy
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/path_sender/lib/python3/dist-packages/path_sender/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/path_sender/lib/python3/dist-packages/path_sender/msg/__init__.py: /home/dawn/great-DJI-competition/basic_dev/devel/.private/path_sender/lib/python3/dist-packages/path_sender/msg/_WayPoints.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dawn/great-DJI-competition/basic_dev/build/path_sender/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python msg __init__.py for path_sender"
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/dawn/great-DJI-competition/basic_dev/devel/.private/path_sender/lib/python3/dist-packages/path_sender/msg --initpy
 
 path_sender_generate_messages_py: CMakeFiles/path_sender_generate_messages_py
-path_sender_generate_messages_py: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_sender/lib/python3/dist-packages/path_sender/msg/_WayPoints.py
-path_sender_generate_messages_py: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_sender/lib/python3/dist-packages/path_sender/msg/__init__.py
+path_sender_generate_messages_py: /home/dawn/great-DJI-competition/basic_dev/devel/.private/path_sender/lib/python3/dist-packages/path_sender/msg/_WayPoints.py
+path_sender_generate_messages_py: /home/dawn/great-DJI-competition/basic_dev/devel/.private/path_sender/lib/python3/dist-packages/path_sender/msg/__init__.py
 path_sender_generate_messages_py: CMakeFiles/path_sender_generate_messages_py.dir/build.make
 
 .PHONY : path_sender_generate_messages_py
@@ -85,6 +85,6 @@ CMakeFiles/path_sender_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/path_sender_generate_messages_py.dir/clean
 
 CMakeFiles/path_sender_generate_messages_py.dir/depend:
-	cd /home/hldrz/IntelligentUAVChampionship/basic_dev/build/path_sender && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hldrz/IntelligentUAVChampionship/basic_dev/src/path_sender /home/hldrz/IntelligentUAVChampionship/basic_dev/src/path_sender /home/hldrz/IntelligentUAVChampionship/basic_dev/build/path_sender /home/hldrz/IntelligentUAVChampionship/basic_dev/build/path_sender /home/hldrz/IntelligentUAVChampionship/basic_dev/build/path_sender/CMakeFiles/path_sender_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dawn/great-DJI-competition/basic_dev/build/path_sender && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dawn/great-DJI-competition/basic_dev/src/path_sender /home/dawn/great-DJI-competition/basic_dev/src/path_sender /home/dawn/great-DJI-competition/basic_dev/build/path_sender /home/dawn/great-DJI-competition/basic_dev/build/path_sender /home/dawn/great-DJI-competition/basic_dev/build/path_sender/CMakeFiles/path_sender_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/path_sender_generate_messages_py.dir/depend
 

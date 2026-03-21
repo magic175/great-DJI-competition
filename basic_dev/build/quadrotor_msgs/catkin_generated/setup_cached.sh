@@ -7,10 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD='/home/hldrz/IntelligentUAVChampionship/basic_dev/build/quadrotor_msgs'
-export PYTHONPATH="/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/lib/python3/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/quadrotor_msgs:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/dawn/great-DJI-competition/basic_dev/devel/.private/quadrotor_msgs:$CMAKE_PREFIX_PATH"
+export PWD='/home/dawn/great-DJI-competition/basic_dev/build/quadrotor_msgs'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/dawn/great-DJI-competition/basic_dev/devel/.private/quadrotor_msgs/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/quadrotor_msgs:$ROS_PACKAGE_PATH"

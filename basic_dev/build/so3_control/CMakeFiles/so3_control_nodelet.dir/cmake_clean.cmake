@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/so3_control/lib/libso3_control_nodelet.pdb"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/so3_control/lib/libso3_control_nodelet.so"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/so3_control/lib/libso3_control_nodelet.pdb"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/so3_control/lib/libso3_control_nodelet.so"
   "CMakeFiles/so3_control_nodelet.dir/src/so3_control_nodelet.cpp.o"
 )
 

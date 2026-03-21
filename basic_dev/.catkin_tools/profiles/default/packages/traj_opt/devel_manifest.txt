@@ -1,5 +1,5 @@
 EGO-Planner/src/planner/traj_opt
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/libtraj_opt.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/pkgconfig/traj_opt.pc /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/pkgconfig/traj_opt.pc
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/share/traj_opt/cmake/traj_optConfig-version.cmake /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/traj_opt/cmake/traj_optConfig-version.cmake
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/share/traj_opt/cmake/traj_optConfig.cmake /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/traj_opt/cmake/traj_optConfig.cmake
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/share/traj_opt/cmake/traj_optConfig.cmake /home/dawn/great-DJI-competition/basic_dev/devel/share/traj_opt/cmake/traj_optConfig.cmake
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/share/traj_opt/cmake/traj_optConfig-version.cmake /home/dawn/great-DJI-competition/basic_dev/devel/share/traj_opt/cmake/traj_optConfig-version.cmake
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so /home/dawn/great-DJI-competition/basic_dev/devel/lib/libtraj_opt.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/pkgconfig/traj_opt.pc /home/dawn/great-DJI-competition/basic_dev/devel/lib/pkgconfig/traj_opt.pc

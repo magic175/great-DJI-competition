@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/uav_simulator/so3_control
+CMAKE_SOURCE_DIR = /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/uav_simulator/so3_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/so3_control
+CMAKE_BINARY_DIR = /home/dawn/great-DJI-competition/basic_dev/build/so3_control
 
 # Include any dependencies generated for this target.
 include CMakeFiles/SO3Control.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/SO3Control.dir/progress.make
 include CMakeFiles/SO3Control.dir/flags.make
 
 CMakeFiles/SO3Control.dir/src/SO3Control.cpp.o: CMakeFiles/SO3Control.dir/flags.make
-CMakeFiles/SO3Control.dir/src/SO3Control.cpp.o: /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/uav_simulator/so3_control/src/SO3Control.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hldrz/IntelligentUAVChampionship/basic_dev/build/so3_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SO3Control.dir/src/SO3Control.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SO3Control.dir/src/SO3Control.cpp.o -c /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/uav_simulator/so3_control/src/SO3Control.cpp
+CMakeFiles/SO3Control.dir/src/SO3Control.cpp.o: /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/uav_simulator/so3_control/src/SO3Control.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dawn/great-DJI-competition/basic_dev/build/so3_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SO3Control.dir/src/SO3Control.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SO3Control.dir/src/SO3Control.cpp.o -c /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/uav_simulator/so3_control/src/SO3Control.cpp
 
 CMakeFiles/SO3Control.dir/src/SO3Control.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SO3Control.dir/src/SO3Control.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/uav_simulator/so3_control/src/SO3Control.cpp > CMakeFiles/SO3Control.dir/src/SO3Control.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/uav_simulator/so3_control/src/SO3Control.cpp > CMakeFiles/SO3Control.dir/src/SO3Control.cpp.i
 
 CMakeFiles/SO3Control.dir/src/SO3Control.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SO3Control.dir/src/SO3Control.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/uav_simulator/so3_control/src/SO3Control.cpp -o CMakeFiles/SO3Control.dir/src/SO3Control.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/uav_simulator/so3_control/src/SO3Control.cpp -o CMakeFiles/SO3Control.dir/src/SO3Control.cpp.s
 
 # Object files for target SO3Control
 SO3Control_OBJECTS = \
@@ -77,14 +77,14 @@ SO3Control_OBJECTS = \
 # External object files for target SO3Control
 SO3Control_EXTERNAL_OBJECTS =
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/so3_control/lib/libSO3Control.so: CMakeFiles/SO3Control.dir/src/SO3Control.cpp.o
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/so3_control/lib/libSO3Control.so: CMakeFiles/SO3Control.dir/build.make
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/so3_control/lib/libSO3Control.so: CMakeFiles/SO3Control.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hldrz/IntelligentUAVChampionship/basic_dev/build/so3_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/so3_control/lib/libSO3Control.so"
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/so3_control/lib/libSO3Control.so: CMakeFiles/SO3Control.dir/src/SO3Control.cpp.o
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/so3_control/lib/libSO3Control.so: CMakeFiles/SO3Control.dir/build.make
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/so3_control/lib/libSO3Control.so: CMakeFiles/SO3Control.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dawn/great-DJI-competition/basic_dev/build/so3_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/dawn/great-DJI-competition/basic_dev/devel/.private/so3_control/lib/libSO3Control.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SO3Control.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/SO3Control.dir/build: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/so3_control/lib/libSO3Control.so
+CMakeFiles/SO3Control.dir/build: /home/dawn/great-DJI-competition/basic_dev/devel/.private/so3_control/lib/libSO3Control.so
 
 .PHONY : CMakeFiles/SO3Control.dir/build
 
@@ -93,6 +93,6 @@ CMakeFiles/SO3Control.dir/clean:
 .PHONY : CMakeFiles/SO3Control.dir/clean
 
 CMakeFiles/SO3Control.dir/depend:
-	cd /home/hldrz/IntelligentUAVChampionship/basic_dev/build/so3_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/uav_simulator/so3_control /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/uav_simulator/so3_control /home/hldrz/IntelligentUAVChampionship/basic_dev/build/so3_control /home/hldrz/IntelligentUAVChampionship/basic_dev/build/so3_control /home/hldrz/IntelligentUAVChampionship/basic_dev/build/so3_control/CMakeFiles/SO3Control.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dawn/great-DJI-competition/basic_dev/build/so3_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/uav_simulator/so3_control /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/uav_simulator/so3_control /home/dawn/great-DJI-competition/basic_dev/build/so3_control /home/dawn/great-DJI-competition/basic_dev/build/so3_control /home/dawn/great-DJI-competition/basic_dev/build/so3_control/CMakeFiles/SO3Control.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/SO3Control.dir/depend
 

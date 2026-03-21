@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/airsim_ros/include/airsim_ros/RotorPWM.h
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/airsim_ros/include/airsim_ros/RotorPWM.h
 string
 -
 vector
@@ -24,7 +24,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/airsim_ros/include/airsim_ros/VelCmd.h
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/airsim_ros/include/airsim_ros/VelCmd.h
 string
 -
 vector
@@ -42,7 +42,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/include/quadrotor_msgs/PositionCommand.h
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/quadrotor_msgs/include/quadrotor_msgs/PositionCommand.h
 string
 -
 vector
@@ -68,7 +68,7 @@ geometry_msgs/Vector3.h
 geometry_msgs/Vector3.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/uav_utils/include/uav_utils/converters.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/uav_utils/include/uav_utils/converters.h
 nav_msgs/Odometry.h
 -
 geometry_msgs/Vector3.h
@@ -84,11 +84,11 @@ Eigen/Geometry
 cmath
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/uav_utils/include/uav_utils/geometry_utils.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/uav_utils/include/uav_utils/geometry_utils.h
 Eigen/Dense
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/uav_utils/include/uav_utils/utils.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/uav_utils/include/uav_utils/utils.h
 ros/ros.h
 -
 uav_utils/converters.h
@@ -96,13 +96,31 @@ uav_utils/converters.h
 uav_utils/geometry_utils.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/include/PX4CtrlParam.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/include/PX4CtrlFSM.h
+ros/ros.h
+-
+ros/assert.h
+-
+geometry_msgs/PoseStamped.h
+-
+nav_msgs/Odometry.h
+-
+mavros_msgs/SetMode.h
+-
+input.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/include/input.h
+hovthrkf.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/include/hovthrkf.h
+controller.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/include/controller.h
+
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/include/PX4CtrlParam.h
 ros/ros.h
 -
 Eigen/Dense
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/include/controller.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/include/controller.h
 sensor_msgs/Imu.h
 -
 mavros_msgs/AttitudeTarget.h
@@ -112,9 +130,17 @@ airsim_ros/RotorPWM.h
 geometry_msgs/PoseStamped.h
 -
 input.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/include/input.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/include/input.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/include/input.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/include/hovthrkf.h
+Eigen/Dense
+-
+ros/ros.h
+-
+input.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/include/input.h
+
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/include/input.h
 ros/ros.h
 -
 Eigen/Dense
@@ -130,11 +156,21 @@ mavros_msgs/State.h
 uav_utils/utils.h
 -
 PX4CtrlParam.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/include/PX4CtrlParam.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/include/PX4CtrlParam.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/controller.cpp
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/PX4CtrlFSM.cpp
+PX4CtrlFSM.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/PX4CtrlFSM.h
+uav_utils/converters.h
+-
+
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/PX4CtrlParam.cpp
+PX4CtrlParam.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/PX4CtrlParam.h
+
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/controller.cpp
 controller.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/controller.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/controller.h
 Eigen/Dense
 -
 Eigen/Geometry
@@ -148,9 +184,39 @@ geometry_msgs/QuaternionStamped.h
 boost/format.hpp
 -
 std_msgs/Float32.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/std_msgs/Float32.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/std_msgs/Float32.h
 airsim_ros/VelCmd.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/airsim_ros/VelCmd.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/airsim_ros/VelCmd.h
+
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/hovthrkf.cpp
+hovthrkf.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/hovthrkf.h
+iostream
+-
+uav_utils/utils.h
+-
+
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/input.cpp
+input.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/input.h
+uav_utils/converters.h
+-
+
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/px4ctrl_node.cpp
+ros/ros.h
+-
+PX4CtrlFSM.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/PX4CtrlFSM.h
+geometry_msgs/PoseStamped.h
+-
+quadrotor_msgs/PositionCommand.h
+-
+signal.h
+-
+std_msgs/Float32.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/std_msgs/Float32.h
+airsim_ros/VelCmd.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/airsim_ros/VelCmd.h
 
 /opt/ros/noetic/include/geometry_msgs/Point.h
 string
@@ -374,6 +440,46 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 std_msgs/Header.h
+-
+
+/opt/ros/noetic/include/mavros_msgs/SetMode.h
+ros/service_traits.h
+-
+mavros_msgs/SetModeRequest.h
+-
+mavros_msgs/SetModeResponse.h
+-
+
+/opt/ros/noetic/include/mavros_msgs/SetModeRequest.h
+string
+-
+vector
+-
+memory
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+
+/opt/ros/noetic/include/mavros_msgs/SetModeResponse.h
+string
+-
+vector
+-
+memory
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
 -
 
 /opt/ros/noetic/include/mavros_msgs/State.h

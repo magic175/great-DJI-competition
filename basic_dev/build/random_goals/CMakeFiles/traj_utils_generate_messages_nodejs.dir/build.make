@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/random_goals
+CMAKE_SOURCE_DIR = /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/random_goals
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/random_goals
+CMAKE_BINARY_DIR = /home/dawn/great-DJI-competition/basic_dev/build/random_goals
 
 # Utility rule file for traj_utils_generate_messages_nodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/traj_utils_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/traj_utils_generate_messages_nodejs.dir/clean
 
 CMakeFiles/traj_utils_generate_messages_nodejs.dir/depend:
-	cd /home/hldrz/IntelligentUAVChampionship/basic_dev/build/random_goals && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/random_goals /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/random_goals /home/hldrz/IntelligentUAVChampionship/basic_dev/build/random_goals /home/hldrz/IntelligentUAVChampionship/basic_dev/build/random_goals /home/hldrz/IntelligentUAVChampionship/basic_dev/build/random_goals/CMakeFiles/traj_utils_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dawn/great-DJI-competition/basic_dev/build/random_goals && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/random_goals /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/random_goals /home/dawn/great-DJI-competition/basic_dev/build/random_goals /home/dawn/great-DJI-competition/basic_dev/build/random_goals /home/dawn/great-DJI-competition/basic_dev/build/random_goals/CMakeFiles/traj_utils_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/traj_utils_generate_messages_nodejs.dir/depend
 

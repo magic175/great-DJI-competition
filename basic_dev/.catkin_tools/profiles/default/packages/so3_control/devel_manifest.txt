@@ -1,7 +1,7 @@
 EGO-Planner/src/uav_simulator/so3_control
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/so3_control/lib/libSO3Control.so /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/libSO3Control.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/so3_control/lib/libso3_control_nodelet.so /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/libso3_control_nodelet.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/so3_control/lib/so3_control/control_example /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/so3_control/control_example
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/so3_control/lib/pkgconfig/so3_control.pc /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/pkgconfig/so3_control.pc
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/so3_control/share/so3_control/cmake/so3_controlConfig-version.cmake /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/so3_control/cmake/so3_controlConfig-version.cmake
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/so3_control/share/so3_control/cmake/so3_controlConfig.cmake /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/so3_control/cmake/so3_controlConfig.cmake
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/so3_control/share/so3_control/cmake/so3_controlConfig-version.cmake /home/dawn/great-DJI-competition/basic_dev/devel/share/so3_control/cmake/so3_controlConfig-version.cmake
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/so3_control/share/so3_control/cmake/so3_controlConfig.cmake /home/dawn/great-DJI-competition/basic_dev/devel/share/so3_control/cmake/so3_controlConfig.cmake
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/so3_control/lib/libSO3Control.so /home/dawn/great-DJI-competition/basic_dev/devel/lib/libSO3Control.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/so3_control/lib/libso3_control_nodelet.so /home/dawn/great-DJI-competition/basic_dev/devel/lib/libso3_control_nodelet.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/so3_control/lib/pkgconfig/so3_control.pc /home/dawn/great-DJI-competition/basic_dev/devel/lib/pkgconfig/so3_control.pc
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/so3_control/lib/so3_control/control_example /home/dawn/great-DJI-competition/basic_dev/devel/lib/so3_control/control_example

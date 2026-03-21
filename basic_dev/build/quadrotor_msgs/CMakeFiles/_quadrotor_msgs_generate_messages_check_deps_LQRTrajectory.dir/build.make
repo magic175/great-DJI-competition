@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/quadrotor_msgs
+CMAKE_SOURCE_DIR = /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/quadrotor_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/quadrotor_msgs
+CMAKE_BINARY_DIR = /home/dawn/great-DJI-competition/basic_dev/build/quadrotor_msgs
 
 # Utility rule file for _quadrotor_msgs_generate_messages_check_deps_LQRTrajectory.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/quadro
 include CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_LQRTrajectory.dir/progress.make
 
 CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_LQRTrajectory:
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py quadrotor_msgs /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/quadrotor_msgs/msg/LQRTrajectory.msg std_msgs/Header
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py quadrotor_msgs /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/quadrotor_msgs/msg/LQRTrajectory.msg std_msgs/Header
 
 _quadrotor_msgs_generate_messages_check_deps_LQRTrajectory: CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_LQRTrajectory
 _quadrotor_msgs_generate_messages_check_deps_LQRTrajectory: CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_LQRTrajectory.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_LQRTrajectory.dir/clean:
 .PHONY : CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_LQRTrajectory.dir/clean
 
 CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_LQRTrajectory.dir/depend:
-	cd /home/hldrz/IntelligentUAVChampionship/basic_dev/build/quadrotor_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/quadrotor_msgs /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/quadrotor_msgs /home/hldrz/IntelligentUAVChampionship/basic_dev/build/quadrotor_msgs /home/hldrz/IntelligentUAVChampionship/basic_dev/build/quadrotor_msgs /home/hldrz/IntelligentUAVChampionship/basic_dev/build/quadrotor_msgs/CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_LQRTrajectory.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dawn/great-DJI-competition/basic_dev/build/quadrotor_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/quadrotor_msgs /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/quadrotor_msgs /home/dawn/great-DJI-competition/basic_dev/build/quadrotor_msgs /home/dawn/great-DJI-competition/basic_dev/build/quadrotor_msgs /home/dawn/great-DJI-competition/basic_dev/build/quadrotor_msgs/CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_LQRTrajectory.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_LQRTrajectory.dir/depend
 

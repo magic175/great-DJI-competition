@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/usr/src/googletest/googletest/src/gtest_main.cc" "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/local_sensing_node/gtest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+  "/usr/src/googletest/googletest/src/gtest_main.cc" "/home/dawn/great-DJI-competition/basic_dev/build/local_sensing_node/gtest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -22,7 +22,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/local_sensing_node/gtest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/dawn/great-DJI-competition/basic_dev/build/local_sensing_node/gtest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

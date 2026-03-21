@@ -1,1 +1,1 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_sender/share/common-lisp/ros/path_sender/msg/_package.lisp
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/path_sender/share/common-lisp/ros/path_sender/msg/_package.lisp

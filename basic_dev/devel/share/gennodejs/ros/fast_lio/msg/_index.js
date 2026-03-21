@@ -1,1 +1,1 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/fast_lio/share/gennodejs/ros/fast_lio/msg/_index.js
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/fast_lio/share/gennodejs/ros/fast_lio/msg/_index.js

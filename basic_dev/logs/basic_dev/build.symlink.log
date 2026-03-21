@@ -1,4 +1,16 @@
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/pkgconfig/basic_dev.pc
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/basic_dev/basic_dev
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/basic_dev/cmake/basic_devConfig-version.cmake
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/basic_dev/cmake/basic_devConfig.cmake
+Symlinking /home/dawn/great-DJI-competition/basic_dev/devel/share/basic_dev/cmake/basic_devConfig-version.cmake
+Symlinking /home/dawn/great-DJI-competition/basic_dev/devel/share/basic_dev/cmake/basic_devConfig.cmake
+Symlinking /home/dawn/great-DJI-competition/basic_dev/devel/lib/basic_dev/basic_dev
+Symlinking /home/dawn/great-DJI-competition/basic_dev/devel/lib/pkgconfig/basic_dev.pc
+Cleaning: (/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/basic_dev/lib/pkgconfig/basic_dev.pc, /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/pkgconfig/basic_dev.pc)
+Cleaning: (/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/basic_dev/lib/basic_dev/basic_dev, /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/basic_dev/basic_dev)
+Cleaning: (/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/basic_dev/share/basic_dev/cmake/basic_devConfig-version.cmake, /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/basic_dev/cmake/basic_devConfig-version.cmake)
+Cleaning: (/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/basic_dev/share/basic_dev/cmake/basic_devConfig.cmake, /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/basic_dev/cmake/basic_devConfig.cmake)
+Unlinking: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/pkgconfig/basic_dev.pc
+Already unlinked: {}
+Unlinking: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/basic_dev/basic_dev
+Already unlinked: {}
+Unlinking: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/basic_dev/cmake/basic_devConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/basic_dev/cmake/basic_devConfig.cmake
+Already unlinked: {}

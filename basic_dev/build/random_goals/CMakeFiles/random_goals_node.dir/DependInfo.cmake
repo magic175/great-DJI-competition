@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/random_goals/src/random_goals_node.cpp" "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/random_goals/CMakeFiles/random_goals_node.dir/src/random_goals_node.cpp.o"
+  "/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/random_goals/src/random_goals_node.cpp" "/home/dawn/great-DJI-competition/basic_dev/build/random_goals/CMakeFiles/random_goals_node.dir/src/random_goals_node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,10 +17,10 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/include"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_utils/include"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/traj_utils/include"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/uav_utils/include"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/quadrotor_msgs/include"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_utils/include"
+  "/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/traj_utils/include"
+  "/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/uav_utils/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/eigen3"

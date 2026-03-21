@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/rviz_plugins/lib/librviz_plugins.pdb"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/rviz_plugins/lib/librviz_plugins.so"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/rviz_plugins/lib/librviz_plugins.pdb"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/rviz_plugins/lib/librviz_plugins.so"
   "CMakeFiles/rviz_plugins.dir/src/goal_tool.cpp.o"
   "CMakeFiles/rviz_plugins.dir/src/moc_goal_tool.cpp.o"
   "CMakeFiles/rviz_plugins.dir/src/pose_tool.cpp.o"

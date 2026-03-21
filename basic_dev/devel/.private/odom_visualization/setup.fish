@@ -18,7 +18,7 @@ if not type -q bass
 end
 
 if test -z $_CATKIN_SETUP_DIR
-    set _CATKIN_SETUP_DIR /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/odom_visualization
+    set _CATKIN_SETUP_DIR /home/dawn/great-DJI-competition/basic_dev/devel/.private/odom_visualization
 end
 
 set _SETUP_UTIL "$_CATKIN_SETUP_DIR/_setup_util.py"

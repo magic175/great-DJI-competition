@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node.pdb"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node.pdb"
   "CMakeFiles/livox_ros_driver2_node.dir/src/call_back/lidar_common_callback.cpp.o"
   "CMakeFiles/livox_ros_driver2_node.dir/src/call_back/livox_lidar_callback.cpp.o"
   "CMakeFiles/livox_ros_driver2_node.dir/src/comm/cache_index.cpp.o"

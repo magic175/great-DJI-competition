@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/livox_ros_driver2:$CMAKE_PREFIX_PATH"
-export PWD='/home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/livox_ros_driver2/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/dawn/great-DJI-competition/basic_dev/devel/.private/livox_ros_driver2:$CMAKE_PREFIX_PATH"
+export PWD='/home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/dawn/great-DJI-competition/basic_dev/devel/.private/livox_ros_driver2/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2:$ROS_PACKAGE_PATH"

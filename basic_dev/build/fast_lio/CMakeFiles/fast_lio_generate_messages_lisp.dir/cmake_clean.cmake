@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/fast_lio/share/common-lisp/ros/fast_lio/msg/Pose6D.lisp"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/fast_lio/share/common-lisp/ros/fast_lio/msg/Pose6D.lisp"
   "CMakeFiles/fast_lio_generate_messages_lisp"
 )
 

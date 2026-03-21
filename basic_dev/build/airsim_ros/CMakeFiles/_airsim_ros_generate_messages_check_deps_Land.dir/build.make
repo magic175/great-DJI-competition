@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros
+CMAKE_SOURCE_DIR = /home/dawn/great-DJI-competition/basic_dev/src/airsim_ros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/airsim_ros
+CMAKE_BINARY_DIR = /home/dawn/great-DJI-competition/basic_dev/build/airsim_ros
 
 # Utility rule file for _airsim_ros_generate_messages_check_deps_Land.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/airsim
 include CMakeFiles/_airsim_ros_generate_messages_check_deps_Land.dir/progress.make
 
 CMakeFiles/_airsim_ros_generate_messages_check_deps_Land:
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py airsim_ros /home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Land.srv 
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py airsim_ros /home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Land.srv 
 
 _airsim_ros_generate_messages_check_deps_Land: CMakeFiles/_airsim_ros_generate_messages_check_deps_Land
 _airsim_ros_generate_messages_check_deps_Land: CMakeFiles/_airsim_ros_generate_messages_check_deps_Land.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/_airsim_ros_generate_messages_check_deps_Land.dir/clean:
 .PHONY : CMakeFiles/_airsim_ros_generate_messages_check_deps_Land.dir/clean
 
 CMakeFiles/_airsim_ros_generate_messages_check_deps_Land.dir/depend:
-	cd /home/hldrz/IntelligentUAVChampionship/basic_dev/build/airsim_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros /home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros /home/hldrz/IntelligentUAVChampionship/basic_dev/build/airsim_ros /home/hldrz/IntelligentUAVChampionship/basic_dev/build/airsim_ros /home/hldrz/IntelligentUAVChampionship/basic_dev/build/airsim_ros/CMakeFiles/_airsim_ros_generate_messages_check_deps_Land.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dawn/great-DJI-competition/basic_dev/build/airsim_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dawn/great-DJI-competition/basic_dev/src/airsim_ros /home/dawn/great-DJI-competition/basic_dev/src/airsim_ros /home/dawn/great-DJI-competition/basic_dev/build/airsim_ros /home/dawn/great-DJI-competition/basic_dev/build/airsim_ros /home/dawn/great-DJI-competition/basic_dev/build/airsim_ros/CMakeFiles/_airsim_ros_generate_messages_check_deps_Land.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_airsim_ros_generate_messages_check_deps_Land.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/manual_take_over
+CMAKE_SOURCE_DIR = /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/manual_take_over
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/manual_take_over
+CMAKE_BINARY_DIR = /home/dawn/great-DJI-competition/basic_dev/build/manual_take_over
 
 # Include any dependencies generated for this target.
 include CMakeFiles/manual_take_over.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/manual_take_over.dir/progress.make
 include CMakeFiles/manual_take_over.dir/flags.make
 
 CMakeFiles/manual_take_over.dir/src/manual_take_over.cpp.o: CMakeFiles/manual_take_over.dir/flags.make
-CMakeFiles/manual_take_over.dir/src/manual_take_over.cpp.o: /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/manual_take_over/src/manual_take_over.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hldrz/IntelligentUAVChampionship/basic_dev/build/manual_take_over/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/manual_take_over.dir/src/manual_take_over.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/manual_take_over.dir/src/manual_take_over.cpp.o -c /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/manual_take_over/src/manual_take_over.cpp
+CMakeFiles/manual_take_over.dir/src/manual_take_over.cpp.o: /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/manual_take_over/src/manual_take_over.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dawn/great-DJI-competition/basic_dev/build/manual_take_over/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/manual_take_over.dir/src/manual_take_over.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/manual_take_over.dir/src/manual_take_over.cpp.o -c /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/manual_take_over/src/manual_take_over.cpp
 
 CMakeFiles/manual_take_over.dir/src/manual_take_over.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/manual_take_over.dir/src/manual_take_over.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/manual_take_over/src/manual_take_over.cpp > CMakeFiles/manual_take_over.dir/src/manual_take_over.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/manual_take_over/src/manual_take_over.cpp > CMakeFiles/manual_take_over.dir/src/manual_take_over.cpp.i
 
 CMakeFiles/manual_take_over.dir/src/manual_take_over.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/manual_take_over.dir/src/manual_take_over.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/manual_take_over/src/manual_take_over.cpp -o CMakeFiles/manual_take_over.dir/src/manual_take_over.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/manual_take_over/src/manual_take_over.cpp -o CMakeFiles/manual_take_over.dir/src/manual_take_over.cpp.s
 
 # Object files for target manual_take_over
 manual_take_over_OBJECTS = \
@@ -77,33 +77,33 @@ manual_take_over_OBJECTS = \
 # External object files for target manual_take_over
 manual_take_over_EXTERNAL_OBJECTS =
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: CMakeFiles/manual_take_over.dir/src/manual_take_over.cpp.o
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: CMakeFiles/manual_take_over.dir/build.make
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /opt/ros/noetic/lib/libroscpp.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /opt/ros/noetic/lib/librosconsole.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/lib/libencode_msgs.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/lib/libdecode_msgs.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /opt/ros/noetic/lib/librostime.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /opt/ros/noetic/lib/libcpp_common.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: CMakeFiles/manual_take_over.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hldrz/IntelligentUAVChampionship/basic_dev/build/manual_take_over/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over"
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: CMakeFiles/manual_take_over.dir/src/manual_take_over.cpp.o
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: CMakeFiles/manual_take_over.dir/build.make
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /opt/ros/noetic/lib/libroscpp.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /opt/ros/noetic/lib/librosconsole.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /home/dawn/great-DJI-competition/basic_dev/devel/.private/quadrotor_msgs/lib/libencode_msgs.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /home/dawn/great-DJI-competition/basic_dev/devel/.private/quadrotor_msgs/lib/libdecode_msgs.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /opt/ros/noetic/lib/librostime.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /opt/ros/noetic/lib/libcpp_common.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over: CMakeFiles/manual_take_over.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dawn/great-DJI-competition/basic_dev/build/manual_take_over/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/manual_take_over.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/manual_take_over.dir/build: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over
+CMakeFiles/manual_take_over.dir/build: /home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over
 
 .PHONY : CMakeFiles/manual_take_over.dir/build
 
@@ -112,6 +112,6 @@ CMakeFiles/manual_take_over.dir/clean:
 .PHONY : CMakeFiles/manual_take_over.dir/clean
 
 CMakeFiles/manual_take_over.dir/depend:
-	cd /home/hldrz/IntelligentUAVChampionship/basic_dev/build/manual_take_over && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/manual_take_over /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/manual_take_over /home/hldrz/IntelligentUAVChampionship/basic_dev/build/manual_take_over /home/hldrz/IntelligentUAVChampionship/basic_dev/build/manual_take_over /home/hldrz/IntelligentUAVChampionship/basic_dev/build/manual_take_over/CMakeFiles/manual_take_over.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dawn/great-DJI-competition/basic_dev/build/manual_take_over && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/manual_take_over /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/manual_take_over /home/dawn/great-DJI-competition/basic_dev/build/manual_take_over /home/dawn/great-DJI-competition/basic_dev/build/manual_take_over /home/dawn/great-DJI-competition/basic_dev/build/manual_take_over/CMakeFiles/manual_take_over.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/manual_take_over.dir/depend
 

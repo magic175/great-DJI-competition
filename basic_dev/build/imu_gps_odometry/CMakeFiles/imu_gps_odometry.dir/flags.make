@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++17
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"imu_gps_odometry\"
 
-CXX_INCLUDES = -I/home/hldrz/IntelligentUAVChampionship/basic_dev/src/imu_gps_odometry/include -I/home/hldrz/catkin_ws/devel/.private/airsim_ros/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/home/hldrz/IntelligentUAVChampionship/basic_dev/src/imu_gps_odometry/../utils 
+CXX_INCLUDES = -I/home/dawn/great-DJI-competition/basic_dev/src/imu_gps_odometry/include -I/home/dawn/great-DJI-competition/basic_dev/devel/.private/airsim_ros/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/home/dawn/great-DJI-competition/basic_dev/src/imu_gps_odometry/../utils 
 

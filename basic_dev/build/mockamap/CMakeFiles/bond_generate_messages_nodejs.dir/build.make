@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/uav_simulator/mockamap
+CMAKE_SOURCE_DIR = /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/uav_simulator/mockamap
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/mockamap
+CMAKE_BINARY_DIR = /home/dawn/great-DJI-competition/basic_dev/build/mockamap
 
 # Utility rule file for bond_generate_messages_nodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/bond_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/bond_generate_messages_nodejs.dir/clean
 
 CMakeFiles/bond_generate_messages_nodejs.dir/depend:
-	cd /home/hldrz/IntelligentUAVChampionship/basic_dev/build/mockamap && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/uav_simulator/mockamap /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/uav_simulator/mockamap /home/hldrz/IntelligentUAVChampionship/basic_dev/build/mockamap /home/hldrz/IntelligentUAVChampionship/basic_dev/build/mockamap /home/hldrz/IntelligentUAVChampionship/basic_dev/build/mockamap/CMakeFiles/bond_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dawn/great-DJI-competition/basic_dev/build/mockamap && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/uav_simulator/mockamap /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/uav_simulator/mockamap /home/dawn/great-DJI-competition/basic_dev/build/mockamap /home/dawn/great-DJI-competition/basic_dev/build/mockamap /home/dawn/great-DJI-competition/basic_dev/build/mockamap/CMakeFiles/bond_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/bond_generate_messages_nodejs.dir/depend
 

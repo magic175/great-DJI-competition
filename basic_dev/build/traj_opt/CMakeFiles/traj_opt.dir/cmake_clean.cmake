@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.pdb"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.pdb"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so"
   "CMakeFiles/traj_opt.dir/src/poly_traj_optimizer.cpp.o"
 )
 

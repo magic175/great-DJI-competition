@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/uav_simulator/map_generator/src/random_forest_sensing.cpp" "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/map_generator/CMakeFiles/random_forest.dir/src/random_forest_sensing.cpp.o"
+  "/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/uav_simulator/map_generator/src/random_forest_sensing.cpp" "/home/dawn/great-DJI-competition/basic_dev/build/map_generator/CMakeFiles/random_forest.dir/src/random_forest_sensing.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

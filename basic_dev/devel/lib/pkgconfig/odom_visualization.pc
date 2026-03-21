@@ -1,1 +1,1 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/odom_visualization/lib/pkgconfig/odom_visualization.pc
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/odom_visualization/lib/pkgconfig/odom_visualization.pc

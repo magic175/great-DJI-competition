@@ -1,1 +1,1 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs-msg-paths.cmake
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs-msg-paths.cmake

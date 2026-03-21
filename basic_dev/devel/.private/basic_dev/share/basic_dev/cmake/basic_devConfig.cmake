@@ -67,14 +67,14 @@ set(basic_dev_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(basic_dev_SOURCE_PREFIX /home/hldrz/IntelligentUAVChampionship/basic_dev/src/basic_dev)
-  set(basic_dev_DEVEL_PREFIX /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/basic_dev)
+  set(basic_dev_SOURCE_PREFIX /home/dawn/great-DJI-competition/basic_dev/src/basic_dev)
+  set(basic_dev_DEVEL_PREFIX /home/dawn/great-DJI-competition/basic_dev/devel/.private/basic_dev)
   set(basic_dev_INSTALL_PREFIX "")
   set(basic_dev_PREFIX ${basic_dev_DEVEL_PREFIX})
 else()
   set(basic_dev_SOURCE_PREFIX "")
   set(basic_dev_DEVEL_PREFIX "")
-  set(basic_dev_INSTALL_PREFIX /home/hldrz/IntelligentUAVChampionship/basic_dev/install)
+  set(basic_dev_INSTALL_PREFIX /home/dawn/great-DJI-competition/basic_dev/install)
   set(basic_dev_PREFIX ${basic_dev_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(basic_dev_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/basic_dev/include " STREQUAL " ")
+if(NOT "/home/dawn/great-DJI-competition/basic_dev/src/basic_dev/include " STREQUAL " ")
   set(basic_dev_INCLUDE_DIRS "")
-  set(_include_dirs "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/basic_dev/include")
+  set(_include_dirs "/home/dawn/great-DJI-competition/basic_dev/src/basic_dev/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/basic_dev/include "
         message(FATAL_ERROR "Project 'basic_dev' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'basic_dev' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/hldrz/IntelligentUAVChampionship/basic_dev/src/basic_dev/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'basic_dev' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/dawn/great-DJI-competition/basic_dev/src/basic_dev/${idir}'.  ${_report}")
     endif()
     _list_append_unique(basic_dev_INCLUDE_DIRS ${include})
   endforeach()
@@ -156,7 +156,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/basic_dev/lib;/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib;/home/hldrz/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/dawn/great-DJI-competition/basic_dev/devel/.private/basic_dev/lib;/home/dawn/great-DJI-competition/basic_dev/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

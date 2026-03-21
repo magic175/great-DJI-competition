@@ -1,4 +1,4 @@
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/pkgconfig/odom_visualization.pc
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/odom_visualization/odom_visualization
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/odom_visualization/cmake/odom_visualizationConfig.cmake
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/odom_visualization/cmake/odom_visualizationConfig-version.cmake
+Linked: (/home/dawn/great-DJI-competition/basic_dev/devel/.private/odom_visualization/share/odom_visualization/cmake/odom_visualizationConfig.cmake, /home/dawn/great-DJI-competition/basic_dev/devel/share/odom_visualization/cmake/odom_visualizationConfig.cmake)
+Linked: (/home/dawn/great-DJI-competition/basic_dev/devel/.private/odom_visualization/share/odom_visualization/cmake/odom_visualizationConfig-version.cmake, /home/dawn/great-DJI-competition/basic_dev/devel/share/odom_visualization/cmake/odom_visualizationConfig-version.cmake)
+Linked: (/home/dawn/great-DJI-competition/basic_dev/devel/.private/odom_visualization/lib/pkgconfig/odom_visualization.pc, /home/dawn/great-DJI-competition/basic_dev/devel/lib/pkgconfig/odom_visualization.pc)
+Linked: (/home/dawn/great-DJI-competition/basic_dev/devel/.private/odom_visualization/lib/odom_visualization/odom_visualization, /home/dawn/great-DJI-competition/basic_dev/devel/lib/odom_visualization/odom_visualization)

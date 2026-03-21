@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/drone_detect/include/drone_detector/drone_detector.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/drone_detect/include/drone_detector/drone_detector.h
 iostream
 -
 vector
@@ -14,9 +14,9 @@ vector
 ros/ros.h
 -
 std_msgs/String.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/drone_detect/include/drone_detector/std_msgs/String.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/drone_detect/include/drone_detector/std_msgs/String.h
 std_msgs/Bool.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/drone_detect/include/drone_detector/std_msgs/Bool.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/drone_detect/include/drone_detector/std_msgs/Bool.h
 nav_msgs/Odometry.h
 -
 geometry_msgs/PoseStamped.h
@@ -44,15 +44,15 @@ opencv2/core/eigen.hpp
 cv_bridge/cv_bridge.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/drone_detect/src/drone_detect_node.cpp
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/drone_detect/src/drone_detect_node.cpp
 ros/ros.h
 -
 drone_detector/drone_detector.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/drone_detect/src/drone_detector/drone_detector.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/drone_detect/src/drone_detector/drone_detector.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/drone_detect/src/drone_detector.cpp
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/drone_detect/src/drone_detector.cpp
 drone_detector/drone_detector.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/drone_detect/src/drone_detector/drone_detector.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/drone_detect/src/drone_detector/drone_detector.h
 string
 -
 
@@ -3983,4 +3983,60 @@ opencv2/viz/viz3d.hpp
 /usr/include/opencv4/opencv2/viz/widgets.hpp
 opencv2/viz/types.hpp
 -
+
+/usr/local/include/opencv4/opencv2/cudaarithm.hpp
+opencv2/core/cuda.hpp
+/usr/local/include/opencv4/opencv2/opencv2/core/cuda.hpp
+
+/usr/local/include/opencv4/opencv2/cudabgsegm.hpp
+opencv2/core/cuda.hpp
+/usr/local/include/opencv4/opencv2/opencv2/core/cuda.hpp
+opencv2/video/background_segm.hpp
+/usr/local/include/opencv4/opencv2/opencv2/video/background_segm.hpp
+
+/usr/local/include/opencv4/opencv2/cudacodec.hpp
+opencv2/core/cuda.hpp
+/usr/local/include/opencv4/opencv2/opencv2/core/cuda.hpp
+
+/usr/local/include/opencv4/opencv2/cudafeatures2d.hpp
+opencv2/core/cuda.hpp
+/usr/local/include/opencv4/opencv2/opencv2/core/cuda.hpp
+opencv2/features2d.hpp
+/usr/local/include/opencv4/opencv2/opencv2/features2d.hpp
+opencv2/cudafilters.hpp
+/usr/local/include/opencv4/opencv2/opencv2/cudafilters.hpp
+
+/usr/local/include/opencv4/opencv2/cudafilters.hpp
+opencv2/core/cuda.hpp
+/usr/local/include/opencv4/opencv2/opencv2/core/cuda.hpp
+opencv2/imgproc.hpp
+/usr/local/include/opencv4/opencv2/opencv2/imgproc.hpp
+
+/usr/local/include/opencv4/opencv2/cudaimgproc.hpp
+opencv2/core/cuda.hpp
+/usr/local/include/opencv4/opencv2/opencv2/core/cuda.hpp
+opencv2/imgproc.hpp
+/usr/local/include/opencv4/opencv2/opencv2/imgproc.hpp
+
+/usr/local/include/opencv4/opencv2/cudaobjdetect.hpp
+opencv2/core/cuda.hpp
+/usr/local/include/opencv4/opencv2/opencv2/core/cuda.hpp
+opencv2/objdetect.hpp
+/usr/local/include/opencv4/opencv2/opencv2/objdetect.hpp
+
+/usr/local/include/opencv4/opencv2/cudaoptflow.hpp
+opencv2/core/cuda.hpp
+/usr/local/include/opencv4/opencv2/opencv2/core/cuda.hpp
+
+/usr/local/include/opencv4/opencv2/cudastereo.hpp
+opencv2/core/cuda.hpp
+/usr/local/include/opencv4/opencv2/opencv2/core/cuda.hpp
+opencv2/calib3d.hpp
+/usr/local/include/opencv4/opencv2/opencv2/calib3d.hpp
+
+/usr/local/include/opencv4/opencv2/cudawarping.hpp
+opencv2/core/cuda.hpp
+/usr/local/include/opencv4/opencv2/opencv2/core/cuda.hpp
+opencv2/imgproc.hpp
+/usr/local/include/opencv4/opencv2/opencv2/imgproc.hpp
 

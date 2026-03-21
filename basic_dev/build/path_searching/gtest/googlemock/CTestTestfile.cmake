@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
 # Source directory: /usr/src/googletest/googlemock
-# Build directory: /home/hldrz/IntelligentUAVChampionship/basic_dev/build/path_searching/gtest/googlemock
+# Build directory: /home/dawn/great-DJI-competition/basic_dev/build/path_searching/gtest/googlemock
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

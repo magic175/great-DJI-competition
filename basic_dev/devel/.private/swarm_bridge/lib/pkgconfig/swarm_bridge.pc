@@ -1,4 +1,4 @@
-prefix=/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/swarm_bridge
+prefix=/home/dawn/great-DJI-competition/basic_dev/devel/.private/swarm_bridge
 
 Name: swarm_bridge
 Description: Description of swarm_bridge

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/plan_manage
+CMAKE_SOURCE_DIR = /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/plan_manage
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/ego_planner
+CMAKE_BINARY_DIR = /home/dawn/great-DJI-competition/basic_dev/build/ego_planner
 
 # Utility rule file for airsim_ros_generate_messages_nodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/airsim_ros_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/airsim_ros_generate_messages_nodejs.dir/clean
 
 CMakeFiles/airsim_ros_generate_messages_nodejs.dir/depend:
-	cd /home/hldrz/IntelligentUAVChampionship/basic_dev/build/ego_planner && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/plan_manage /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/plan_manage /home/hldrz/IntelligentUAVChampionship/basic_dev/build/ego_planner /home/hldrz/IntelligentUAVChampionship/basic_dev/build/ego_planner /home/hldrz/IntelligentUAVChampionship/basic_dev/build/ego_planner/CMakeFiles/airsim_ros_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dawn/great-DJI-competition/basic_dev/build/ego_planner && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/plan_manage /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/plan_manage /home/dawn/great-DJI-competition/basic_dev/build/ego_planner /home/dawn/great-DJI-competition/basic_dev/build/ego_planner /home/dawn/great-DJI-competition/basic_dev/build/ego_planner/CMakeFiles/airsim_ros_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/airsim_ros_generate_messages_nodejs.dir/depend
 

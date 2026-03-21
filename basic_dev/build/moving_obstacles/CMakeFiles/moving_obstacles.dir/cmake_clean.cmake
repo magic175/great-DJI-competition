@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/moving_obstacles/lib/moving_obstacles/moving_obstacles"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/moving_obstacles/lib/moving_obstacles/moving_obstacles.pdb"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/moving_obstacles/lib/moving_obstacles/moving_obstacles"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/moving_obstacles/lib/moving_obstacles/moving_obstacles.pdb"
   "CMakeFiles/moving_obstacles.dir/src/moving_obstacles.cpp.o"
 )
 

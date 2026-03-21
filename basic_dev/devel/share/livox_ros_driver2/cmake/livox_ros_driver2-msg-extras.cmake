@@ -1,1 +1,1 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2-msg-extras.cmake
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2-msg-extras.cmake

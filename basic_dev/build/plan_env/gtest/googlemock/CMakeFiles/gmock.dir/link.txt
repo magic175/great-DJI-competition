@@ -1,1 +1,1 @@
-/usr/bin/c++ -fPIC -O3 -Wall -g  -shared -Wl,-soname,libgmock.so -o ../lib/libgmock.so CMakeFiles/gmock.dir/src/gmock-all.cc.o  -Wl,-rpath,/home/hldrz/IntelligentUAVChampionship/basic_dev/build/plan_env/gtest/lib ../lib/libgtest.so -lpthread 
+/usr/bin/c++ -fPIC -O3 -Wall -g  -shared -Wl,-soname,libgmock.so -o ../lib/libgmock.so CMakeFiles/gmock.dir/src/gmock-all.cc.o   -L/usr/local/cuda-12.8/lib64  -Wl,-rpath,/usr/local/cuda-12.8/lib64:/home/dawn/great-DJI-competition/basic_dev/build/plan_env/gtest/lib ../lib/libgtest.so -lpthread 

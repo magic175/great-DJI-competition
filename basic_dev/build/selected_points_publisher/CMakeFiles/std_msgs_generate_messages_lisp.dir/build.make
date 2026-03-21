@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/selected_points_publisher
+CMAKE_SOURCE_DIR = /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/selected_points_publisher
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/selected_points_publisher
+CMAKE_BINARY_DIR = /home/dawn/great-DJI-competition/basic_dev/build/selected_points_publisher
 
 # Utility rule file for std_msgs_generate_messages_lisp.
 
@@ -67,6 +67,6 @@ CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
 .PHONY : CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
 
 CMakeFiles/std_msgs_generate_messages_lisp.dir/depend:
-	cd /home/hldrz/IntelligentUAVChampionship/basic_dev/build/selected_points_publisher && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/selected_points_publisher /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/selected_points_publisher /home/hldrz/IntelligentUAVChampionship/basic_dev/build/selected_points_publisher /home/hldrz/IntelligentUAVChampionship/basic_dev/build/selected_points_publisher /home/hldrz/IntelligentUAVChampionship/basic_dev/build/selected_points_publisher/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dawn/great-DJI-competition/basic_dev/build/selected_points_publisher && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/selected_points_publisher /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/selected_points_publisher /home/dawn/great-DJI-competition/basic_dev/build/selected_points_publisher /home/dawn/great-DJI-competition/basic_dev/build/selected_points_publisher /home/dawn/great-DJI-competition/basic_dev/build/selected_points_publisher/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
 

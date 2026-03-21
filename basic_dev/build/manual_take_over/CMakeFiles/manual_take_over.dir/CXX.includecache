@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/include/quadrotor_msgs/PositionCommand.h
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/quadrotor_msgs/include/quadrotor_msgs/PositionCommand.h
 string
 -
 vector
@@ -32,7 +32,7 @@ geometry_msgs/Vector3.h
 geometry_msgs/Vector3.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/manual_take_over/src/manual_take_over.cpp
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/manual_take_over/src/manual_take_over.cpp
 Eigen/Eigen
 -
 ros/ros.h

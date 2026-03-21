@@ -1,4 +1,4 @@
-prefix=/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/imu_gps_odometry
+prefix=/home/dawn/great-DJI-competition/basic_dev/devel/.private/imu_gps_odometry
 
 Name: imu_gps_odometry
 Description: Description of imu_gps_odometry

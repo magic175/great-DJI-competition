@@ -2,5 +2,5 @@
 -DROS_PACKAGE_NAME="rviz_plugins"
 -DROSCONSOLE_BACKEND_LOG4CXX
 -o
-/home/hldrz/IntelligentUAVChampionship/basic_dev/build/rviz_plugins/src/moc_goal_tool.cpp
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/rviz_plugins/src/goal_tool.h
+/home/dawn/great-DJI-competition/basic_dev/build/rviz_plugins/src/moc_goal_tool.cpp
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/rviz_plugins/src/goal_tool.h

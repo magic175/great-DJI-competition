@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/uav_utils/lib/uav_utils/uav_utils-test"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/uav_utils/lib/uav_utils/uav_utils-test.pdb"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/uav_utils/lib/uav_utils/uav_utils-test"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/uav_utils/lib/uav_utils/uav_utils-test.pdb"
   "CMakeFiles/uav_utils-test.dir/src/uav_utils_test.cpp.o"
 )
 

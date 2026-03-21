@@ -67,14 +67,14 @@ set(so3_control_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(so3_control_SOURCE_PREFIX /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/uav_simulator/so3_control)
-  set(so3_control_DEVEL_PREFIX /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/so3_control)
+  set(so3_control_SOURCE_PREFIX /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/uav_simulator/so3_control)
+  set(so3_control_DEVEL_PREFIX /home/dawn/great-DJI-competition/basic_dev/devel/.private/so3_control)
   set(so3_control_INSTALL_PREFIX "")
   set(so3_control_PREFIX ${so3_control_DEVEL_PREFIX})
 else()
   set(so3_control_SOURCE_PREFIX "")
   set(so3_control_DEVEL_PREFIX "")
-  set(so3_control_INSTALL_PREFIX /home/hldrz/IntelligentUAVChampionship/basic_dev/install)
+  set(so3_control_INSTALL_PREFIX /home/dawn/great-DJI-competition/basic_dev/install)
   set(so3_control_PREFIX ${so3_control_INSTALL_PREFIX})
 endif()
 
@@ -156,7 +156,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/hldrz/IntelligentUAVChampionship/basic_dev/install/lib;/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib;/home/hldrz/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/dawn/great-DJI-competition/basic_dev/install/lib;/home/dawn/great-DJI-competition/basic_dev/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

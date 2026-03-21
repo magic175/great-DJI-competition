@@ -1,4 +1,4 @@
-prefix=/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/local_sensing_node
+prefix=/home/dawn/great-DJI-competition/basic_dev/devel/.private/local_sensing_node
 
 Name: local_sensing_node
 Description: Description of local_sensing_node

@@ -1,8 +1,8 @@
 # generated from catkin/cmake/template/pkg.context.pc.in
 CATKIN_PACKAGE_PREFIX = ""
-PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/basic_dev/include".split(';') if "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/basic_dev/include" != "" else []
+PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/home/dawn/great-DJI-competition/basic_dev/src/basic_dev/include".split(';') if "/home/dawn/great-DJI-competition/basic_dev/src/basic_dev/include" != "" else []
 PROJECT_CATKIN_DEPENDS = "message_runtime;roscpp;std_msgs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "basic_dev"
-PROJECT_SPACE_DIR = "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/basic_dev"
+PROJECT_SPACE_DIR = "/home/dawn/great-DJI-competition/basic_dev/devel/.private/basic_dev"
 PROJECT_VERSION = "0.0.0"

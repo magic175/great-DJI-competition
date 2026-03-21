@@ -1,4 +1,16 @@
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/libtraj_opt.so
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/pkgconfig/traj_opt.pc
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/traj_opt/cmake/traj_optConfig-version.cmake
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/traj_opt/cmake/traj_optConfig.cmake
+Symlinking /home/dawn/great-DJI-competition/basic_dev/devel/share/traj_opt/cmake/traj_optConfig.cmake
+Symlinking /home/dawn/great-DJI-competition/basic_dev/devel/share/traj_opt/cmake/traj_optConfig-version.cmake
+Symlinking /home/dawn/great-DJI-competition/basic_dev/devel/lib/libtraj_opt.so
+Symlinking /home/dawn/great-DJI-competition/basic_dev/devel/lib/pkgconfig/traj_opt.pc
+Cleaning: (/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so, /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/libtraj_opt.so)
+Cleaning: (/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/pkgconfig/traj_opt.pc, /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/pkgconfig/traj_opt.pc)
+Cleaning: (/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/share/traj_opt/cmake/traj_optConfig-version.cmake, /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/traj_opt/cmake/traj_optConfig-version.cmake)
+Cleaning: (/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/share/traj_opt/cmake/traj_optConfig.cmake, /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/traj_opt/cmake/traj_optConfig.cmake)
+Unlinking: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/libtraj_opt.so
+Already unlinked: {}
+Unlinking: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/pkgconfig/traj_opt.pc
+Already unlinked: {}
+Unlinking: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/traj_opt/cmake/traj_optConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/traj_opt/cmake/traj_optConfig.cmake
+Already unlinked: {}

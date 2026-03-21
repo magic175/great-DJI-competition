@@ -1,1 +1,1 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/include/quadrotor_msgs/AuxCommand.h
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/quadrotor_msgs/include/quadrotor_msgs/AuxCommand.h

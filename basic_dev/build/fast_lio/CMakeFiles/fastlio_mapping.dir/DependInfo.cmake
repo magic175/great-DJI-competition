@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/FAST_LIO/include/ikd-Tree/ikd_Tree.cpp" "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/fast_lio/CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/FAST_LIO/src/laserMapping.cpp" "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/fast_lio/CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/FAST_LIO/src/preprocess.cpp" "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/fast_lio/CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o"
+  "/home/dawn/great-DJI-competition/basic_dev/src/FAST_LIO/include/ikd-Tree/ikd_Tree.cpp" "/home/dawn/great-DJI-competition/basic_dev/build/fast_lio/CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o"
+  "/home/dawn/great-DJI-competition/basic_dev/src/FAST_LIO/src/laserMapping.cpp" "/home/dawn/great-DJI-competition/basic_dev/build/fast_lio/CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o"
+  "/home/dawn/great-DJI-competition/basic_dev/src/FAST_LIO/src/preprocess.cpp" "/home/dawn/great-DJI-competition/basic_dev/build/fast_lio/CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "DISABLE_PNG"
   "MP_EN"
   "MP_PROC_NUM=3"
-  "ROOT_DIR=\"/home/hldrz/IntelligentUAVChampionship/basic_dev/src/FAST_LIO/\""
+  "ROOT_DIR=\"/home/dawn/great-DJI-competition/basic_dev/src/FAST_LIO/\""
   "ROSCONSOLE_BACKEND_LOG4CXX"
   "ROS_BUILD_SHARED_LIBS=1"
   "ROS_PACKAGE_NAME=\"fast_lio\""
@@ -28,12 +28,12 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/fast_lio/include"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/livox_ros_driver2/include"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/fast_lio/include"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/livox_ros_driver2/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/python3.8"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/FAST_LIO/include"
+  "/home/dawn/great-DJI-competition/basic_dev/src/FAST_LIO/include"
   "/usr/include/vtk-7.1"
   "/usr/include/freetype2"
   "/usr/include/eigen3"

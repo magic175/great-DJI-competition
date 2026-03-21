@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/plan_env/lib/libplan_env.pdb"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/plan_env/lib/libplan_env.so"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/plan_env/lib/libplan_env.pdb"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/plan_env/lib/libplan_env.so"
   "CMakeFiles/plan_env.dir/src/grid_map.cpp.o"
   "CMakeFiles/plan_env.dir/src/raycast.cpp.o"
 )

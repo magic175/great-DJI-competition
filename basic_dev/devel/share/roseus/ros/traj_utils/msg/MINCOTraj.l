@@ -1,1 +1,1 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_utils/share/roseus/ros/traj_utils/msg/MINCOTraj.l
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_utils/share/roseus/ros/traj_utils/msg/MINCOTraj.l

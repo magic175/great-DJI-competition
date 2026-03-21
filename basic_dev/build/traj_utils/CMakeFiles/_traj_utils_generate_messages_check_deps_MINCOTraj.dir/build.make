@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/traj_utils
+CMAKE_SOURCE_DIR = /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/traj_utils
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/traj_utils
+CMAKE_BINARY_DIR = /home/dawn/great-DJI-competition/basic_dev/build/traj_utils
 
 # Utility rule file for _traj_utils_generate_messages_check_deps_MINCOTraj.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/traj_u
 include CMakeFiles/_traj_utils_generate_messages_check_deps_MINCOTraj.dir/progress.make
 
 CMakeFiles/_traj_utils_generate_messages_check_deps_MINCOTraj:
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py traj_utils /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/traj_utils/msg/MINCOTraj.msg 
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py traj_utils /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/traj_utils/msg/MINCOTraj.msg 
 
 _traj_utils_generate_messages_check_deps_MINCOTraj: CMakeFiles/_traj_utils_generate_messages_check_deps_MINCOTraj
 _traj_utils_generate_messages_check_deps_MINCOTraj: CMakeFiles/_traj_utils_generate_messages_check_deps_MINCOTraj.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/_traj_utils_generate_messages_check_deps_MINCOTraj.dir/clean:
 .PHONY : CMakeFiles/_traj_utils_generate_messages_check_deps_MINCOTraj.dir/clean
 
 CMakeFiles/_traj_utils_generate_messages_check_deps_MINCOTraj.dir/depend:
-	cd /home/hldrz/IntelligentUAVChampionship/basic_dev/build/traj_utils && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/traj_utils /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/traj_utils /home/hldrz/IntelligentUAVChampionship/basic_dev/build/traj_utils /home/hldrz/IntelligentUAVChampionship/basic_dev/build/traj_utils /home/hldrz/IntelligentUAVChampionship/basic_dev/build/traj_utils/CMakeFiles/_traj_utils_generate_messages_check_deps_MINCOTraj.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dawn/great-DJI-competition/basic_dev/build/traj_utils && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/traj_utils /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/traj_utils /home/dawn/great-DJI-competition/basic_dev/build/traj_utils /home/dawn/great-DJI-competition/basic_dev/build/traj_utils /home/dawn/great-DJI-competition/basic_dev/build/traj_utils/CMakeFiles/_traj_utils_generate_messages_check_deps_MINCOTraj.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_traj_utils_generate_messages_check_deps_MINCOTraj.dir/depend
 

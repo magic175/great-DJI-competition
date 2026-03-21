@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/quadrotor_msgs
+CMAKE_SOURCE_DIR = /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/quadrotor_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/quadrotor_msgs
+CMAKE_BINARY_DIR = /home/dawn/great-DJI-competition/basic_dev/build/quadrotor_msgs
 
 # Utility rule file for rosgraph_msgs_generate_messages_lisp.
 
@@ -67,6 +67,6 @@ CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 
 CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend:
-	cd /home/hldrz/IntelligentUAVChampionship/basic_dev/build/quadrotor_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/quadrotor_msgs /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/quadrotor_msgs /home/hldrz/IntelligentUAVChampionship/basic_dev/build/quadrotor_msgs /home/hldrz/IntelligentUAVChampionship/basic_dev/build/quadrotor_msgs /home/hldrz/IntelligentUAVChampionship/basic_dev/build/quadrotor_msgs/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dawn/great-DJI-competition/basic_dev/build/quadrotor_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/quadrotor_msgs /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/quadrotor_msgs /home/dawn/great-DJI-competition/basic_dev/build/quadrotor_msgs /home/dawn/great-DJI-competition/basic_dev/build/quadrotor_msgs /home/dawn/great-DJI-competition/basic_dev/build/quadrotor_msgs/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
 

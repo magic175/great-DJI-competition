@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/include/quadrotor_msgs/AuxCommand.h
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/quadrotor_msgs/include/quadrotor_msgs/AuxCommand.h
 string
 -
 vector
@@ -22,7 +22,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/include/quadrotor_msgs/Corrections.h
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/quadrotor_msgs/include/quadrotor_msgs/Corrections.h
 string
 -
 vector
@@ -38,7 +38,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/include/quadrotor_msgs/PositionCommand.h
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/quadrotor_msgs/include/quadrotor_msgs/PositionCommand.h
 string
 -
 vector
@@ -64,7 +64,7 @@ geometry_msgs/Vector3.h
 geometry_msgs/Vector3.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/include/quadrotor_msgs/SO3Command.h
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/quadrotor_msgs/include/quadrotor_msgs/SO3Command.h
 string
 -
 vector
@@ -88,11 +88,11 @@ geometry_msgs/Quaternion.h
 quadrotor_msgs/AuxCommand.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/uav_simulator/so3_control/include/so3_control/SO3Control.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/uav_simulator/so3_control/include/so3_control/SO3Control.h
 Eigen/Geometry
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/uav_simulator/so3_control/src/so3_control_nodelet.cpp
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/uav_simulator/so3_control/src/so3_control_nodelet.cpp
 Eigen/Geometry
 -
 nav_msgs/Odometry.h

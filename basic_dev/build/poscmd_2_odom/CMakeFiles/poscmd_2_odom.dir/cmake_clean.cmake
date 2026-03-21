@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/poscmd_2_odom/lib/poscmd_2_odom/poscmd_2_odom"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/poscmd_2_odom/lib/poscmd_2_odom/poscmd_2_odom.pdb"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/poscmd_2_odom/lib/poscmd_2_odom/poscmd_2_odom"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/poscmd_2_odom/lib/poscmd_2_odom/poscmd_2_odom.pdb"
   "CMakeFiles/poscmd_2_odom.dir/src/poscmd_2_odom.cpp.o"
 )
 

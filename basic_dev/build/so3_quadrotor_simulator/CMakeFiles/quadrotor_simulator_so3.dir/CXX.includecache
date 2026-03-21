@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/include/quadrotor_msgs/AuxCommand.h
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/quadrotor_msgs/include/quadrotor_msgs/AuxCommand.h
 string
 -
 vector
@@ -22,7 +22,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/include/quadrotor_msgs/SO3Command.h
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/quadrotor_msgs/include/quadrotor_msgs/SO3Command.h
 string
 -
 vector
@@ -46,17 +46,17 @@ geometry_msgs/Quaternion.h
 quadrotor_msgs/AuxCommand.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/uav_utils/include/uav_utils/geometry_utils.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/uav_utils/include/uav_utils/geometry_utils.h
 Eigen/Dense
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/uav_simulator/so3_quadrotor_simulator/include/quadrotor_simulator/Quadrotor.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/uav_simulator/so3_quadrotor_simulator/include/quadrotor_simulator/Quadrotor.h
 Eigen/Core
 -
 boost/array.hpp
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/uav_simulator/so3_quadrotor_simulator/src/quadrotor_simulator_so3.cpp
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/uav_simulator/so3_quadrotor_simulator/src/quadrotor_simulator_so3.cpp
 Eigen/Geometry
 -
 nav_msgs/Odometry.h

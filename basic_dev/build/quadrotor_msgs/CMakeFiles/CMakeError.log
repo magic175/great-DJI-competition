@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/hldrz/IntelligentUAVChampionship/basic_dev/build/quadrotor_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/dawn/great-DJI-competition/basic_dev/build/quadrotor_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_c98fc/fast && /usr/bin/make -f CMakeFiles/cmTC_c98fc.dir/build.make CMakeFiles/cmTC_c98fc.dir/build
-make[1]: 进入目录“/home/hldrz/IntelligentUAVChampionship/basic_dev/build/quadrotor_msgs/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_c98fc.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_c98fc.dir/src.c.o   -c /home/hldrz/IntelligentUAVChampionship/basic_dev/build/quadrotor_msgs/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_c98fc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c98fc.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_c98fc.dir/src.c.o  -o cmTC_c98fc 
-/usr/bin/ld: CMakeFiles/cmTC_c98fc.dir/src.c.o: in function `main':
+Run Build Command(s):/usr/bin/make cmTC_02995/fast && /usr/bin/make -f CMakeFiles/cmTC_02995.dir/build.make CMakeFiles/cmTC_02995.dir/build
+make[1]: 进入目录“/home/dawn/great-DJI-competition/basic_dev/build/quadrotor_msgs/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_02995.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_02995.dir/src.c.o   -c /home/dawn/great-DJI-competition/basic_dev/build/quadrotor_msgs/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_02995
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02995.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_02995.dir/src.c.o  -o cmTC_02995 
+/usr/bin/ld: CMakeFiles/cmTC_02995.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_c98fc.dir/build.make:87：cmTC_c98fc] 错误 1
-make[1]: 离开目录“/home/hldrz/IntelligentUAVChampionship/basic_dev/build/quadrotor_msgs/CMakeFiles/CMakeTmp”
-make: *** [Makefile:121：cmTC_c98fc/fast] 错误 2
+make[1]: *** [CMakeFiles/cmTC_02995.dir/build.make:87：cmTC_02995] 错误 1
+make[1]: 离开目录“/home/dawn/great-DJI-competition/basic_dev/build/quadrotor_msgs/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_02995/fast] 错误 2
 
 
 Source file was:
@@ -39,20 +39,20 @@ int main(void)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/hldrz/IntelligentUAVChampionship/basic_dev/build/quadrotor_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/dawn/great-DJI-competition/basic_dev/build/quadrotor_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_c9b55/fast && /usr/bin/make -f CMakeFiles/cmTC_c9b55.dir/build.make CMakeFiles/cmTC_c9b55.dir/build
-make[1]: 进入目录“/home/hldrz/IntelligentUAVChampionship/basic_dev/build/quadrotor_msgs/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_c9b55.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c9b55.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_c9b55
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9b55.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_c9b55.dir/CheckFunctionExists.c.o  -o cmTC_c9b55  -lpthreads 
+Run Build Command(s):/usr/bin/make cmTC_b71f5/fast && /usr/bin/make -f CMakeFiles/cmTC_b71f5.dir/build.make CMakeFiles/cmTC_b71f5.dir/build
+make[1]: 进入目录“/home/dawn/great-DJI-competition/basic_dev/build/quadrotor_msgs/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_b71f5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b71f5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b71f5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b71f5.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_b71f5.dir/CheckFunctionExists.c.o  -o cmTC_b71f5  -lpthreads 
 /usr/bin/ld: 找不到 -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_c9b55.dir/build.make:87：cmTC_c9b55] 错误 1
-make[1]: 离开目录“/home/hldrz/IntelligentUAVChampionship/basic_dev/build/quadrotor_msgs/CMakeFiles/CMakeTmp”
-make: *** [Makefile:121：cmTC_c9b55/fast] 错误 2
+make[1]: *** [CMakeFiles/cmTC_b71f5.dir/build.make:87：cmTC_b71f5] 错误 1
+make[1]: 离开目录“/home/dawn/great-DJI-competition/basic_dev/build/quadrotor_msgs/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_b71f5/fast] 错误 2
 
 
 

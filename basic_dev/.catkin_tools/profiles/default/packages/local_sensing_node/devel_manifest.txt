@@ -1,5 +1,5 @@
 EGO-Planner/src/uav_simulator/local_sensing
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/local_sensing_node/lib/pkgconfig/local_sensing_node.pc /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/pkgconfig/local_sensing_node.pc
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/local_sensing_node/lib/local_sensing_node/pcl_render_node /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/local_sensing_node/pcl_render_node
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/local_sensing_node/share/local_sensing_node/cmake/local_sensing_nodeConfig.cmake /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/local_sensing_node/cmake/local_sensing_nodeConfig.cmake
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/local_sensing_node/share/local_sensing_node/cmake/local_sensing_nodeConfig-version.cmake /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/local_sensing_node/cmake/local_sensing_nodeConfig-version.cmake
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/local_sensing_node/share/local_sensing_node/cmake/local_sensing_nodeConfig.cmake /home/dawn/great-DJI-competition/basic_dev/devel/share/local_sensing_node/cmake/local_sensing_nodeConfig.cmake
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/local_sensing_node/share/local_sensing_node/cmake/local_sensing_nodeConfig-version.cmake /home/dawn/great-DJI-competition/basic_dev/devel/share/local_sensing_node/cmake/local_sensing_nodeConfig-version.cmake
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/local_sensing_node/lib/pkgconfig/local_sensing_node.pc /home/dawn/great-DJI-competition/basic_dev/devel/lib/pkgconfig/local_sensing_node.pc
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/local_sensing_node/lib/local_sensing_node/pcl_render_node /home/dawn/great-DJI-competition/basic_dev/devel/lib/local_sensing_node/pcl_render_node

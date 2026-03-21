@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/livox_ros_driver2/share/gennodejs/ros/livox_ros_driver2/msg/CustomMsg.js"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/livox_ros_driver2/share/gennodejs/ros/livox_ros_driver2/msg/CustomPoint.js"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/livox_ros_driver2/share/gennodejs/ros/livox_ros_driver2/msg/CustomMsg.js"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/livox_ros_driver2/share/gennodejs/ros/livox_ros_driver2/msg/CustomPoint.js"
   "CMakeFiles/livox_ros_driver2_generate_messages_nodejs"
 )
 

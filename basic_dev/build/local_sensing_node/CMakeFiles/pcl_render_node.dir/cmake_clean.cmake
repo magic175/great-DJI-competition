@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/local_sensing_node/lib/local_sensing_node/pcl_render_node"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/local_sensing_node/lib/local_sensing_node/pcl_render_node.pdb"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/local_sensing_node/lib/local_sensing_node/pcl_render_node"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/local_sensing_node/lib/local_sensing_node/pcl_render_node.pdb"
   "CMakeFiles/pcl_render_node.dir/src/pointcloud_render_node.cpp.o"
 )
 

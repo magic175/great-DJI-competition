@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_sender/share/common-lisp/ros/path_sender/msg/WayPoints.lisp"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/path_sender/share/common-lisp/ros/path_sender/msg/WayPoints.lisp"
   "CMakeFiles/path_sender_generate_messages_lisp"
 )
 

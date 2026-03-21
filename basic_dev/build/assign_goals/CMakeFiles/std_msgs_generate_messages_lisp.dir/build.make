@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/assign_goals
+CMAKE_SOURCE_DIR = /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/assign_goals
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/assign_goals
+CMAKE_BINARY_DIR = /home/dawn/great-DJI-competition/basic_dev/build/assign_goals
 
 # Utility rule file for std_msgs_generate_messages_lisp.
 
@@ -67,6 +67,6 @@ CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
 .PHONY : CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
 
 CMakeFiles/std_msgs_generate_messages_lisp.dir/depend:
-	cd /home/hldrz/IntelligentUAVChampionship/basic_dev/build/assign_goals && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/assign_goals /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/assign_goals /home/hldrz/IntelligentUAVChampionship/basic_dev/build/assign_goals /home/hldrz/IntelligentUAVChampionship/basic_dev/build/assign_goals /home/hldrz/IntelligentUAVChampionship/basic_dev/build/assign_goals/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dawn/great-DJI-competition/basic_dev/build/assign_goals && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/assign_goals /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/assign_goals /home/dawn/great-DJI-competition/basic_dev/build/assign_goals /home/dawn/great-DJI-competition/basic_dev/build/assign_goals /home/dawn/great-DJI-competition/basic_dev/build/assign_goals/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
 

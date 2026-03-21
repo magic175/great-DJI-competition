@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/rviz_plugins
+CMAKE_SOURCE_DIR = /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/rviz_plugins
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/rviz_plugins
+CMAKE_BINARY_DIR = /home/dawn/great-DJI-competition/basic_dev/build/rviz_plugins
 
 # Utility rule file for geometry_msgs_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 
 CMakeFiles/geometry_msgs_generate_messages_py.dir/depend:
-	cd /home/hldrz/IntelligentUAVChampionship/basic_dev/build/rviz_plugins && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/rviz_plugins /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/rviz_plugins /home/hldrz/IntelligentUAVChampionship/basic_dev/build/rviz_plugins /home/hldrz/IntelligentUAVChampionship/basic_dev/build/rviz_plugins /home/hldrz/IntelligentUAVChampionship/basic_dev/build/rviz_plugins/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dawn/great-DJI-competition/basic_dev/build/rviz_plugins && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/rviz_plugins /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/rviz_plugins /home/dawn/great-DJI-competition/basic_dev/build/rviz_plugins /home/dawn/great-DJI-competition/basic_dev/build/rviz_plugins /home/dawn/great-DJI-competition/basic_dev/build/rviz_plugins/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
 

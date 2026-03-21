@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_utils/include/traj_utils/DataDisp.h"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_utils/include/traj_utils/MINCOTraj.h"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_utils/include/traj_utils/PolyTraj.h"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_utils/include/traj_utils/DataDisp.h"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_utils/include/traj_utils/MINCOTraj.h"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_utils/include/traj_utils/PolyTraj.h"
   "CMakeFiles/traj_utils_generate_messages_cpp"
 )
 

@@ -1,1 +1,1 @@
-set(ORDERED_PATHS "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/plan_env/lib;/opt/ros/noetic/lib")
+set(ORDERED_PATHS "/home/dawn/great-DJI-competition/basic_dev/devel/.private/plan_env/lib;/opt/ros/noetic/lib")

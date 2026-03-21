@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/traj_utils/include/traj_utils/planning_visualization.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/traj_utils/include/traj_utils/planning_visualization.h
 eigen3/Eigen/Eigen
 -
 algorithm
@@ -24,7 +24,7 @@ visualization_msgs/MarkerArray.h
 stdlib.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/traj_utils/src/planning_visualization.cpp
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/traj_utils/src/planning_visualization.cpp
 traj_utils/planning_visualization.h
 -
 

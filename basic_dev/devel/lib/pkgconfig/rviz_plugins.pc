@@ -1,1 +1,1 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/rviz_plugins/lib/pkgconfig/rviz_plugins.pc
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/rviz_plugins/lib/pkgconfig/rviz_plugins.pc

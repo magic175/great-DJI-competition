@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/so3_quadrotor_simulator/lib/libquadrotor_dynamics.pdb"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/so3_quadrotor_simulator/lib/libquadrotor_dynamics.so"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/so3_quadrotor_simulator/lib/libquadrotor_dynamics.pdb"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/so3_quadrotor_simulator/lib/libquadrotor_dynamics.so"
   "CMakeFiles/quadrotor_dynamics.dir/src/dynamics/Quadrotor.cpp.o"
 )
 

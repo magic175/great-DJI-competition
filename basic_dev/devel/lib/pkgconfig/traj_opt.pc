@@ -1,1 +1,1 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/pkgconfig/traj_opt.pc
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/pkgconfig/traj_opt.pc

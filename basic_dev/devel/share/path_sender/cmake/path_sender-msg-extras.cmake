@@ -1,1 +1,1 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_sender/share/path_sender/cmake/path_sender-msg-extras.cmake
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/path_sender/share/path_sender/cmake/path_sender-msg-extras.cmake

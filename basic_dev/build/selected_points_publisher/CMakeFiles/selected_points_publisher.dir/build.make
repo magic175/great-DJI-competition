@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/selected_points_publisher
+CMAKE_SOURCE_DIR = /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/selected_points_publisher
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/selected_points_publisher
+CMAKE_BINARY_DIR = /home/dawn/great-DJI-competition/basic_dev/build/selected_points_publisher
 
 # Include any dependencies generated for this target.
 include CMakeFiles/selected_points_publisher.dir/depend.make
@@ -57,35 +57,35 @@ include CMakeFiles/selected_points_publisher.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/selected_points_publisher.dir/flags.make
 
-include/selected_points_publisher/moc_selected_points_publisher.cpp: /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/selected_points_publisher/include/selected_points_publisher/selected_points_publisher.hpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hldrz/IntelligentUAVChampionship/basic_dev/build/selected_points_publisher/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating include/selected_points_publisher/moc_selected_points_publisher.cpp"
-	cd /home/hldrz/IntelligentUAVChampionship/basic_dev/build/selected_points_publisher/include/selected_points_publisher && /usr/lib/qt5/bin/moc @/home/hldrz/IntelligentUAVChampionship/basic_dev/build/selected_points_publisher/include/selected_points_publisher/moc_selected_points_publisher.cpp_parameters
+include/selected_points_publisher/moc_selected_points_publisher.cpp: /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/selected_points_publisher/include/selected_points_publisher/selected_points_publisher.hpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dawn/great-DJI-competition/basic_dev/build/selected_points_publisher/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating include/selected_points_publisher/moc_selected_points_publisher.cpp"
+	cd /home/dawn/great-DJI-competition/basic_dev/build/selected_points_publisher/include/selected_points_publisher && /usr/lib/qt5/bin/moc @/home/dawn/great-DJI-competition/basic_dev/build/selected_points_publisher/include/selected_points_publisher/moc_selected_points_publisher.cpp_parameters
 
 CMakeFiles/selected_points_publisher.dir/src/selected_points_publisher.cpp.o: CMakeFiles/selected_points_publisher.dir/flags.make
-CMakeFiles/selected_points_publisher.dir/src/selected_points_publisher.cpp.o: /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/selected_points_publisher/src/selected_points_publisher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hldrz/IntelligentUAVChampionship/basic_dev/build/selected_points_publisher/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/selected_points_publisher.dir/src/selected_points_publisher.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/selected_points_publisher.dir/src/selected_points_publisher.cpp.o -c /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/selected_points_publisher/src/selected_points_publisher.cpp
+CMakeFiles/selected_points_publisher.dir/src/selected_points_publisher.cpp.o: /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/selected_points_publisher/src/selected_points_publisher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dawn/great-DJI-competition/basic_dev/build/selected_points_publisher/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/selected_points_publisher.dir/src/selected_points_publisher.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/selected_points_publisher.dir/src/selected_points_publisher.cpp.o -c /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/selected_points_publisher/src/selected_points_publisher.cpp
 
 CMakeFiles/selected_points_publisher.dir/src/selected_points_publisher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/selected_points_publisher.dir/src/selected_points_publisher.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/selected_points_publisher/src/selected_points_publisher.cpp > CMakeFiles/selected_points_publisher.dir/src/selected_points_publisher.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/selected_points_publisher/src/selected_points_publisher.cpp > CMakeFiles/selected_points_publisher.dir/src/selected_points_publisher.cpp.i
 
 CMakeFiles/selected_points_publisher.dir/src/selected_points_publisher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/selected_points_publisher.dir/src/selected_points_publisher.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/selected_points_publisher/src/selected_points_publisher.cpp -o CMakeFiles/selected_points_publisher.dir/src/selected_points_publisher.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/selected_points_publisher/src/selected_points_publisher.cpp -o CMakeFiles/selected_points_publisher.dir/src/selected_points_publisher.cpp.s
 
 CMakeFiles/selected_points_publisher.dir/include/selected_points_publisher/moc_selected_points_publisher.cpp.o: CMakeFiles/selected_points_publisher.dir/flags.make
 CMakeFiles/selected_points_publisher.dir/include/selected_points_publisher/moc_selected_points_publisher.cpp.o: include/selected_points_publisher/moc_selected_points_publisher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hldrz/IntelligentUAVChampionship/basic_dev/build/selected_points_publisher/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/selected_points_publisher.dir/include/selected_points_publisher/moc_selected_points_publisher.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/selected_points_publisher.dir/include/selected_points_publisher/moc_selected_points_publisher.cpp.o -c /home/hldrz/IntelligentUAVChampionship/basic_dev/build/selected_points_publisher/include/selected_points_publisher/moc_selected_points_publisher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dawn/great-DJI-competition/basic_dev/build/selected_points_publisher/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/selected_points_publisher.dir/include/selected_points_publisher/moc_selected_points_publisher.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/selected_points_publisher.dir/include/selected_points_publisher/moc_selected_points_publisher.cpp.o -c /home/dawn/great-DJI-competition/basic_dev/build/selected_points_publisher/include/selected_points_publisher/moc_selected_points_publisher.cpp
 
 CMakeFiles/selected_points_publisher.dir/include/selected_points_publisher/moc_selected_points_publisher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/selected_points_publisher.dir/include/selected_points_publisher/moc_selected_points_publisher.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hldrz/IntelligentUAVChampionship/basic_dev/build/selected_points_publisher/include/selected_points_publisher/moc_selected_points_publisher.cpp > CMakeFiles/selected_points_publisher.dir/include/selected_points_publisher/moc_selected_points_publisher.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dawn/great-DJI-competition/basic_dev/build/selected_points_publisher/include/selected_points_publisher/moc_selected_points_publisher.cpp > CMakeFiles/selected_points_publisher.dir/include/selected_points_publisher/moc_selected_points_publisher.cpp.i
 
 CMakeFiles/selected_points_publisher.dir/include/selected_points_publisher/moc_selected_points_publisher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/selected_points_publisher.dir/include/selected_points_publisher/moc_selected_points_publisher.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hldrz/IntelligentUAVChampionship/basic_dev/build/selected_points_publisher/include/selected_points_publisher/moc_selected_points_publisher.cpp -o CMakeFiles/selected_points_publisher.dir/include/selected_points_publisher/moc_selected_points_publisher.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dawn/great-DJI-competition/basic_dev/build/selected_points_publisher/include/selected_points_publisher/moc_selected_points_publisher.cpp -o CMakeFiles/selected_points_publisher.dir/include/selected_points_publisher/moc_selected_points_publisher.cpp.s
 
 # Object files for target selected_points_publisher
 selected_points_publisher_OBJECTS = \
@@ -95,65 +95,65 @@ selected_points_publisher_OBJECTS = \
 # External object files for target selected_points_publisher
 selected_points_publisher_EXTERNAL_OBJECTS =
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: CMakeFiles/selected_points_publisher.dir/src/selected_points_publisher.cpp.o
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: CMakeFiles/selected_points_publisher.dir/include/selected_points_publisher/moc_selected_points_publisher.cpp.o
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: CMakeFiles/selected_points_publisher.dir/build.make
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/librviz.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libOgreOverlay.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libOpenGL.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libGLX.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libGLU.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/libimage_transport.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/libinteractive_markers.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/liblaser_geometry.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/libtf.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/libresource_retriever.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/libtf2_ros.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/libactionlib.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/libmessage_filters.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/libtf2.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/liburdf.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/libclass_loader.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/libroslib.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/librospack.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/librosconsole_bridge.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/libroscpp.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/librosconsole.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/librostime.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/libcpp_common.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: CMakeFiles/selected_points_publisher.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hldrz/IntelligentUAVChampionship/basic_dev/build/selected_points_publisher/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so"
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: CMakeFiles/selected_points_publisher.dir/src/selected_points_publisher.cpp.o
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: CMakeFiles/selected_points_publisher.dir/include/selected_points_publisher/moc_selected_points_publisher.cpp.o
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: CMakeFiles/selected_points_publisher.dir/build.make
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/librviz.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libGLX.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libGLU.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/libimage_transport.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/libinteractive_markers.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/liblaser_geometry.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/libtf.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/libresource_retriever.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/libtf2_ros.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/libactionlib.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/libmessage_filters.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/libtf2.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/liburdf.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/libclass_loader.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/libroslib.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/librospack.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/librosconsole_bridge.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/libroscpp.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/librosconsole.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/librostime.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /opt/ros/noetic/lib/libcpp_common.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so: CMakeFiles/selected_points_publisher.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dawn/great-DJI-competition/basic_dev/build/selected_points_publisher/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library /home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/selected_points_publisher.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/selected_points_publisher.dir/build: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so
+CMakeFiles/selected_points_publisher.dir/build: /home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so
 
 .PHONY : CMakeFiles/selected_points_publisher.dir/build
 
@@ -162,6 +162,6 @@ CMakeFiles/selected_points_publisher.dir/clean:
 .PHONY : CMakeFiles/selected_points_publisher.dir/clean
 
 CMakeFiles/selected_points_publisher.dir/depend: include/selected_points_publisher/moc_selected_points_publisher.cpp
-	cd /home/hldrz/IntelligentUAVChampionship/basic_dev/build/selected_points_publisher && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/selected_points_publisher /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/selected_points_publisher /home/hldrz/IntelligentUAVChampionship/basic_dev/build/selected_points_publisher /home/hldrz/IntelligentUAVChampionship/basic_dev/build/selected_points_publisher /home/hldrz/IntelligentUAVChampionship/basic_dev/build/selected_points_publisher/CMakeFiles/selected_points_publisher.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dawn/great-DJI-competition/basic_dev/build/selected_points_publisher && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/selected_points_publisher /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/selected_points_publisher /home/dawn/great-DJI-competition/basic_dev/build/selected_points_publisher /home/dawn/great-DJI-competition/basic_dev/build/selected_points_publisher /home/dawn/great-DJI-competition/basic_dev/build/selected_points_publisher/CMakeFiles/selected_points_publisher.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/selected_points_publisher.dir/depend
 

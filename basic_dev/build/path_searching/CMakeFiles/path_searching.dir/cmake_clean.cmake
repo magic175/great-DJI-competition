@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_searching/lib/libpath_searching.pdb"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_searching/lib/libpath_searching.so"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/path_searching/lib/libpath_searching.pdb"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/path_searching/lib/libpath_searching.so"
   "CMakeFiles/path_searching.dir/src/dyn_a_star.cpp.o"
 )
 

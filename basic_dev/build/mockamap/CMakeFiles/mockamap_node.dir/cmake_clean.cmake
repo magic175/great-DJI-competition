@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/mockamap/lib/mockamap/mockamap_node"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/mockamap/lib/mockamap/mockamap_node.pdb"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/mockamap/lib/mockamap/mockamap_node"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/mockamap/lib/mockamap/mockamap_node.pdb"
   "CMakeFiles/mockamap_node.dir/src/ces_randommap.cpp.o"
   "CMakeFiles/mockamap_node.dir/src/maps.cpp.o"
   "CMakeFiles/mockamap_node.dir/src/mockamap.cpp.o"

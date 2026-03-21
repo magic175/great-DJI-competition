@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/swarm_bridge
+CMAKE_SOURCE_DIR = /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/swarm_bridge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/swarm_bridge
+CMAKE_BINARY_DIR = /home/dawn/great-DJI-competition/basic_dev/build/swarm_bridge
 
 # Utility rule file for traj_utils_generate_messages_eus.
 
@@ -67,6 +67,6 @@ CMakeFiles/traj_utils_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/traj_utils_generate_messages_eus.dir/clean
 
 CMakeFiles/traj_utils_generate_messages_eus.dir/depend:
-	cd /home/hldrz/IntelligentUAVChampionship/basic_dev/build/swarm_bridge && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/swarm_bridge /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/swarm_bridge /home/hldrz/IntelligentUAVChampionship/basic_dev/build/swarm_bridge /home/hldrz/IntelligentUAVChampionship/basic_dev/build/swarm_bridge /home/hldrz/IntelligentUAVChampionship/basic_dev/build/swarm_bridge/CMakeFiles/traj_utils_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dawn/great-DJI-competition/basic_dev/build/swarm_bridge && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/swarm_bridge /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/swarm_bridge /home/dawn/great-DJI-competition/basic_dev/build/swarm_bridge /home/dawn/great-DJI-competition/basic_dev/build/swarm_bridge /home/dawn/great-DJI-competition/basic_dev/build/swarm_bridge/CMakeFiles/traj_utils_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/traj_utils_generate_messages_eus.dir/depend
 

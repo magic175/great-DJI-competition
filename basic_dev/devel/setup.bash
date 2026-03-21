@@ -1,1 +1,1 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/catkin_tools_prebuild/setup.bash
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/catkin_tools_prebuild/setup.bash

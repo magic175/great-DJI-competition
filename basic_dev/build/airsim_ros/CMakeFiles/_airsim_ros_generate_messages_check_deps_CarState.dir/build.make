@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros
+CMAKE_SOURCE_DIR = /home/dawn/great-DJI-competition/basic_dev/src/airsim_ros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/airsim_ros
+CMAKE_BINARY_DIR = /home/dawn/great-DJI-competition/basic_dev/build/airsim_ros
 
 # Utility rule file for _airsim_ros_generate_messages_check_deps_CarState.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/airsim
 include CMakeFiles/_airsim_ros_generate_messages_check_deps_CarState.dir/progress.make
 
 CMakeFiles/_airsim_ros_generate_messages_check_deps_CarState:
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py airsim_ros /home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/CarState.msg geometry_msgs/Vector3:geometry_msgs/Point:geometry_msgs/TwistWithCovariance:geometry_msgs/PoseWithCovariance:geometry_msgs/Twist:geometry_msgs/Pose:std_msgs/Header:geometry_msgs/Quaternion
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py airsim_ros /home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/CarState.msg geometry_msgs/TwistWithCovariance:geometry_msgs/Vector3:geometry_msgs/Quaternion:geometry_msgs/Point:geometry_msgs/Twist:geometry_msgs/Pose:std_msgs/Header:geometry_msgs/PoseWithCovariance
 
 _airsim_ros_generate_messages_check_deps_CarState: CMakeFiles/_airsim_ros_generate_messages_check_deps_CarState
 _airsim_ros_generate_messages_check_deps_CarState: CMakeFiles/_airsim_ros_generate_messages_check_deps_CarState.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/_airsim_ros_generate_messages_check_deps_CarState.dir/clean:
 .PHONY : CMakeFiles/_airsim_ros_generate_messages_check_deps_CarState.dir/clean
 
 CMakeFiles/_airsim_ros_generate_messages_check_deps_CarState.dir/depend:
-	cd /home/hldrz/IntelligentUAVChampionship/basic_dev/build/airsim_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros /home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros /home/hldrz/IntelligentUAVChampionship/basic_dev/build/airsim_ros /home/hldrz/IntelligentUAVChampionship/basic_dev/build/airsim_ros /home/hldrz/IntelligentUAVChampionship/basic_dev/build/airsim_ros/CMakeFiles/_airsim_ros_generate_messages_check_deps_CarState.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dawn/great-DJI-competition/basic_dev/build/airsim_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dawn/great-DJI-competition/basic_dev/src/airsim_ros /home/dawn/great-DJI-competition/basic_dev/src/airsim_ros /home/dawn/great-DJI-competition/basic_dev/build/airsim_ros /home/dawn/great-DJI-competition/basic_dev/build/airsim_ros /home/dawn/great-DJI-competition/basic_dev/build/airsim_ros/CMakeFiles/_airsim_ros_generate_messages_check_deps_CarState.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_airsim_ros_generate_messages_check_deps_CarState.dir/depend
 

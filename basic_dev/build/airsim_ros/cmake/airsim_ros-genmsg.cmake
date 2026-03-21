@@ -2,7 +2,7 @@
 
 message(STATUS "airsim_ros: 11 messages, 7 services")
 
-set(MSG_I_FLAGS "-Iairsim_ros:/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg;-Igeographic_msgs:/opt/ros/noetic/share/geographic_msgs/cmake/../msg;-Iuuid_msgs:/opt/ros/noetic/share/uuid_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Iairsim_ros:/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg;-Igeographic_msgs:/opt/ros/noetic/share/geographic_msgs/cmake/../msg;-Iuuid_msgs:/opt/ros/noetic/share/uuid_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,94 +17,94 @@ add_custom_target(airsim_ros_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/GimbalAngleEulerCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/GimbalAngleEulerCmd.msg" NAME_WE)
 add_custom_target(_airsim_ros_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "airsim_ros" "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/GimbalAngleEulerCmd.msg" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "airsim_ros" "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/GimbalAngleEulerCmd.msg" "std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/GimbalAngleQuatCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/GimbalAngleQuatCmd.msg" NAME_WE)
 add_custom_target(_airsim_ros_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "airsim_ros" "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/GimbalAngleQuatCmd.msg" "std_msgs/Header:geometry_msgs/Quaternion"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "airsim_ros" "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/GimbalAngleQuatCmd.msg" "std_msgs/Header:geometry_msgs/Quaternion"
 )
 
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/GPSYaw.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/GPSYaw.msg" NAME_WE)
 add_custom_target(_airsim_ros_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "airsim_ros" "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/GPSYaw.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "airsim_ros" "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/GPSYaw.msg" ""
 )
 
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/VelCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/VelCmd.msg" NAME_WE)
 add_custom_target(_airsim_ros_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "airsim_ros" "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/VelCmd.msg" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "airsim_ros" "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/VelCmd.msg" "std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/VelCmdGroup.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/VelCmdGroup.msg" NAME_WE)
 add_custom_target(_airsim_ros_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "airsim_ros" "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/VelCmdGroup.msg" "geometry_msgs/Vector3:geometry_msgs/Twist"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "airsim_ros" "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/VelCmdGroup.msg" "geometry_msgs/Twist:geometry_msgs/Vector3"
 )
 
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/CarControls.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/CarControls.msg" NAME_WE)
 add_custom_target(_airsim_ros_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "airsim_ros" "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/CarControls.msg" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "airsim_ros" "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/CarControls.msg" "std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/CarState.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/CarState.msg" NAME_WE)
 add_custom_target(_airsim_ros_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "airsim_ros" "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/CarState.msg" "geometry_msgs/Vector3:geometry_msgs/Point:geometry_msgs/TwistWithCovariance:geometry_msgs/PoseWithCovariance:geometry_msgs/Twist:geometry_msgs/Pose:std_msgs/Header:geometry_msgs/Quaternion"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "airsim_ros" "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/CarState.msg" "geometry_msgs/TwistWithCovariance:geometry_msgs/Vector3:geometry_msgs/Quaternion:geometry_msgs/Point:geometry_msgs/Twist:geometry_msgs/Pose:std_msgs/Header:geometry_msgs/PoseWithCovariance"
 )
 
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/Altimeter.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/Altimeter.msg" NAME_WE)
 add_custom_target(_airsim_ros_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "airsim_ros" "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/Altimeter.msg" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "airsim_ros" "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/Altimeter.msg" "std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/Environment.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/Environment.msg" NAME_WE)
 add_custom_target(_airsim_ros_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "airsim_ros" "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/Environment.msg" "std_msgs/Header:geometry_msgs/Vector3:geographic_msgs/GeoPoint"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "airsim_ros" "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/Environment.msg" "std_msgs/Header:geographic_msgs/GeoPoint:geometry_msgs/Vector3"
 )
 
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/PoseCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/PoseCmd.msg" NAME_WE)
 add_custom_target(_airsim_ros_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "airsim_ros" "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/PoseCmd.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "airsim_ros" "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/PoseCmd.msg" ""
 )
 
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/RotorPWM.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/RotorPWM.msg" NAME_WE)
 add_custom_target(_airsim_ros_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "airsim_ros" "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/RotorPWM.msg" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "airsim_ros" "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/RotorPWM.msg" "std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/SetGPSPosition.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/SetGPSPosition.srv" NAME_WE)
 add_custom_target(_airsim_ros_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "airsim_ros" "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/SetGPSPosition.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "airsim_ros" "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/SetGPSPosition.srv" ""
 )
 
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Takeoff.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Takeoff.srv" NAME_WE)
 add_custom_target(_airsim_ros_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "airsim_ros" "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Takeoff.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "airsim_ros" "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Takeoff.srv" ""
 )
 
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/TakeoffGroup.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/TakeoffGroup.srv" NAME_WE)
 add_custom_target(_airsim_ros_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "airsim_ros" "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/TakeoffGroup.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "airsim_ros" "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/TakeoffGroup.srv" ""
 )
 
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Land.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Land.srv" NAME_WE)
 add_custom_target(_airsim_ros_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "airsim_ros" "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Land.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "airsim_ros" "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Land.srv" ""
 )
 
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/LandGroup.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/LandGroup.srv" NAME_WE)
 add_custom_target(_airsim_ros_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "airsim_ros" "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/LandGroup.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "airsim_ros" "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/LandGroup.srv" ""
 )
 
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Reset.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Reset.srv" NAME_WE)
 add_custom_target(_airsim_ros_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "airsim_ros" "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Reset.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "airsim_ros" "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Reset.srv" ""
 )
 
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/SetLocalPosition.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/SetLocalPosition.srv" NAME_WE)
 add_custom_target(_airsim_ros_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "airsim_ros" "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/SetLocalPosition.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "airsim_ros" "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/SetLocalPosition.srv" ""
 )
 
 #
@@ -114,67 +114,67 @@ add_custom_target(_airsim_ros_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/GimbalAngleEulerCmd.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/GimbalAngleEulerCmd.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_cpp(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/GimbalAngleQuatCmd.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/GimbalAngleQuatCmd.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_cpp(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/GPSYaw.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/GPSYaw.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_cpp(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/VelCmd.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/VelCmd.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_cpp(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/VelCmdGroup.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/VelCmdGroup.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_cpp(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/CarControls.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/airsim_ros
-)
-_generate_msg_cpp(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/CarState.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TwistWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/airsim_ros
-)
-_generate_msg_cpp(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/Altimeter.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/CarControls.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_cpp(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/Environment.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/CarState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TwistWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_cpp(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/PoseCmd.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/Altimeter.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/airsim_ros
+)
+_generate_msg_cpp(airsim_ros
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/Environment.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/airsim_ros
+)
+_generate_msg_cpp(airsim_ros
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/PoseCmd.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_cpp(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/RotorPWM.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/RotorPWM.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/airsim_ros
@@ -182,43 +182,43 @@ _generate_msg_cpp(airsim_ros
 
 ### Generating Services
 _generate_srv_cpp(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/SetGPSPosition.srv"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/SetGPSPosition.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/airsim_ros
 )
 _generate_srv_cpp(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Takeoff.srv"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Takeoff.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/airsim_ros
 )
 _generate_srv_cpp(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/TakeoffGroup.srv"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/TakeoffGroup.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/airsim_ros
 )
 _generate_srv_cpp(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Land.srv"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Land.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/airsim_ros
 )
 _generate_srv_cpp(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/LandGroup.srv"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/LandGroup.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/airsim_ros
 )
 _generate_srv_cpp(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Reset.srv"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Reset.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/airsim_ros
 )
 _generate_srv_cpp(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/SetLocalPosition.srv"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/SetLocalPosition.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/airsim_ros
@@ -236,41 +236,41 @@ add_custom_target(airsim_ros_generate_messages_cpp
 add_dependencies(airsim_ros_generate_messages airsim_ros_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/GimbalAngleEulerCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/GimbalAngleEulerCmd.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_cpp _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/GimbalAngleQuatCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/GimbalAngleQuatCmd.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_cpp _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/GPSYaw.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/GPSYaw.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_cpp _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/VelCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/VelCmd.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_cpp _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/VelCmdGroup.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/VelCmdGroup.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_cpp _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/CarControls.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/CarControls.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_cpp _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/CarState.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/CarState.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_cpp _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/Altimeter.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/Altimeter.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_cpp _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/Environment.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/Environment.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_cpp _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/PoseCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/PoseCmd.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_cpp _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/RotorPWM.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/RotorPWM.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_cpp _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/SetGPSPosition.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/SetGPSPosition.srv" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_cpp _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Takeoff.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Takeoff.srv" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_cpp _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/TakeoffGroup.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/TakeoffGroup.srv" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_cpp _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Land.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Land.srv" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_cpp _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/LandGroup.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/LandGroup.srv" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_cpp _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Reset.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Reset.srv" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_cpp _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/SetLocalPosition.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/SetLocalPosition.srv" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_cpp _airsim_ros_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -283,67 +283,67 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS airsim_ros_generate_messages_cpp)
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/GimbalAngleEulerCmd.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/GimbalAngleEulerCmd.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_eus(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/GimbalAngleQuatCmd.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/GimbalAngleQuatCmd.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_eus(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/GPSYaw.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/GPSYaw.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_eus(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/VelCmd.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/VelCmd.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_eus(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/VelCmdGroup.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/VelCmdGroup.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_eus(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/CarControls.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/airsim_ros
-)
-_generate_msg_eus(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/CarState.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TwistWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/airsim_ros
-)
-_generate_msg_eus(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/Altimeter.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/CarControls.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_eus(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/Environment.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/CarState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TwistWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_eus(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/PoseCmd.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/Altimeter.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/airsim_ros
+)
+_generate_msg_eus(airsim_ros
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/Environment.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/airsim_ros
+)
+_generate_msg_eus(airsim_ros
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/PoseCmd.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_eus(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/RotorPWM.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/RotorPWM.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/airsim_ros
@@ -351,43 +351,43 @@ _generate_msg_eus(airsim_ros
 
 ### Generating Services
 _generate_srv_eus(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/SetGPSPosition.srv"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/SetGPSPosition.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/airsim_ros
 )
 _generate_srv_eus(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Takeoff.srv"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Takeoff.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/airsim_ros
 )
 _generate_srv_eus(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/TakeoffGroup.srv"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/TakeoffGroup.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/airsim_ros
 )
 _generate_srv_eus(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Land.srv"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Land.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/airsim_ros
 )
 _generate_srv_eus(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/LandGroup.srv"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/LandGroup.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/airsim_ros
 )
 _generate_srv_eus(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Reset.srv"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Reset.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/airsim_ros
 )
 _generate_srv_eus(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/SetLocalPosition.srv"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/SetLocalPosition.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/airsim_ros
@@ -405,41 +405,41 @@ add_custom_target(airsim_ros_generate_messages_eus
 add_dependencies(airsim_ros_generate_messages airsim_ros_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/GimbalAngleEulerCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/GimbalAngleEulerCmd.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_eus _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/GimbalAngleQuatCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/GimbalAngleQuatCmd.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_eus _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/GPSYaw.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/GPSYaw.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_eus _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/VelCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/VelCmd.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_eus _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/VelCmdGroup.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/VelCmdGroup.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_eus _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/CarControls.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/CarControls.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_eus _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/CarState.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/CarState.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_eus _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/Altimeter.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/Altimeter.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_eus _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/Environment.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/Environment.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_eus _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/PoseCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/PoseCmd.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_eus _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/RotorPWM.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/RotorPWM.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_eus _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/SetGPSPosition.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/SetGPSPosition.srv" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_eus _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Takeoff.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Takeoff.srv" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_eus _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/TakeoffGroup.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/TakeoffGroup.srv" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_eus _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Land.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Land.srv" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_eus _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/LandGroup.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/LandGroup.srv" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_eus _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Reset.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Reset.srv" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_eus _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/SetLocalPosition.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/SetLocalPosition.srv" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_eus _airsim_ros_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -452,67 +452,67 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS airsim_ros_generate_messages_eus)
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/GimbalAngleEulerCmd.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/GimbalAngleEulerCmd.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_lisp(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/GimbalAngleQuatCmd.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/GimbalAngleQuatCmd.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_lisp(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/GPSYaw.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/GPSYaw.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_lisp(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/VelCmd.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/VelCmd.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_lisp(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/VelCmdGroup.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/VelCmdGroup.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_lisp(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/CarControls.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/airsim_ros
-)
-_generate_msg_lisp(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/CarState.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TwistWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/airsim_ros
-)
-_generate_msg_lisp(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/Altimeter.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/CarControls.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_lisp(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/Environment.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/CarState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TwistWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_lisp(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/PoseCmd.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/Altimeter.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/airsim_ros
+)
+_generate_msg_lisp(airsim_ros
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/Environment.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/airsim_ros
+)
+_generate_msg_lisp(airsim_ros
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/PoseCmd.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_lisp(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/RotorPWM.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/RotorPWM.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/airsim_ros
@@ -520,43 +520,43 @@ _generate_msg_lisp(airsim_ros
 
 ### Generating Services
 _generate_srv_lisp(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/SetGPSPosition.srv"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/SetGPSPosition.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/airsim_ros
 )
 _generate_srv_lisp(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Takeoff.srv"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Takeoff.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/airsim_ros
 )
 _generate_srv_lisp(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/TakeoffGroup.srv"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/TakeoffGroup.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/airsim_ros
 )
 _generate_srv_lisp(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Land.srv"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Land.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/airsim_ros
 )
 _generate_srv_lisp(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/LandGroup.srv"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/LandGroup.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/airsim_ros
 )
 _generate_srv_lisp(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Reset.srv"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Reset.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/airsim_ros
 )
 _generate_srv_lisp(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/SetLocalPosition.srv"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/SetLocalPosition.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/airsim_ros
@@ -574,41 +574,41 @@ add_custom_target(airsim_ros_generate_messages_lisp
 add_dependencies(airsim_ros_generate_messages airsim_ros_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/GimbalAngleEulerCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/GimbalAngleEulerCmd.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_lisp _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/GimbalAngleQuatCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/GimbalAngleQuatCmd.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_lisp _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/GPSYaw.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/GPSYaw.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_lisp _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/VelCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/VelCmd.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_lisp _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/VelCmdGroup.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/VelCmdGroup.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_lisp _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/CarControls.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/CarControls.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_lisp _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/CarState.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/CarState.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_lisp _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/Altimeter.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/Altimeter.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_lisp _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/Environment.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/Environment.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_lisp _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/PoseCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/PoseCmd.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_lisp _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/RotorPWM.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/RotorPWM.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_lisp _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/SetGPSPosition.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/SetGPSPosition.srv" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_lisp _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Takeoff.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Takeoff.srv" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_lisp _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/TakeoffGroup.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/TakeoffGroup.srv" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_lisp _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Land.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Land.srv" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_lisp _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/LandGroup.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/LandGroup.srv" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_lisp _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Reset.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Reset.srv" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_lisp _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/SetLocalPosition.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/SetLocalPosition.srv" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_lisp _airsim_ros_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -621,67 +621,67 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS airsim_ros_generate_messages_lisp)
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/GimbalAngleEulerCmd.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/GimbalAngleEulerCmd.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_nodejs(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/GimbalAngleQuatCmd.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/GimbalAngleQuatCmd.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_nodejs(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/GPSYaw.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/GPSYaw.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_nodejs(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/VelCmd.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/VelCmd.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_nodejs(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/VelCmdGroup.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/VelCmdGroup.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_nodejs(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/CarControls.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/airsim_ros
-)
-_generate_msg_nodejs(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/CarState.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TwistWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/airsim_ros
-)
-_generate_msg_nodejs(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/Altimeter.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/CarControls.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_nodejs(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/Environment.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/CarState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TwistWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_nodejs(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/PoseCmd.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/Altimeter.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/airsim_ros
+)
+_generate_msg_nodejs(airsim_ros
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/Environment.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/airsim_ros
+)
+_generate_msg_nodejs(airsim_ros
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/PoseCmd.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_nodejs(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/RotorPWM.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/RotorPWM.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/airsim_ros
@@ -689,43 +689,43 @@ _generate_msg_nodejs(airsim_ros
 
 ### Generating Services
 _generate_srv_nodejs(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/SetGPSPosition.srv"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/SetGPSPosition.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/airsim_ros
 )
 _generate_srv_nodejs(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Takeoff.srv"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Takeoff.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/airsim_ros
 )
 _generate_srv_nodejs(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/TakeoffGroup.srv"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/TakeoffGroup.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/airsim_ros
 )
 _generate_srv_nodejs(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Land.srv"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Land.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/airsim_ros
 )
 _generate_srv_nodejs(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/LandGroup.srv"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/LandGroup.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/airsim_ros
 )
 _generate_srv_nodejs(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Reset.srv"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Reset.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/airsim_ros
 )
 _generate_srv_nodejs(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/SetLocalPosition.srv"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/SetLocalPosition.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/airsim_ros
@@ -743,41 +743,41 @@ add_custom_target(airsim_ros_generate_messages_nodejs
 add_dependencies(airsim_ros_generate_messages airsim_ros_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/GimbalAngleEulerCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/GimbalAngleEulerCmd.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_nodejs _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/GimbalAngleQuatCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/GimbalAngleQuatCmd.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_nodejs _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/GPSYaw.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/GPSYaw.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_nodejs _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/VelCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/VelCmd.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_nodejs _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/VelCmdGroup.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/VelCmdGroup.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_nodejs _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/CarControls.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/CarControls.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_nodejs _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/CarState.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/CarState.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_nodejs _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/Altimeter.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/Altimeter.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_nodejs _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/Environment.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/Environment.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_nodejs _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/PoseCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/PoseCmd.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_nodejs _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/RotorPWM.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/RotorPWM.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_nodejs _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/SetGPSPosition.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/SetGPSPosition.srv" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_nodejs _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Takeoff.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Takeoff.srv" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_nodejs _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/TakeoffGroup.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/TakeoffGroup.srv" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_nodejs _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Land.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Land.srv" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_nodejs _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/LandGroup.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/LandGroup.srv" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_nodejs _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Reset.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Reset.srv" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_nodejs _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/SetLocalPosition.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/SetLocalPosition.srv" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_nodejs _airsim_ros_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -790,67 +790,67 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS airsim_ros_generate_messages_nodejs
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/GimbalAngleEulerCmd.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/GimbalAngleEulerCmd.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_py(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/GimbalAngleQuatCmd.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/GimbalAngleQuatCmd.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_py(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/GPSYaw.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/GPSYaw.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_py(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/VelCmd.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/VelCmd.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_py(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/VelCmdGroup.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/VelCmdGroup.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_py(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/CarControls.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/airsim_ros
-)
-_generate_msg_py(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/CarState.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TwistWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/airsim_ros
-)
-_generate_msg_py(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/Altimeter.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/CarControls.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_py(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/Environment.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/CarState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/TwistWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_py(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/PoseCmd.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/Altimeter.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/airsim_ros
+)
+_generate_msg_py(airsim_ros
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/Environment.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/airsim_ros
+)
+_generate_msg_py(airsim_ros
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/PoseCmd.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/airsim_ros
 )
 _generate_msg_py(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/RotorPWM.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/RotorPWM.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/airsim_ros
@@ -858,43 +858,43 @@ _generate_msg_py(airsim_ros
 
 ### Generating Services
 _generate_srv_py(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/SetGPSPosition.srv"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/SetGPSPosition.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/airsim_ros
 )
 _generate_srv_py(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Takeoff.srv"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Takeoff.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/airsim_ros
 )
 _generate_srv_py(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/TakeoffGroup.srv"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/TakeoffGroup.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/airsim_ros
 )
 _generate_srv_py(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Land.srv"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Land.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/airsim_ros
 )
 _generate_srv_py(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/LandGroup.srv"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/LandGroup.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/airsim_ros
 )
 _generate_srv_py(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Reset.srv"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Reset.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/airsim_ros
 )
 _generate_srv_py(airsim_ros
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/SetLocalPosition.srv"
+  "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/SetLocalPosition.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/airsim_ros
@@ -912,41 +912,41 @@ add_custom_target(airsim_ros_generate_messages_py
 add_dependencies(airsim_ros_generate_messages airsim_ros_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/GimbalAngleEulerCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/GimbalAngleEulerCmd.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_py _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/GimbalAngleQuatCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/GimbalAngleQuatCmd.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_py _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/GPSYaw.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/GPSYaw.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_py _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/VelCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/VelCmd.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_py _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/VelCmdGroup.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/VelCmdGroup.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_py _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/CarControls.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/CarControls.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_py _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/CarState.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/CarState.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_py _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/Altimeter.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/Altimeter.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_py _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/Environment.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/Environment.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_py _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/PoseCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/PoseCmd.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_py _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/msg/RotorPWM.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/msg/RotorPWM.msg" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_py _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/SetGPSPosition.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/SetGPSPosition.srv" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_py _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Takeoff.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Takeoff.srv" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_py _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/TakeoffGroup.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/TakeoffGroup.srv" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_py _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Land.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Land.srv" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_py _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/LandGroup.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/LandGroup.srv" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_py _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/Reset.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/Reset.srv" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_py _airsim_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros/srv/SetLocalPosition.srv" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/airsim_ros/srv/SetLocalPosition.srv" NAME_WE)
 add_dependencies(airsim_ros_generate_messages_py _airsim_ros_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

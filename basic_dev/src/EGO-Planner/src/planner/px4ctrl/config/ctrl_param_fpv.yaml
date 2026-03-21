@@ -65,7 +65,7 @@
 #     Iyy: 0.0069312
 #     Izz: 0.010421166
 
-mass        : 0.91
+mass        : 0.9
 gra         : 9.81
 # hov_percent : 0.148406   # Thrust percentage in Stabilize/Arco mode
 hov_percent : 0.00446

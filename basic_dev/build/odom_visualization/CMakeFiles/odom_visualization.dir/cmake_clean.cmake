@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/odom_visualization/lib/odom_visualization/odom_visualization"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/odom_visualization/lib/odom_visualization/odom_visualization.pdb"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/odom_visualization/lib/odom_visualization/odom_visualization"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/odom_visualization/lib/odom_visualization/odom_visualization.pdb"
   "CMakeFiles/odom_visualization.dir/src/odom_visualization.cpp.o"
 )
 

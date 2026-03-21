@@ -1,1 +1,1 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/swarm_bridge/lib/pkgconfig/swarm_bridge.pc
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/swarm_bridge/lib/pkgconfig/swarm_bridge.pc

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/uav_simulator/local_sensing
+CMAKE_SOURCE_DIR = /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/uav_simulator/local_sensing
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/local_sensing_node
+CMAKE_BINARY_DIR = /home/dawn/great-DJI-competition/basic_dev/build/local_sensing_node
 
 # Utility rule file for dynamic_reconfigure_generate_messages_nodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/clean
 
 CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/depend:
-	cd /home/hldrz/IntelligentUAVChampionship/basic_dev/build/local_sensing_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/uav_simulator/local_sensing /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/uav_simulator/local_sensing /home/hldrz/IntelligentUAVChampionship/basic_dev/build/local_sensing_node /home/hldrz/IntelligentUAVChampionship/basic_dev/build/local_sensing_node /home/hldrz/IntelligentUAVChampionship/basic_dev/build/local_sensing_node/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dawn/great-DJI-competition/basic_dev/build/local_sensing_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/uav_simulator/local_sensing /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/uav_simulator/local_sensing /home/dawn/great-DJI-competition/basic_dev/build/local_sensing_node /home/dawn/great-DJI-competition/basic_dev/build/local_sensing_node /home/dawn/great-DJI-competition/basic_dev/build/local_sensing_node/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/depend
 

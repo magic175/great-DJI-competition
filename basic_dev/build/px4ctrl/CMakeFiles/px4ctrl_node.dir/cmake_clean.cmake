@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node.pdb"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node.pdb"
   "CMakeFiles/px4ctrl_node.dir/src/PX4CtrlFSM.cpp.o"
   "CMakeFiles/px4ctrl_node.dir/src/PX4CtrlParam.cpp.o"
   "CMakeFiles/px4ctrl_node.dir/src/controller.cpp.o"

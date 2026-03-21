@@ -5,7 +5,7 @@
 # or fall back to the destination set at configure time
 
 if test -z $_CATKIN_SETUP_DIR
-    set _CATKIN_SETUP_DIR /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/pose_utils
+    set _CATKIN_SETUP_DIR /home/dawn/great-DJI-competition/basic_dev/devel/.private/pose_utils
 end
 
 set CATKIN_SETUP_UTIL_ARGS "--extend --local"

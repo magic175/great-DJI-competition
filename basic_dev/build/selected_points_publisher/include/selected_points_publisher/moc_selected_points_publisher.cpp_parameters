@@ -1,4 +1,4 @@
--I/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/selected_points_publisher/include
+-I/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/selected_points_publisher/include
 -I/opt/ros/noetic/include
 -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp
 -I/usr/include/eigen3
@@ -9,5 +9,5 @@
 -DROS_PACKAGE_NAME="selected_points_publisher"
 -DROSCONSOLE_BACKEND_LOG4CXX
 -o
-/home/hldrz/IntelligentUAVChampionship/basic_dev/build/selected_points_publisher/include/selected_points_publisher/moc_selected_points_publisher.cpp
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/selected_points_publisher/include/selected_points_publisher/selected_points_publisher.hpp
+/home/dawn/great-DJI-competition/basic_dev/build/selected_points_publisher/include/selected_points_publisher/moc_selected_points_publisher.cpp
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/selected_points_publisher/include/selected_points_publisher/selected_points_publisher.hpp

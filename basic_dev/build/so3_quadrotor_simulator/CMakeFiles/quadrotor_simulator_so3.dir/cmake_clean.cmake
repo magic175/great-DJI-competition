@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/so3_quadrotor_simulator/lib/so3_quadrotor_simulator/quadrotor_simulator_so3"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/so3_quadrotor_simulator/lib/so3_quadrotor_simulator/quadrotor_simulator_so3.pdb"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/so3_quadrotor_simulator/lib/so3_quadrotor_simulator/quadrotor_simulator_so3"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/so3_quadrotor_simulator/lib/so3_quadrotor_simulator/quadrotor_simulator_so3.pdb"
   "CMakeFiles/quadrotor_simulator_so3.dir/src/quadrotor_simulator_so3.cpp.o"
 )
 

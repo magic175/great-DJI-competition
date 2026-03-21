@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/swarm_bridge/lib/swarm_bridge/traj2odom_node"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/swarm_bridge/lib/swarm_bridge/traj2odom_node.pdb"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/swarm_bridge/lib/swarm_bridge/traj2odom_node"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/swarm_bridge/lib/swarm_bridge/traj2odom_node.pdb"
   "CMakeFiles/traj2odom_node.dir/src/traj2odom_node.cpp.o"
 )
 

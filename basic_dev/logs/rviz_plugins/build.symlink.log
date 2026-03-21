@@ -1,4 +1,4 @@
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/librviz_plugins.so
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/pkgconfig/rviz_plugins.pc
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/rviz_plugins/cmake/rviz_pluginsConfig-version.cmake
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/rviz_plugins/cmake/rviz_pluginsConfig.cmake
+Linked: (/home/dawn/great-DJI-competition/basic_dev/devel/.private/rviz_plugins/share/rviz_plugins/cmake/rviz_pluginsConfig-version.cmake, /home/dawn/great-DJI-competition/basic_dev/devel/share/rviz_plugins/cmake/rviz_pluginsConfig-version.cmake)
+Linked: (/home/dawn/great-DJI-competition/basic_dev/devel/.private/rviz_plugins/share/rviz_plugins/cmake/rviz_pluginsConfig.cmake, /home/dawn/great-DJI-competition/basic_dev/devel/share/rviz_plugins/cmake/rviz_pluginsConfig.cmake)
+Linked: (/home/dawn/great-DJI-competition/basic_dev/devel/.private/rviz_plugins/lib/librviz_plugins.so, /home/dawn/great-DJI-competition/basic_dev/devel/lib/librviz_plugins.so)
+Linked: (/home/dawn/great-DJI-competition/basic_dev/devel/.private/rviz_plugins/lib/pkgconfig/rviz_plugins.pc, /home/dawn/great-DJI-competition/basic_dev/devel/lib/pkgconfig/rviz_plugins.pc)

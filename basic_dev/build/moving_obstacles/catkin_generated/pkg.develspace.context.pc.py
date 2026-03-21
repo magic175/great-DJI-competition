@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "traj_opt;traj_utils".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "moving_obstacles"
-PROJECT_SPACE_DIR = "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/moving_obstacles"
+PROJECT_SPACE_DIR = "/home/dawn/great-DJI-competition/basic_dev/devel/.private/moving_obstacles"
 PROJECT_VERSION = "0.0.0"

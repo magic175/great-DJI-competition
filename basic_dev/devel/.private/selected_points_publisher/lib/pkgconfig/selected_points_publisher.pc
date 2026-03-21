@@ -1,4 +1,4 @@
-prefix=/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/selected_points_publisher
+prefix=/home/dawn/great-DJI-competition/basic_dev/devel/.private/selected_points_publisher
 
 Name: selected_points_publisher
 Description: Description of selected_points_publisher

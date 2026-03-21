@@ -1,1 +1,1 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/airsim_ros/share/gennodejs/ros/airsim_ros/msg/Altimeter.js
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/airsim_ros/share/gennodejs/ros/airsim_ros/msg/Altimeter.js

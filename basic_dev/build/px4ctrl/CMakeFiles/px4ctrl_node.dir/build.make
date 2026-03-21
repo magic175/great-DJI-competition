@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl
+CMAKE_SOURCE_DIR = /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/px4ctrl
+CMAKE_BINARY_DIR = /home/dawn/great-DJI-competition/basic_dev/build/px4ctrl
 
 # Include any dependencies generated for this target.
 include CMakeFiles/px4ctrl_node.dir/depend.make
@@ -58,82 +58,82 @@ include CMakeFiles/px4ctrl_node.dir/progress.make
 include CMakeFiles/px4ctrl_node.dir/flags.make
 
 CMakeFiles/px4ctrl_node.dir/src/px4ctrl_node.cpp.o: CMakeFiles/px4ctrl_node.dir/flags.make
-CMakeFiles/px4ctrl_node.dir/src/px4ctrl_node.cpp.o: /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/px4ctrl_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hldrz/IntelligentUAVChampionship/basic_dev/build/px4ctrl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/px4ctrl_node.dir/src/px4ctrl_node.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/px4ctrl_node.dir/src/px4ctrl_node.cpp.o -c /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/px4ctrl_node.cpp
+CMakeFiles/px4ctrl_node.dir/src/px4ctrl_node.cpp.o: /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/px4ctrl_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dawn/great-DJI-competition/basic_dev/build/px4ctrl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/px4ctrl_node.dir/src/px4ctrl_node.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/px4ctrl_node.dir/src/px4ctrl_node.cpp.o -c /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/px4ctrl_node.cpp
 
 CMakeFiles/px4ctrl_node.dir/src/px4ctrl_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/px4ctrl_node.dir/src/px4ctrl_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/px4ctrl_node.cpp > CMakeFiles/px4ctrl_node.dir/src/px4ctrl_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/px4ctrl_node.cpp > CMakeFiles/px4ctrl_node.dir/src/px4ctrl_node.cpp.i
 
 CMakeFiles/px4ctrl_node.dir/src/px4ctrl_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/px4ctrl_node.dir/src/px4ctrl_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/px4ctrl_node.cpp -o CMakeFiles/px4ctrl_node.dir/src/px4ctrl_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/px4ctrl_node.cpp -o CMakeFiles/px4ctrl_node.dir/src/px4ctrl_node.cpp.s
 
 CMakeFiles/px4ctrl_node.dir/src/PX4CtrlFSM.cpp.o: CMakeFiles/px4ctrl_node.dir/flags.make
-CMakeFiles/px4ctrl_node.dir/src/PX4CtrlFSM.cpp.o: /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/PX4CtrlFSM.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hldrz/IntelligentUAVChampionship/basic_dev/build/px4ctrl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/px4ctrl_node.dir/src/PX4CtrlFSM.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/px4ctrl_node.dir/src/PX4CtrlFSM.cpp.o -c /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/PX4CtrlFSM.cpp
+CMakeFiles/px4ctrl_node.dir/src/PX4CtrlFSM.cpp.o: /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/PX4CtrlFSM.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dawn/great-DJI-competition/basic_dev/build/px4ctrl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/px4ctrl_node.dir/src/PX4CtrlFSM.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/px4ctrl_node.dir/src/PX4CtrlFSM.cpp.o -c /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/PX4CtrlFSM.cpp
 
 CMakeFiles/px4ctrl_node.dir/src/PX4CtrlFSM.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/px4ctrl_node.dir/src/PX4CtrlFSM.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/PX4CtrlFSM.cpp > CMakeFiles/px4ctrl_node.dir/src/PX4CtrlFSM.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/PX4CtrlFSM.cpp > CMakeFiles/px4ctrl_node.dir/src/PX4CtrlFSM.cpp.i
 
 CMakeFiles/px4ctrl_node.dir/src/PX4CtrlFSM.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/px4ctrl_node.dir/src/PX4CtrlFSM.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/PX4CtrlFSM.cpp -o CMakeFiles/px4ctrl_node.dir/src/PX4CtrlFSM.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/PX4CtrlFSM.cpp -o CMakeFiles/px4ctrl_node.dir/src/PX4CtrlFSM.cpp.s
 
 CMakeFiles/px4ctrl_node.dir/src/PX4CtrlParam.cpp.o: CMakeFiles/px4ctrl_node.dir/flags.make
-CMakeFiles/px4ctrl_node.dir/src/PX4CtrlParam.cpp.o: /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/PX4CtrlParam.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hldrz/IntelligentUAVChampionship/basic_dev/build/px4ctrl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/px4ctrl_node.dir/src/PX4CtrlParam.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/px4ctrl_node.dir/src/PX4CtrlParam.cpp.o -c /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/PX4CtrlParam.cpp
+CMakeFiles/px4ctrl_node.dir/src/PX4CtrlParam.cpp.o: /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/PX4CtrlParam.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dawn/great-DJI-competition/basic_dev/build/px4ctrl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/px4ctrl_node.dir/src/PX4CtrlParam.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/px4ctrl_node.dir/src/PX4CtrlParam.cpp.o -c /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/PX4CtrlParam.cpp
 
 CMakeFiles/px4ctrl_node.dir/src/PX4CtrlParam.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/px4ctrl_node.dir/src/PX4CtrlParam.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/PX4CtrlParam.cpp > CMakeFiles/px4ctrl_node.dir/src/PX4CtrlParam.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/PX4CtrlParam.cpp > CMakeFiles/px4ctrl_node.dir/src/PX4CtrlParam.cpp.i
 
 CMakeFiles/px4ctrl_node.dir/src/PX4CtrlParam.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/px4ctrl_node.dir/src/PX4CtrlParam.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/PX4CtrlParam.cpp -o CMakeFiles/px4ctrl_node.dir/src/PX4CtrlParam.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/PX4CtrlParam.cpp -o CMakeFiles/px4ctrl_node.dir/src/PX4CtrlParam.cpp.s
 
 CMakeFiles/px4ctrl_node.dir/src/controller.cpp.o: CMakeFiles/px4ctrl_node.dir/flags.make
-CMakeFiles/px4ctrl_node.dir/src/controller.cpp.o: /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hldrz/IntelligentUAVChampionship/basic_dev/build/px4ctrl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/px4ctrl_node.dir/src/controller.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/px4ctrl_node.dir/src/controller.cpp.o -c /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/controller.cpp
+CMakeFiles/px4ctrl_node.dir/src/controller.cpp.o: /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dawn/great-DJI-competition/basic_dev/build/px4ctrl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/px4ctrl_node.dir/src/controller.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/px4ctrl_node.dir/src/controller.cpp.o -c /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/controller.cpp
 
 CMakeFiles/px4ctrl_node.dir/src/controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/px4ctrl_node.dir/src/controller.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/controller.cpp > CMakeFiles/px4ctrl_node.dir/src/controller.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/controller.cpp > CMakeFiles/px4ctrl_node.dir/src/controller.cpp.i
 
 CMakeFiles/px4ctrl_node.dir/src/controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/px4ctrl_node.dir/src/controller.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/controller.cpp -o CMakeFiles/px4ctrl_node.dir/src/controller.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/controller.cpp -o CMakeFiles/px4ctrl_node.dir/src/controller.cpp.s
 
 CMakeFiles/px4ctrl_node.dir/src/hovthrkf.cpp.o: CMakeFiles/px4ctrl_node.dir/flags.make
-CMakeFiles/px4ctrl_node.dir/src/hovthrkf.cpp.o: /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/hovthrkf.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hldrz/IntelligentUAVChampionship/basic_dev/build/px4ctrl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/px4ctrl_node.dir/src/hovthrkf.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/px4ctrl_node.dir/src/hovthrkf.cpp.o -c /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/hovthrkf.cpp
+CMakeFiles/px4ctrl_node.dir/src/hovthrkf.cpp.o: /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/hovthrkf.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dawn/great-DJI-competition/basic_dev/build/px4ctrl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/px4ctrl_node.dir/src/hovthrkf.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/px4ctrl_node.dir/src/hovthrkf.cpp.o -c /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/hovthrkf.cpp
 
 CMakeFiles/px4ctrl_node.dir/src/hovthrkf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/px4ctrl_node.dir/src/hovthrkf.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/hovthrkf.cpp > CMakeFiles/px4ctrl_node.dir/src/hovthrkf.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/hovthrkf.cpp > CMakeFiles/px4ctrl_node.dir/src/hovthrkf.cpp.i
 
 CMakeFiles/px4ctrl_node.dir/src/hovthrkf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/px4ctrl_node.dir/src/hovthrkf.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/hovthrkf.cpp -o CMakeFiles/px4ctrl_node.dir/src/hovthrkf.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/hovthrkf.cpp -o CMakeFiles/px4ctrl_node.dir/src/hovthrkf.cpp.s
 
 CMakeFiles/px4ctrl_node.dir/src/input.cpp.o: CMakeFiles/px4ctrl_node.dir/flags.make
-CMakeFiles/px4ctrl_node.dir/src/input.cpp.o: /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/input.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hldrz/IntelligentUAVChampionship/basic_dev/build/px4ctrl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/px4ctrl_node.dir/src/input.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/px4ctrl_node.dir/src/input.cpp.o -c /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/input.cpp
+CMakeFiles/px4ctrl_node.dir/src/input.cpp.o: /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/input.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dawn/great-DJI-competition/basic_dev/build/px4ctrl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/px4ctrl_node.dir/src/input.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/px4ctrl_node.dir/src/input.cpp.o -c /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/input.cpp
 
 CMakeFiles/px4ctrl_node.dir/src/input.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/px4ctrl_node.dir/src/input.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/input.cpp > CMakeFiles/px4ctrl_node.dir/src/input.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/input.cpp > CMakeFiles/px4ctrl_node.dir/src/input.cpp.i
 
 CMakeFiles/px4ctrl_node.dir/src/input.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/px4ctrl_node.dir/src/input.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/input.cpp -o CMakeFiles/px4ctrl_node.dir/src/input.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/src/input.cpp -o CMakeFiles/px4ctrl_node.dir/src/input.cpp.s
 
 # Object files for target px4ctrl_node
 px4ctrl_node_OBJECTS = \
@@ -147,56 +147,56 @@ px4ctrl_node_OBJECTS = \
 # External object files for target px4ctrl_node
 px4ctrl_node_EXTERNAL_OBJECTS =
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: CMakeFiles/px4ctrl_node.dir/src/px4ctrl_node.cpp.o
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: CMakeFiles/px4ctrl_node.dir/src/PX4CtrlFSM.cpp.o
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: CMakeFiles/px4ctrl_node.dir/src/PX4CtrlParam.cpp.o
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: CMakeFiles/px4ctrl_node.dir/src/controller.cpp.o
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: CMakeFiles/px4ctrl_node.dir/src/hovthrkf.cpp.o
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: CMakeFiles/px4ctrl_node.dir/src/input.cpp.o
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: CMakeFiles/px4ctrl_node.dir/build.make
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/lib/libencode_msgs.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/lib/libdecode_msgs.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/libmavros.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /usr/lib/x86_64-linux-gnu/libGeographic.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/libdiagnostic_updater.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/libeigen_conversions.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /usr/lib/liborocos-kdl.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/libmavconn.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/libclass_loader.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/libroslib.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/librospack.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /usr/lib/x86_64-linux-gnu/libpython3.8.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/libtf2_ros.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/libactionlib.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/libmessage_filters.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/libtf2.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/libroscpp.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/librosconsole.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/librostime.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/libcpp_common.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: CMakeFiles/px4ctrl_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hldrz/IntelligentUAVChampionship/basic_dev/build/px4ctrl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node"
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: CMakeFiles/px4ctrl_node.dir/src/px4ctrl_node.cpp.o
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: CMakeFiles/px4ctrl_node.dir/src/PX4CtrlFSM.cpp.o
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: CMakeFiles/px4ctrl_node.dir/src/PX4CtrlParam.cpp.o
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: CMakeFiles/px4ctrl_node.dir/src/controller.cpp.o
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: CMakeFiles/px4ctrl_node.dir/src/hovthrkf.cpp.o
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: CMakeFiles/px4ctrl_node.dir/src/input.cpp.o
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: CMakeFiles/px4ctrl_node.dir/build.make
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /home/dawn/great-DJI-competition/basic_dev/devel/.private/quadrotor_msgs/lib/libencode_msgs.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /home/dawn/great-DJI-competition/basic_dev/devel/.private/quadrotor_msgs/lib/libdecode_msgs.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/libmavros.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /usr/lib/x86_64-linux-gnu/libGeographic.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/libdiagnostic_updater.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/libeigen_conversions.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /usr/lib/liborocos-kdl.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/libmavconn.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/libclass_loader.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/libroslib.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/librospack.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/libtf2_ros.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/libactionlib.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/libmessage_filters.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/libtf2.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/libroscpp.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/librosconsole.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/librostime.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /opt/ros/noetic/lib/libcpp_common.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node: CMakeFiles/px4ctrl_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dawn/great-DJI-competition/basic_dev/build/px4ctrl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable /home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/px4ctrl_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/px4ctrl_node.dir/build: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node
+CMakeFiles/px4ctrl_node.dir/build: /home/dawn/great-DJI-competition/basic_dev/devel/.private/px4ctrl/lib/px4ctrl/px4ctrl_node
 
 .PHONY : CMakeFiles/px4ctrl_node.dir/build
 
@@ -205,6 +205,6 @@ CMakeFiles/px4ctrl_node.dir/clean:
 .PHONY : CMakeFiles/px4ctrl_node.dir/clean
 
 CMakeFiles/px4ctrl_node.dir/depend:
-	cd /home/hldrz/IntelligentUAVChampionship/basic_dev/build/px4ctrl && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl /home/hldrz/IntelligentUAVChampionship/basic_dev/build/px4ctrl /home/hldrz/IntelligentUAVChampionship/basic_dev/build/px4ctrl /home/hldrz/IntelligentUAVChampionship/basic_dev/build/px4ctrl/CMakeFiles/px4ctrl_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dawn/great-DJI-competition/basic_dev/build/px4ctrl && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl /home/dawn/great-DJI-competition/basic_dev/build/px4ctrl /home/dawn/great-DJI-competition/basic_dev/build/px4ctrl /home/dawn/great-DJI-competition/basic_dev/build/px4ctrl/CMakeFiles/px4ctrl_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/px4ctrl_node.dir/depend
 

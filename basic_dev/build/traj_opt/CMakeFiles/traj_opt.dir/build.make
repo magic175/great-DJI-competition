@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/traj_opt
+CMAKE_SOURCE_DIR = /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/traj_opt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/traj_opt
+CMAKE_BINARY_DIR = /home/dawn/great-DJI-competition/basic_dev/build/traj_opt
 
 # Include any dependencies generated for this target.
 include CMakeFiles/traj_opt.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/traj_opt.dir/progress.make
 include CMakeFiles/traj_opt.dir/flags.make
 
 CMakeFiles/traj_opt.dir/src/poly_traj_optimizer.cpp.o: CMakeFiles/traj_opt.dir/flags.make
-CMakeFiles/traj_opt.dir/src/poly_traj_optimizer.cpp.o: /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/traj_opt/src/poly_traj_optimizer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hldrz/IntelligentUAVChampionship/basic_dev/build/traj_opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/traj_opt.dir/src/poly_traj_optimizer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/traj_opt.dir/src/poly_traj_optimizer.cpp.o -c /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/traj_opt/src/poly_traj_optimizer.cpp
+CMakeFiles/traj_opt.dir/src/poly_traj_optimizer.cpp.o: /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/traj_opt/src/poly_traj_optimizer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dawn/great-DJI-competition/basic_dev/build/traj_opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/traj_opt.dir/src/poly_traj_optimizer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/traj_opt.dir/src/poly_traj_optimizer.cpp.o -c /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/traj_opt/src/poly_traj_optimizer.cpp
 
 CMakeFiles/traj_opt.dir/src/poly_traj_optimizer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/traj_opt.dir/src/poly_traj_optimizer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/traj_opt/src/poly_traj_optimizer.cpp > CMakeFiles/traj_opt.dir/src/poly_traj_optimizer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/traj_opt/src/poly_traj_optimizer.cpp > CMakeFiles/traj_opt.dir/src/poly_traj_optimizer.cpp.i
 
 CMakeFiles/traj_opt.dir/src/poly_traj_optimizer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/traj_opt.dir/src/poly_traj_optimizer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/traj_opt/src/poly_traj_optimizer.cpp -o CMakeFiles/traj_opt.dir/src/poly_traj_optimizer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/traj_opt/src/poly_traj_optimizer.cpp -o CMakeFiles/traj_opt.dir/src/poly_traj_optimizer.cpp.s
 
 # Object files for target traj_opt
 traj_opt_OBJECTS = \
@@ -77,83 +77,83 @@ traj_opt_OBJECTS = \
 # External object files for target traj_opt
 traj_opt_EXTERNAL_OBJECTS =
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: CMakeFiles/traj_opt.dir/src/poly_traj_optimizer.cpp.o
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: CMakeFiles/traj_opt.dir/build.make
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /opt/ros/noetic/lib/libcv_bridge.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_video.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn_objdetect.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn_superres.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_face.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_hfs.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_img_hash.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_quality.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_text.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_tracking.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.2.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_utils/lib/libtraj_utils.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_searching/lib/libpath_searching.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/plan_env/lib/libplan_env.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /opt/ros/noetic/lib/libroscpp.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /opt/ros/noetic/lib/librosconsole.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /opt/ros/noetic/lib/librostime.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /opt/ros/noetic/lib/libcpp_common.so
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: CMakeFiles/traj_opt.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hldrz/IntelligentUAVChampionship/basic_dev/build/traj_opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so"
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: CMakeFiles/traj_opt.dir/src/poly_traj_optimizer.cpp.o
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: CMakeFiles/traj_opt.dir/build.make
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /opt/ros/noetic/lib/libcv_bridge.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_video.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn_objdetect.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn_superres.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_face.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_hfs.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_img_hash.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_quality.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_text.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_tracking.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.2.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_utils/lib/libtraj_utils.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /home/dawn/great-DJI-competition/basic_dev/devel/.private/path_searching/lib/libpath_searching.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /home/dawn/great-DJI-competition/basic_dev/devel/.private/plan_env/lib/libplan_env.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /opt/ros/noetic/lib/libroscpp.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /opt/ros/noetic/lib/librosconsole.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /opt/ros/noetic/lib/librostime.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /opt/ros/noetic/lib/libcpp_common.so
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so: CMakeFiles/traj_opt.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dawn/great-DJI-competition/basic_dev/build/traj_opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/traj_opt.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/traj_opt.dir/build: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so
+CMakeFiles/traj_opt.dir/build: /home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_opt/lib/libtraj_opt.so
 
 .PHONY : CMakeFiles/traj_opt.dir/build
 
@@ -162,6 +162,6 @@ CMakeFiles/traj_opt.dir/clean:
 .PHONY : CMakeFiles/traj_opt.dir/clean
 
 CMakeFiles/traj_opt.dir/depend:
-	cd /home/hldrz/IntelligentUAVChampionship/basic_dev/build/traj_opt && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/traj_opt /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/traj_opt /home/hldrz/IntelligentUAVChampionship/basic_dev/build/traj_opt /home/hldrz/IntelligentUAVChampionship/basic_dev/build/traj_opt /home/hldrz/IntelligentUAVChampionship/basic_dev/build/traj_opt/CMakeFiles/traj_opt.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dawn/great-DJI-competition/basic_dev/build/traj_opt && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/traj_opt /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/traj_opt /home/dawn/great-DJI-competition/basic_dev/build/traj_opt /home/dawn/great-DJI-competition/basic_dev/build/traj_opt /home/dawn/great-DJI-competition/basic_dev/build/traj_opt/CMakeFiles/traj_opt.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/traj_opt.dir/depend
 

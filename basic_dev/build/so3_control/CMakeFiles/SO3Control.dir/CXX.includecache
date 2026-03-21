@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/uav_simulator/so3_control/include/so3_control/SO3Control.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/uav_simulator/so3_control/include/so3_control/SO3Control.h
 Eigen/Geometry
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/uav_simulator/so3_control/src/SO3Control.cpp
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/uav_simulator/so3_control/src/SO3Control.cpp
 iostream
 -
 so3_control/SO3Control.h

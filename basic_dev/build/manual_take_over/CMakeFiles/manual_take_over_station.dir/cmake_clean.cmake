@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over_station"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over_station.pdb"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over_station"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over_station.pdb"
   "CMakeFiles/manual_take_over_station.dir/src/ground_station.cpp.o"
 )
 

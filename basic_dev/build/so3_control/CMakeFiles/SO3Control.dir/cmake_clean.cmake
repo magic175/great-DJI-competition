@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/so3_control/lib/libSO3Control.pdb"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/so3_control/lib/libSO3Control.so"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/so3_control/lib/libSO3Control.pdb"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/so3_control/lib/libSO3Control.so"
   "CMakeFiles/SO3Control.dir/src/SO3Control.cpp.o"
 )
 

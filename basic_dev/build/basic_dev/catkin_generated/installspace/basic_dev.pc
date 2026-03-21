@@ -1,4 +1,4 @@
-prefix=/home/hldrz/IntelligentUAVChampionship/basic_dev/install
+prefix=/home/dawn/great-DJI-competition/basic_dev/install
 
 Name: basic_dev
 Description: Description of basic_dev

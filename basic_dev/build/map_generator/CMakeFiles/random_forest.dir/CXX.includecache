@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/uav_simulator/map_generator/src/random_forest_sensing.cpp
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/uav_simulator/map_generator/src/random_forest_sensing.cpp
 pcl/point_cloud.h
 -
 pcl/point_types.h

@@ -1,6 +1,6 @@
-devel_space: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel
+devel_space: /home/dawn/great-DJI-competition/basic_dev/devel
 install: false
-install_space: /home/hldrz/IntelligentUAVChampionship/basic_dev/install
+install_space: /home/dawn/great-DJI-competition/basic_dev/install
 profile: default
-source_space: /home/hldrz/IntelligentUAVChampionship/basic_dev/src
-workspace: /home/hldrz/IntelligentUAVChampionship/basic_dev
+source_space: /home/dawn/great-DJI-competition/basic_dev/src
+workspace: /home/dawn/great-DJI-competition/basic_dev

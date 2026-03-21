@@ -1,4 +1,16 @@
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/pkgconfig/assign_goals.pc
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/assign_goals/assign_goals_node
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/assign_goals/cmake/assign_goalsConfig-version.cmake
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/assign_goals/cmake/assign_goalsConfig.cmake
+Symlinking /home/dawn/great-DJI-competition/basic_dev/devel/share/assign_goals/cmake/assign_goalsConfig-version.cmake
+Symlinking /home/dawn/great-DJI-competition/basic_dev/devel/share/assign_goals/cmake/assign_goalsConfig.cmake
+Symlinking /home/dawn/great-DJI-competition/basic_dev/devel/lib/pkgconfig/assign_goals.pc
+Symlinking /home/dawn/great-DJI-competition/basic_dev/devel/lib/assign_goals/assign_goals_node
+Cleaning: (/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/assign_goals/lib/pkgconfig/assign_goals.pc, /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/pkgconfig/assign_goals.pc)
+Cleaning: (/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/assign_goals/lib/assign_goals/assign_goals_node, /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/assign_goals/assign_goals_node)
+Cleaning: (/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/assign_goals/share/assign_goals/cmake/assign_goalsConfig-version.cmake, /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/assign_goals/cmake/assign_goalsConfig-version.cmake)
+Cleaning: (/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/assign_goals/share/assign_goals/cmake/assign_goalsConfig.cmake, /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/assign_goals/cmake/assign_goalsConfig.cmake)
+Unlinking: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/pkgconfig/assign_goals.pc
+Already unlinked: {}
+Unlinking: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/assign_goals/assign_goals_node
+Already unlinked: {}
+Unlinking: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/assign_goals/cmake/assign_goalsConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/assign_goals/cmake/assign_goalsConfig.cmake
+Already unlinked: {}

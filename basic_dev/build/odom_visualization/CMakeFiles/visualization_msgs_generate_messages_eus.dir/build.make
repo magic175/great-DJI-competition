@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/odom_visualization
+CMAKE_SOURCE_DIR = /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/odom_visualization
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/odom_visualization
+CMAKE_BINARY_DIR = /home/dawn/great-DJI-competition/basic_dev/build/odom_visualization
 
 # Utility rule file for visualization_msgs_generate_messages_eus.
 
@@ -67,6 +67,6 @@ CMakeFiles/visualization_msgs_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/visualization_msgs_generate_messages_eus.dir/clean
 
 CMakeFiles/visualization_msgs_generate_messages_eus.dir/depend:
-	cd /home/hldrz/IntelligentUAVChampionship/basic_dev/build/odom_visualization && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/odom_visualization /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/odom_visualization /home/hldrz/IntelligentUAVChampionship/basic_dev/build/odom_visualization /home/hldrz/IntelligentUAVChampionship/basic_dev/build/odom_visualization /home/hldrz/IntelligentUAVChampionship/basic_dev/build/odom_visualization/CMakeFiles/visualization_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dawn/great-DJI-competition/basic_dev/build/odom_visualization && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/odom_visualization /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/odom_visualization /home/dawn/great-DJI-competition/basic_dev/build/odom_visualization /home/dawn/great-DJI-competition/basic_dev/build/odom_visualization /home/dawn/great-DJI-competition/basic_dev/build/odom_visualization/CMakeFiles/visualization_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/visualization_msgs_generate_messages_eus.dir/depend
 

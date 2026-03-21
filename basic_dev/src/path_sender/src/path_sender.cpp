@@ -1,6 +1,7 @@
 #ifndef _PATH_SENDER_CPP_
 #define _PATH_SENDER_CPP_
 
+#include <ros/package.h>
 #include <yaml-cpp/yaml.h>
 #include "path_sender.hpp"
 #include <filesystem>
@@ -76,12 +77,14 @@ PathSender::PathSender(ros::NodeHandle *nh)
 {  
 
     POintSet();
-    paths=loadPathsFromYAML(std::string("/home/hldrz/IntelligentUAVChampionship/basic_dev/src/path_sender/config/paths.yaml"));
+    //paths=loadPathsFromYAML(std::string("/home/dawn/IntelligentUAVChampionship/basic_dev/src/path_sender/config/paths.yaml"));
+    std::string path = ros::package::getPath("path_sender") + "/config/paths.yaml";
+    paths = loadPathsFromYAML(path);
     //无人机信息通过如下命令订阅，当收到消息时自动回调对应的函数
     initial_pose_suber = nh->subscribe<geometry_msgs::PoseStamped>("/airsim_node/initial_pose", 1, std::bind(&PathSender::initial_pose_cb, this, std::placeholders::_1));//状态真值，用于赛道一
     end_pose_suber = nh->subscribe<geometry_msgs::PoseStamped>("/airsim_node/end_goal", 1, std::bind(&PathSender::end_pose_cb, this, std::placeholders::_1));//状态真值，用于赛道一
     gps_pose_suber = nh->subscribe<geometry_msgs::PoseStamped>("/airsim_node/drone_1/gps", 1, std::bind(&PathSender::gps_pose_cb, this, std::placeholders::_1));
-     timer = nh->createTimer(ros::Duration(1.0),&PathSender::timeCB,this);
+    timer = nh->createTimer(ros::Duration(1.0),&PathSender::timeCB,this);
 
     waypoint_publisher = nh->advertise<path_sender::WayPoints>("/waypoints", 1);
     edited_gps_publisher = nh->advertise<geometry_msgs::PoseWithCovarianceStamped>("/airsim_node/drone_1/edited_gps", 1);
@@ -100,11 +103,10 @@ void PathSender::initial_pose_cb(const geometry_msgs::PoseStamped::ConstPtr& msg
   if(!initial_num_get)
   for(int i=1;i<=12;i++)
   {
-    if(PathSender::dist3D(msg->pose.position , station[i]) <5.0)
+    if(abs(msg->pose.position.x - station[i].x) <5)
     {
       initial_num = i;
       initial_num_get = true;
-      ROS_WARN("initial_num_get = true;");
       break;
     }
   }    
@@ -117,26 +119,18 @@ void PathSender::end_pose_cb(const geometry_msgs::PoseStamped::ConstPtr& msg)
   if(!end_num_get)
   for(int i=1;i<=12;i++)
   {
-    if(PathSender::dist3D(msg->pose.position , station[i]) <10.0 )
+    if(abs(msg->pose.position.x -station[i].x) <5)
     {
       end_num = i;
       end_num_get = true;
-      ROS_WARN("end_num_get = true;");
       break;
     }
   }
 
 }
 
-// void PathSender::end_state_cb(const geometry_msgs::PoseStamped::ConstPtr& msg)
-// {
- 
-// }
-
 void PathSender::gps_pose_cb(const geometry_msgs::PoseStamped::ConstPtr& msg)
 {
-    current_pos_ = msg->pose.position;
-
     geometry_msgs::PoseWithCovarianceStamped edited_gps;
     edited_gps.header.stamp = ros::Time::now();
     edited_gps.header.frame_id = "map";
@@ -194,27 +188,29 @@ void PathSender::timeCB(const ros::TimerEvent& event)
     {
       if(initial_num_get && end_num_get)
       {
-          path= paths[initial_num-1];//将起点到第一个转运站的路径加入
+          path = paths[initial_num-1];//将起点到第一个转运站的路径加入
           path.emplace_back(Transit_hub[initial_num]);//中枢入口
           path.emplace_back(Transit_hub[end_num]);//中枢出口
           std::vector<geometry_msgs::Point> temp_path=paths[end_num-1];
           std::reverse(temp_path.begin(),temp_path.end());//将终点到第转运站的路径倒序
           path.insert(path.end(),temp_path.begin(), temp_path.end());//将转运站到终点的路径加入
           path.emplace_back(end_point[end_num]);//终点后面一点
-        //   geometry_msgs::Point temp_point;
-        //   temp_point.x=end_point[end_num].x;
-        //   temp_point.y=end_point[end_num].y;
-        //   temp_point.z=end_point[end_num].z;//+150
-        //   path.emplace_back(temp_point);//终点后面一点向上150m
-        //   temp_point.x=end_point[initial_num].x;
-        //   temp_point.y=end_point[initial_num].y;
-        //   temp_point.z=end_point[initial_num].z+150;
-        //   path.emplace_back(temp_point);//起点后面一点向上150m
-        //   path.emplace_back(end_point[initial_num]);//起点后面一点
-        //   path.emplace_back(station[initial_num]);//起点后面一点
+          geometry_msgs::Point temp_point;
+          temp_point.x=end_point[end_num].x;
+          temp_point.y=end_point[end_num].y;
+          temp_point.z=end_point[end_num].z+150;
+          path.emplace_back(temp_point);//终点后面一点向上150m
+          temp_point.x=end_point[initial_num].x;
+          temp_point.y=end_point[initial_num].y;
+          temp_point.z=end_point[initial_num].z+150;
+          path.emplace_back(temp_point);//起点后面一点向上150m
+          path.emplace_back(end_point[initial_num]);//起点后面一点
+          path.emplace_back(station[initial_num]);//起点后面一点
           std::cout<<"path_get"<<std::endl;
 
           path_get=true;
+
+          
       }
     }
     else
@@ -222,30 +218,12 @@ void PathSender::timeCB(const ros::TimerEvent& event)
       path_sender::WayPoints path;
       path.points = this->path;
       waypoint_publisher.publish(path);
+      
 
-      if(PathSender::dist3D(current_pos_ , end_point[end_num]) < 5.0)
-        {
-           initial_num_get = false;
-           end_num_get = false;
-           path_get = false;
-        }
-    }  
-    static int cnt = 0;
-    if(cnt++ % 5 == 0) {
-            ROS_ERROR("DEBUG: path_get=%d, initial_num=%d,end_num=%d", 
-                    path_get,initial_num,end_num);
-            ROS_ERROR("DEBUG: current_pos=[%.1f,%.1f,%.1f],initial_num_get=%d,end_num_get=%d", 
-                    current_pos_.x, current_pos_.y, current_pos_.z,initial_num_get,end_num_get);
-    }        
+    }
+
 }
 
-double PathSender::dist3D(const geometry_msgs::Point& a,const geometry_msgs::Point& b)
-{
-    double dx = a.x - b.x;
-    double dy = a.y - b.y;
-    double dz = a.z - b.z;
-    return std::sqrt(dx*dx + dy*dy + dz*dz);
-}
 
 
 

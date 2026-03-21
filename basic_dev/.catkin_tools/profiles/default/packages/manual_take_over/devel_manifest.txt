@@ -1,6 +1,6 @@
 EGO-Planner/src/Utils/manual_take_over
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/manual_take_over/lib/pkgconfig/manual_take_over.pc /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/pkgconfig/manual_take_over.pc
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over_station /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/manual_take_over/manual_take_over_station
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/manual_take_over/manual_take_over
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/manual_take_over/share/manual_take_over/cmake/manual_take_overConfig.cmake /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/manual_take_over/cmake/manual_take_overConfig.cmake
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/manual_take_over/share/manual_take_over/cmake/manual_take_overConfig-version.cmake /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/manual_take_over/cmake/manual_take_overConfig-version.cmake
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over/share/manual_take_over/cmake/manual_take_overConfig.cmake /home/dawn/great-DJI-competition/basic_dev/devel/share/manual_take_over/cmake/manual_take_overConfig.cmake
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over/share/manual_take_over/cmake/manual_take_overConfig-version.cmake /home/dawn/great-DJI-competition/basic_dev/devel/share/manual_take_over/cmake/manual_take_overConfig-version.cmake
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over/lib/pkgconfig/manual_take_over.pc /home/dawn/great-DJI-competition/basic_dev/devel/lib/pkgconfig/manual_take_over.pc
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over /home/dawn/great-DJI-competition/basic_dev/devel/lib/manual_take_over/manual_take_over
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over_station /home/dawn/great-DJI-competition/basic_dev/devel/lib/manual_take_over/manual_take_over_station

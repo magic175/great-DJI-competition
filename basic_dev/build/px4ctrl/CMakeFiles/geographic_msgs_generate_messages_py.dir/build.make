@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl
+CMAKE_SOURCE_DIR = /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/px4ctrl
+CMAKE_BINARY_DIR = /home/dawn/great-DJI-competition/basic_dev/build/px4ctrl
 
 # Utility rule file for geographic_msgs_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/geographic_msgs_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/geographic_msgs_generate_messages_py.dir/clean
 
 CMakeFiles/geographic_msgs_generate_messages_py.dir/depend:
-	cd /home/hldrz/IntelligentUAVChampionship/basic_dev/build/px4ctrl && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl /home/hldrz/IntelligentUAVChampionship/basic_dev/build/px4ctrl /home/hldrz/IntelligentUAVChampionship/basic_dev/build/px4ctrl /home/hldrz/IntelligentUAVChampionship/basic_dev/build/px4ctrl/CMakeFiles/geographic_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dawn/great-DJI-competition/basic_dev/build/px4ctrl && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl /home/dawn/great-DJI-competition/basic_dev/build/px4ctrl /home/dawn/great-DJI-competition/basic_dev/build/px4ctrl /home/dawn/great-DJI-competition/basic_dev/build/px4ctrl/CMakeFiles/geographic_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/geographic_msgs_generate_messages_py.dir/depend
 

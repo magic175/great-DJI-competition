@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/pose_utils/lib/libpose_utils.pdb"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/pose_utils/lib/libpose_utils.so"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/pose_utils/lib/libpose_utils.pdb"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/pose_utils/lib/libpose_utils.so"
   "CMakeFiles/pose_utils.dir/src/pose_utils.cpp.o"
 )
 

@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/drone_detect/src/drone_detect_node.cpp" "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/drone_detect/CMakeFiles/drone_detect.dir/src/drone_detect_node.cpp.o"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/drone_detect/src/drone_detector.cpp" "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/drone_detect/CMakeFiles/drone_detect.dir/src/drone_detector.cpp.o"
+  "/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/drone_detect/src/drone_detect_node.cpp" "/home/dawn/great-DJI-competition/basic_dev/build/drone_detect/CMakeFiles/drone_detect.dir/src/drone_detect_node.cpp.o"
+  "/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/drone_detect/src/drone_detector.cpp" "/home/dawn/great-DJI-competition/basic_dev/build/drone_detect/CMakeFiles/drone_detect.dir/src/drone_detector.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,11 +18,12 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/drone_detect/include"
+  "/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/drone_detect/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
-  "/usr/include/eigen3"
   "/usr/include/opencv4"
+  "/usr/include/eigen3"
+  "/usr/local/include/opencv4"
   )
 
 # Targets to which this target links.

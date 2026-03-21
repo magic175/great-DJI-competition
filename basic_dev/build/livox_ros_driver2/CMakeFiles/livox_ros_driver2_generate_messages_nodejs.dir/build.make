@@ -43,35 +43,35 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2
+CMAKE_SOURCE_DIR = /home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2
+CMAKE_BINARY_DIR = /home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2
 
 # Utility rule file for livox_ros_driver2_generate_messages_nodejs.
 
 # Include the progress variables for this target.
 include CMakeFiles/livox_ros_driver2_generate_messages_nodejs.dir/progress.make
 
-CMakeFiles/livox_ros_driver2_generate_messages_nodejs: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/livox_ros_driver2/share/gennodejs/ros/livox_ros_driver2/msg/CustomPoint.js
-CMakeFiles/livox_ros_driver2_generate_messages_nodejs: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/livox_ros_driver2/share/gennodejs/ros/livox_ros_driver2/msg/CustomMsg.js
+CMakeFiles/livox_ros_driver2_generate_messages_nodejs: /home/dawn/great-DJI-competition/basic_dev/devel/.private/livox_ros_driver2/share/gennodejs/ros/livox_ros_driver2/msg/CustomPoint.js
+CMakeFiles/livox_ros_driver2_generate_messages_nodejs: /home/dawn/great-DJI-competition/basic_dev/devel/.private/livox_ros_driver2/share/gennodejs/ros/livox_ros_driver2/msg/CustomMsg.js
 
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/livox_ros_driver2/share/gennodejs/ros/livox_ros_driver2/msg/CustomPoint.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/livox_ros_driver2/share/gennodejs/ros/livox_ros_driver2/msg/CustomPoint.js: /home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from livox_ros_driver2/CustomPoint.msg"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg -Ilivox_ros_driver2:/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p livox_ros_driver2 -o /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/livox_ros_driver2/share/gennodejs/ros/livox_ros_driver2/msg
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/livox_ros_driver2/share/gennodejs/ros/livox_ros_driver2/msg/CustomPoint.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/livox_ros_driver2/share/gennodejs/ros/livox_ros_driver2/msg/CustomPoint.js: /home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from livox_ros_driver2/CustomPoint.msg"
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg -Ilivox_ros_driver2:/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p livox_ros_driver2 -o /home/dawn/great-DJI-competition/basic_dev/devel/.private/livox_ros_driver2/share/gennodejs/ros/livox_ros_driver2/msg
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/livox_ros_driver2/share/gennodejs/ros/livox_ros_driver2/msg/CustomMsg.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/livox_ros_driver2/share/gennodejs/ros/livox_ros_driver2/msg/CustomMsg.js: /home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg/CustomMsg.msg
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/livox_ros_driver2/share/gennodejs/ros/livox_ros_driver2/msg/CustomMsg.js: /home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/livox_ros_driver2/share/gennodejs/ros/livox_ros_driver2/msg/CustomMsg.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from livox_ros_driver2/CustomMsg.msg"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg/CustomMsg.msg -Ilivox_ros_driver2:/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p livox_ros_driver2 -o /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/livox_ros_driver2/share/gennodejs/ros/livox_ros_driver2/msg
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/livox_ros_driver2/share/gennodejs/ros/livox_ros_driver2/msg/CustomMsg.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/livox_ros_driver2/share/gennodejs/ros/livox_ros_driver2/msg/CustomMsg.js: /home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg/CustomMsg.msg
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/livox_ros_driver2/share/gennodejs/ros/livox_ros_driver2/msg/CustomMsg.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/livox_ros_driver2/share/gennodejs/ros/livox_ros_driver2/msg/CustomMsg.js: /home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from livox_ros_driver2/CustomMsg.msg"
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg/CustomMsg.msg -Ilivox_ros_driver2:/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p livox_ros_driver2 -o /home/dawn/great-DJI-competition/basic_dev/devel/.private/livox_ros_driver2/share/gennodejs/ros/livox_ros_driver2/msg
 
 livox_ros_driver2_generate_messages_nodejs: CMakeFiles/livox_ros_driver2_generate_messages_nodejs
-livox_ros_driver2_generate_messages_nodejs: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/livox_ros_driver2/share/gennodejs/ros/livox_ros_driver2/msg/CustomPoint.js
-livox_ros_driver2_generate_messages_nodejs: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/livox_ros_driver2/share/gennodejs/ros/livox_ros_driver2/msg/CustomMsg.js
+livox_ros_driver2_generate_messages_nodejs: /home/dawn/great-DJI-competition/basic_dev/devel/.private/livox_ros_driver2/share/gennodejs/ros/livox_ros_driver2/msg/CustomPoint.js
+livox_ros_driver2_generate_messages_nodejs: /home/dawn/great-DJI-competition/basic_dev/devel/.private/livox_ros_driver2/share/gennodejs/ros/livox_ros_driver2/msg/CustomMsg.js
 livox_ros_driver2_generate_messages_nodejs: CMakeFiles/livox_ros_driver2_generate_messages_nodejs.dir/build.make
 
 .PHONY : livox_ros_driver2_generate_messages_nodejs
@@ -86,6 +86,6 @@ CMakeFiles/livox_ros_driver2_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/livox_ros_driver2_generate_messages_nodejs.dir/clean
 
 CMakeFiles/livox_ros_driver2_generate_messages_nodejs.dir/depend:
-	cd /home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2 /home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2 /home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2 /home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2 /home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2/CMakeFiles/livox_ros_driver2_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2 /home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2 /home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2 /home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2 /home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2/CMakeFiles/livox_ros_driver2_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/livox_ros_driver2_generate_messages_nodejs.dir/depend
 

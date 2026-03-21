@@ -1,1 +1,1 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/share/gennodejs/ros/quadrotor_msgs/msg/_index.js
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/quadrotor_msgs/share/gennodejs/ros/quadrotor_msgs/msg/_index.js

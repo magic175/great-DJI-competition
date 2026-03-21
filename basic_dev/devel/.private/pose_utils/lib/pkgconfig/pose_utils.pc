@@ -1,8 +1,8 @@
-prefix=/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/pose_utils
+prefix=/home/dawn/great-DJI-competition/basic_dev/devel/.private/pose_utils
 
 Name: pose_utils
 Description: Description of pose_utils
 Version: 0.0.0
-Cflags: -I/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/pose_utils/include
+Cflags: -I/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/pose_utils/include
 Libs: -L${prefix}/lib -lpose_utils
 Requires: 

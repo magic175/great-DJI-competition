@@ -1,13 +1,52 @@
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/./setup.sh
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/./local_setup.zsh
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/./_setup_util.py
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/./setup.zsh
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/./local_setup.bash
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/./local_setup.fish
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/./env.sh
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/./setup.bash
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/./setup.fish
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/./local_setup.sh
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/pkgconfig/catkin_tools_prebuild.pc
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/dawn/great-DJI-competition/basic_dev/devel/./setup.sh
+Symlinking /home/dawn/great-DJI-competition/basic_dev/devel/./_setup_util.py
+Symlinking /home/dawn/great-DJI-competition/basic_dev/devel/./local_setup.fish
+Symlinking /home/dawn/great-DJI-competition/basic_dev/devel/./setup.fish
+Symlinking /home/dawn/great-DJI-competition/basic_dev/devel/./local_setup.zsh
+Symlinking /home/dawn/great-DJI-competition/basic_dev/devel/./env.sh
+Symlinking /home/dawn/great-DJI-competition/basic_dev/devel/./local_setup.sh
+Symlinking /home/dawn/great-DJI-competition/basic_dev/devel/./setup.zsh
+Symlinking /home/dawn/great-DJI-competition/basic_dev/devel/./local_setup.bash
+Symlinking /home/dawn/great-DJI-competition/basic_dev/devel/./setup.bash
+Symlinking /home/dawn/great-DJI-competition/basic_dev/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/dawn/great-DJI-competition/basic_dev/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/dawn/great-DJI-competition/basic_dev/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Cleaning: (/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/catkin_tools_prebuild/setup.sh, /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/./setup.sh)
+Cleaning: (/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/catkin_tools_prebuild/local_setup.zsh, /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/./local_setup.zsh)
+Cleaning: (/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/catkin_tools_prebuild/_setup_util.py, /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/./_setup_util.py)
+Cleaning: (/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/catkin_tools_prebuild/setup.zsh, /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/./setup.zsh)
+Cleaning: (/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/catkin_tools_prebuild/local_setup.bash, /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/./local_setup.bash)
+Cleaning: (/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/catkin_tools_prebuild/local_setup.fish, /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/./local_setup.fish)
+Cleaning: (/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/catkin_tools_prebuild/env.sh, /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/./env.sh)
+Cleaning: (/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/catkin_tools_prebuild/setup.bash, /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/./setup.bash)
+Cleaning: (/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/catkin_tools_prebuild/setup.fish, /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/./setup.fish)
+Cleaning: (/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/catkin_tools_prebuild/local_setup.sh, /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/./local_setup.sh)
+Cleaning: (/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/catkin_tools_prebuild/lib/pkgconfig/catkin_tools_prebuild.pc, /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/pkgconfig/catkin_tools_prebuild.pc)
+Cleaning: (/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake, /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake)
+Cleaning: (/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake, /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake)
+Unlinking: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/./setup.sh
+Already unlinked: {}
+Unlinking: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/./local_setup.zsh
+Already unlinked: {}
+Unlinking: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/./_setup_util.py
+Already unlinked: {}
+Unlinking: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/./setup.zsh
+Already unlinked: {}
+Unlinking: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/./local_setup.bash
+Already unlinked: {}
+Unlinking: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/./local_setup.fish
+Already unlinked: {}
+Unlinking: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/./env.sh
+Already unlinked: {}
+Unlinking: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/./setup.bash
+Already unlinked: {}
+Unlinking: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/./setup.fish
+Already unlinked: {}
+Unlinking: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/./local_setup.sh
+Already unlinked: {}
+Unlinking: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Already unlinked: {}
+Unlinking: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Already unlinked: {}

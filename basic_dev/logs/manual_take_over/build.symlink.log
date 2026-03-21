@@ -1,5 +1,5 @@
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/pkgconfig/manual_take_over.pc
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/manual_take_over/manual_take_over_station
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/manual_take_over/manual_take_over
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/manual_take_over/cmake/manual_take_overConfig.cmake
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/manual_take_over/cmake/manual_take_overConfig-version.cmake
+Linked: (/home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over/share/manual_take_over/cmake/manual_take_overConfig.cmake, /home/dawn/great-DJI-competition/basic_dev/devel/share/manual_take_over/cmake/manual_take_overConfig.cmake)
+Linked: (/home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over/share/manual_take_over/cmake/manual_take_overConfig-version.cmake, /home/dawn/great-DJI-competition/basic_dev/devel/share/manual_take_over/cmake/manual_take_overConfig-version.cmake)
+Linked: (/home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over/lib/pkgconfig/manual_take_over.pc, /home/dawn/great-DJI-competition/basic_dev/devel/lib/pkgconfig/manual_take_over.pc)
+Linked: (/home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over, /home/dawn/great-DJI-competition/basic_dev/devel/lib/manual_take_over/manual_take_over)
+Linked: (/home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over/lib/manual_take_over/manual_take_over_station, /home/dawn/great-DJI-competition/basic_dev/devel/lib/manual_take_over/manual_take_over_station)

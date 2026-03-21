@@ -1,21 +1,21 @@
 Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2/CMakeFiles/CMakeTmp
+Change Dir: /home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_e28a2/fast && /usr/bin/make -f CMakeFiles/cmTC_e28a2.dir/build.make CMakeFiles/cmTC_e28a2.dir/build
-make[1]: 进入目录“/home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_e28a2.dir/src.cxx.o
-/usr/bin/c++    -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_e28a2.dir/src.cxx.o -c /home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_e28a2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e28a2.dir/link.txt --verbose=1
-/usr/bin/c++   -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_e28a2.dir/src.cxx.o  -o cmTC_e28a2 
-/usr/bin/ld: CMakeFiles/cmTC_e28a2.dir/src.cxx.o: in function `main':
+Run Build Command(s):/usr/bin/make cmTC_64c78/fast && /usr/bin/make -f CMakeFiles/cmTC_64c78.dir/build.make CMakeFiles/cmTC_64c78.dir/build
+make[1]: 进入目录“/home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_64c78.dir/src.cxx.o
+/usr/bin/c++    -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_64c78.dir/src.cxx.o -c /home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_64c78
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64c78.dir/link.txt --verbose=1
+/usr/bin/c++   -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_64c78.dir/src.cxx.o  -o cmTC_64c78 
+/usr/bin/ld: CMakeFiles/cmTC_64c78.dir/src.cxx.o: in function `main':
 src.cxx:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.cxx:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.cxx:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_e28a2.dir/build.make:87：cmTC_e28a2] 错误 1
-make[1]: 离开目录“/home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2/CMakeFiles/CMakeTmp”
-make: *** [Makefile:121：cmTC_e28a2/fast] 错误 2
+make[1]: *** [CMakeFiles/cmTC_64c78.dir/build.make:87：cmTC_64c78] 错误 1
+make[1]: 离开目录“/home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_64c78/fast] 错误 2
 
 
 Source file was:
@@ -39,20 +39,20 @@ int main(void)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2/CMakeFiles/CMakeTmp
+Change Dir: /home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_0fa91/fast && /usr/bin/make -f CMakeFiles/cmTC_0fa91.dir/build.make CMakeFiles/cmTC_0fa91.dir/build
-make[1]: 进入目录“/home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_0fa91.dir/CheckFunctionExists.cxx.o
-/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_0fa91.dir/CheckFunctionExists.cxx.o -c /home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
-Linking CXX executable cmTC_0fa91
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0fa91.dir/link.txt --verbose=1
-/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_0fa91.dir/CheckFunctionExists.cxx.o  -o cmTC_0fa91  -lpthreads 
+Run Build Command(s):/usr/bin/make cmTC_830d4/fast && /usr/bin/make -f CMakeFiles/cmTC_830d4.dir/build.make CMakeFiles/cmTC_830d4.dir/build
+make[1]: 进入目录“/home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_830d4.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_830d4.dir/CheckFunctionExists.cxx.o -c /home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_830d4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_830d4.dir/link.txt --verbose=1
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_830d4.dir/CheckFunctionExists.cxx.o  -o cmTC_830d4  -lpthreads 
 /usr/bin/ld: 找不到 -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_0fa91.dir/build.make:87：cmTC_0fa91] 错误 1
-make[1]: 离开目录“/home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2/CMakeFiles/CMakeTmp”
-make: *** [Makefile:121：cmTC_0fa91/fast] 错误 2
+make[1]: *** [CMakeFiles/cmTC_830d4.dir/build.make:87：cmTC_830d4] 错误 1
+make[1]: 离开目录“/home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_830d4/fast] 错误 2
 
 
 

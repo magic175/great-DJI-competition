@@ -6,5 +6,5 @@ CXX_FLAGS = -std=c++11 -O3 -Wall -g -fPIC
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"traj_utils\" -Dtraj_utils_EXPORTS
 
-CXX_INCLUDES = -I/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_utils/include -isystem /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/traj_utils/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_utils/include -isystem /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/traj_utils/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

@@ -1,1 +1,1 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/share/common-lisp/ros/quadrotor_msgs/msg/_package_Odometry.lisp
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/quadrotor_msgs/share/common-lisp/ros/quadrotor_msgs/msg/_package_Odometry.lisp

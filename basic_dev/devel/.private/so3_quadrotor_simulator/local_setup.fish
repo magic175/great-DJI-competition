@@ -5,7 +5,7 @@
 # or fall back to the destination set at configure time
 
 if test -z $_CATKIN_SETUP_DIR
-    set _CATKIN_SETUP_DIR /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/so3_quadrotor_simulator
+    set _CATKIN_SETUP_DIR /home/dawn/great-DJI-competition/basic_dev/devel/.private/so3_quadrotor_simulator
 end
 
 set CATKIN_SETUP_UTIL_ARGS "--extend --local"

@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/rviz_plugins/src/goal_tool.cpp" "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/rviz_plugins/CMakeFiles/rviz_plugins.dir/src/goal_tool.cpp.o"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/rviz_plugins/src/moc_goal_tool.cpp" "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/rviz_plugins/CMakeFiles/rviz_plugins.dir/src/moc_goal_tool.cpp.o"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/rviz_plugins/src/pose_tool.cpp" "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/rviz_plugins/CMakeFiles/rviz_plugins.dir/src/pose_tool.cpp.o"
+  "/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/rviz_plugins/src/goal_tool.cpp" "/home/dawn/great-DJI-competition/basic_dev/build/rviz_plugins/CMakeFiles/rviz_plugins.dir/src/goal_tool.cpp.o"
+  "/home/dawn/great-DJI-competition/basic_dev/build/rviz_plugins/src/moc_goal_tool.cpp" "/home/dawn/great-DJI-competition/basic_dev/build/rviz_plugins/CMakeFiles/rviz_plugins.dir/src/moc_goal_tool.cpp.o"
+  "/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/rviz_plugins/src/pose_tool.cpp" "/home/dawn/great-DJI-competition/basic_dev/build/rviz_plugins/CMakeFiles/rviz_plugins.dir/src/pose_tool.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -25,8 +25,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/rviz_plugins/include"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/include"
+  "/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/rviz_plugins/include"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/quadrotor_msgs/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/eigen3"

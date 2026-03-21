@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/uav_utils
+CMAKE_SOURCE_DIR = /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/uav_utils
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/uav_utils
+CMAKE_BINARY_DIR = /home/dawn/great-DJI-competition/basic_dev/build/uav_utils
 
 # Utility rule file for clean_test_results_uav_utils.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/uav_ut
 include CMakeFiles/clean_test_results_uav_utils.dir/progress.make
 
 CMakeFiles/clean_test_results_uav_utils:
-	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/hldrz/IntelligentUAVChampionship/basic_dev/build/uav_utils/test_results/uav_utils
+	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/dawn/great-DJI-competition/basic_dev/build/uav_utils/test_results/uav_utils
 
 clean_test_results_uav_utils: CMakeFiles/clean_test_results_uav_utils
 clean_test_results_uav_utils: CMakeFiles/clean_test_results_uav_utils.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results_uav_utils.dir/clean:
 .PHONY : CMakeFiles/clean_test_results_uav_utils.dir/clean
 
 CMakeFiles/clean_test_results_uav_utils.dir/depend:
-	cd /home/hldrz/IntelligentUAVChampionship/basic_dev/build/uav_utils && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/uav_utils /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/uav_utils /home/hldrz/IntelligentUAVChampionship/basic_dev/build/uav_utils /home/hldrz/IntelligentUAVChampionship/basic_dev/build/uav_utils /home/hldrz/IntelligentUAVChampionship/basic_dev/build/uav_utils/CMakeFiles/clean_test_results_uav_utils.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dawn/great-DJI-competition/basic_dev/build/uav_utils && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/uav_utils /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/uav_utils /home/dawn/great-DJI-competition/basic_dev/build/uav_utils /home/dawn/great-DJI-competition/basic_dev/build/uav_utils /home/dawn/great-DJI-competition/basic_dev/build/uav_utils/CMakeFiles/clean_test_results_uav_utils.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results_uav_utils.dir/depend
 

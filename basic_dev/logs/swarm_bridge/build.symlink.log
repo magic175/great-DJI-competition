@@ -1,5 +1,20 @@
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/swarm_bridge/traj2odom_node
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/swarm_bridge/bridge_node_udp
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/pkgconfig/swarm_bridge.pc
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/swarm_bridge/cmake/swarm_bridgeConfig.cmake
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/swarm_bridge/cmake/swarm_bridgeConfig-version.cmake
+Symlinking /home/dawn/great-DJI-competition/basic_dev/devel/share/swarm_bridge/cmake/swarm_bridgeConfig-version.cmake
+Symlinking /home/dawn/great-DJI-competition/basic_dev/devel/share/swarm_bridge/cmake/swarm_bridgeConfig.cmake
+Symlinking /home/dawn/great-DJI-competition/basic_dev/devel/lib/pkgconfig/swarm_bridge.pc
+Symlinking /home/dawn/great-DJI-competition/basic_dev/devel/lib/swarm_bridge/bridge_node_udp
+Symlinking /home/dawn/great-DJI-competition/basic_dev/devel/lib/swarm_bridge/traj2odom_node
+Cleaning: (/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/swarm_bridge/lib/swarm_bridge/traj2odom_node, /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/swarm_bridge/traj2odom_node)
+Cleaning: (/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/swarm_bridge/lib/swarm_bridge/bridge_node_udp, /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/swarm_bridge/bridge_node_udp)
+Cleaning: (/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/swarm_bridge/lib/pkgconfig/swarm_bridge.pc, /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/pkgconfig/swarm_bridge.pc)
+Cleaning: (/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/swarm_bridge/share/swarm_bridge/cmake/swarm_bridgeConfig.cmake, /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/swarm_bridge/cmake/swarm_bridgeConfig.cmake)
+Cleaning: (/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/swarm_bridge/share/swarm_bridge/cmake/swarm_bridgeConfig-version.cmake, /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/swarm_bridge/cmake/swarm_bridgeConfig-version.cmake)
+Unlinking: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/swarm_bridge/traj2odom_node
+Already unlinked: {}
+Unlinking: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/swarm_bridge/bridge_node_udp
+Already unlinked: {}
+Unlinking: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/pkgconfig/swarm_bridge.pc
+Already unlinked: {}
+Unlinking: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/swarm_bridge/cmake/swarm_bridgeConfig.cmake
+Already unlinked: {}
+Unlinking: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/swarm_bridge/cmake/swarm_bridgeConfig-version.cmake
+Already unlinked: {}

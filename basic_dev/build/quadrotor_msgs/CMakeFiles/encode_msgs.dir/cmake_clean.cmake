@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/lib/libencode_msgs.pdb"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/lib/libencode_msgs.so"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/quadrotor_msgs/lib/libencode_msgs.pdb"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/quadrotor_msgs/lib/libencode_msgs.so"
   "CMakeFiles/encode_msgs.dir/src/encode_msgs.cpp.o"
 )
 

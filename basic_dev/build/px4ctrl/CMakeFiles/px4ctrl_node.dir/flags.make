@@ -6,5 +6,5 @@ CXX_FLAGS = -std=c++11 -O3 -Wall -g
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"px4ctrl\"
 
-CXX_INCLUDES = -I/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/include -I/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/airsim_ros/include -I/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/uav_utils/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/include/px4ctrl -I/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/px4ctrl/include 
+CXX_INCLUDES = -I/home/dawn/great-DJI-competition/basic_dev/devel/.private/quadrotor_msgs/include -I/home/dawn/great-DJI-competition/basic_dev/devel/.private/airsim_ros/include -I/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/uav_utils/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/include/px4ctrl -I/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/px4ctrl/include 
 

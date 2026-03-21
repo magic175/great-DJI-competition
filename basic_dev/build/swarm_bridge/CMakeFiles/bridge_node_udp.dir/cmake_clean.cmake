@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/swarm_bridge/lib/swarm_bridge/bridge_node_udp"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/swarm_bridge/lib/swarm_bridge/bridge_node_udp.pdb"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/swarm_bridge/lib/swarm_bridge/bridge_node_udp"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/swarm_bridge/lib/swarm_bridge/bridge_node_udp.pdb"
   "CMakeFiles/bridge_node_udp.dir/src/bridge_node_udp.cpp.o"
 )
 

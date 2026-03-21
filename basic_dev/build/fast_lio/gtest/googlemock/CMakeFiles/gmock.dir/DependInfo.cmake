@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/usr/src/googletest/googlemock/src/gmock-all.cc" "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/fast_lio/gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+  "/usr/src/googletest/googlemock/src/gmock-all.cc" "/home/dawn/great-DJI-competition/basic_dev/build/fast_lio/gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -13,7 +13,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "GTEST_CREATE_SHARED_LIBRARY=1"
   "MP_EN"
   "MP_PROC_NUM=3"
-  "ROOT_DIR=\"/home/hldrz/IntelligentUAVChampionship/basic_dev/src/FAST_LIO/\""
+  "ROOT_DIR=\"/home/dawn/great-DJI-competition/basic_dev/src/FAST_LIO/\""
   "gmock_EXPORTS"
   )
 
@@ -27,7 +27,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/fast_lio/gtest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/dawn/great-DJI-competition/basic_dev/build/fast_lio/gtest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

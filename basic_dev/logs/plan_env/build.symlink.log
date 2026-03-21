@@ -1,4 +1,4 @@
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/libplan_env.so
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/pkgconfig/plan_env.pc
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/plan_env/cmake/plan_envConfig.cmake
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/plan_env/cmake/plan_envConfig-version.cmake
+Linked: (/home/dawn/great-DJI-competition/basic_dev/devel/.private/plan_env/share/plan_env/cmake/plan_envConfig-version.cmake, /home/dawn/great-DJI-competition/basic_dev/devel/share/plan_env/cmake/plan_envConfig-version.cmake)
+Linked: (/home/dawn/great-DJI-competition/basic_dev/devel/.private/plan_env/share/plan_env/cmake/plan_envConfig.cmake, /home/dawn/great-DJI-competition/basic_dev/devel/share/plan_env/cmake/plan_envConfig.cmake)
+Linked: (/home/dawn/great-DJI-competition/basic_dev/devel/.private/plan_env/lib/libplan_env.so, /home/dawn/great-DJI-competition/basic_dev/devel/lib/libplan_env.so)
+Linked: (/home/dawn/great-DJI-competition/basic_dev/devel/.private/plan_env/lib/pkgconfig/plan_env.pc, /home/dawn/great-DJI-competition/basic_dev/devel/lib/pkgconfig/plan_env.pc)

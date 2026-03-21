@@ -1,4 +1,4 @@
-prefix=/home/hldrz/IntelligentUAVChampionship/basic_dev/install
+prefix=/home/dawn/great-DJI-competition/basic_dev/install
 
 Name: livox_ros_driver2
 Description: Description of livox_ros_driver2

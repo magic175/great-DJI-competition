@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/basic_dev/lib/basic_dev/basic_dev"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/basic_dev/lib/basic_dev/basic_dev.pdb"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/basic_dev/lib/basic_dev/basic_dev"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/basic_dev/lib/basic_dev/basic_dev.pdb"
   "CMakeFiles/basic_dev.dir/src/basic_dev.cpp.o"
 )
 

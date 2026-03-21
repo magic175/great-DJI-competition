@@ -1,34 +1,34 @@
 [35m[1mScanning dependencies of target traj_server[0m
 [35m[1mScanning dependencies of target ego_planner_node[0m
 [ 16%] [32mBuilding CXX object CMakeFiles/traj_server.dir/src/traj_server.cpp.o[0m
-[ 33%] [32mBuilding CXX object CMakeFiles/ego_planner_node.dir/src/ego_planner_node.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/ego_planner_node.dir/src/ego_replan_fsm.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/ego_planner_node.dir/src/ego_replan_fsm.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ego_planner_node.dir/src/ego_planner_node.cpp.o[0m
 [ 66%] [32mBuilding CXX object CMakeFiles/ego_planner_node.dir/src/planner_manager.cpp.o[0m
-[01m[K/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/traj_server.cpp:[m[K In function ‘[01m[Kstd::pair<double, double> calculate_yaw(double, Eigen::Vector3d&, double)[m[K’:
-[01m[K/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/traj_server.cpp:93:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KYAW_DOT_MAX_PER_SEC[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[01m[K/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/traj_server.cpp:[m[K In function ‘[01m[Kstd::pair<double, double> calculate_yaw(double, Eigen::Vector3d&, double)[m[K’:
+[01m[K/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/traj_server.cpp:93:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KYAW_DOT_MAX_PER_SEC[m[K’ [[01;35m[K-Wunused-variable[m[K]
    93 |   constexpr double [01;35m[KYAW_DOT_MAX_PER_SEC[m[K = M_PI / 2.0;
       |                    [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/traj_server.cpp:94:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KYAW_DOT_DOT_MAX_PER_SEC[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[01m[K/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/traj_server.cpp:94:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KYAW_DOT_DOT_MAX_PER_SEC[m[K’ [[01;35m[K-Wunused-variable[m[K]
    94 |   constexpr double [01;35m[KYAW_DOT_DOT_MAX_PER_SEC[m[K = M_PI / 2.0;
       |                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/traj_server.cpp:[m[K In function ‘[01m[Kvoid odometryCallback(const OdometryConstPtr&)[m[K’:
-[01m[K/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/traj_server.cpp:225:3:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+[01m[K/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/traj_server.cpp:[m[K In function ‘[01m[Kvoid odometryCallback(const OdometryConstPtr&)[m[K’:
+[01m[K/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/traj_server.cpp:225:3:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
   225 |   [01;35m[Kif[m[K (!odom_inited)
       |   [01;35m[K^~[m[K
-[01m[K/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/traj_server.cpp:228:5:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+[01m[K/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/traj_server.cpp:228:5:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
   228 |     [01;36m[Kodom_inited[m[K = true;
       |     [01;36m[K^~~~~~~~~~~[m[K
-[01m[K/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/planner_manager.cpp:[m[K In member function ‘[01m[Kbool ego_planner::EGOPlannerManager::reboundReplan(const Vector3d&, const Vector3d&, const Vector3d&, const Vector3d&, const Vector3d&, bool, bool, bool)[m[K’:
-[01m[K/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/planner_manager.cpp:49:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[01m[K/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/planner_manager.cpp:[m[K In member function ‘[01m[Kbool ego_planner::EGOPlannerManager::reboundReplan(const Vector3d&, const Vector3d&, const Vector3d&, const Vector3d&, const Vector3d&, bool, bool, bool)[m[K’:
+[01m[K/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/planner_manager.cpp:49:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K-Wunused-variable[m[K]
    49 |     static int [01;35m[Kcount[m[K = 0;
       |                [01;35m[K^~~~~[m[K
-[01m[K/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/ego_replan_fsm.cpp:[m[K In member function ‘[01m[Kvoid ego_planner::EGOReplanFSM::changeFSMExecState(ego_planner::EGOReplanFSM::FSM_EXEC_STATE, std::string)[m[K’:
-[01m[K/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/ego_replan_fsm.cpp:351:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpre_s[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[01m[K/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/ego_replan_fsm.cpp:[m[K In member function ‘[01m[Kvoid ego_planner::EGOReplanFSM::changeFSMExecState(ego_planner::EGOReplanFSM::FSM_EXEC_STATE, std::string)[m[K’:
+[01m[K/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/ego_replan_fsm.cpp:351:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpre_s[m[K’ [[01;35m[K-Wunused-variable[m[K]
   351 |     int [01;35m[Kpre_s[m[K = int(exec_state_);
       |         [01;35m[K^~~~~[m[K
-[01m[K/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/planner_manager.cpp:[m[K At global scope:
-[01m[K/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/planner_manager.cpp:49:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcount[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
-[ 83%] [32m[1mLinking CXX executable /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/ego_planner/lib/ego_planner/traj_server[0m
+[01m[K/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/planner_manager.cpp:[m[K At global scope:
+[01m[K/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/planner_manager.cpp:49:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcount[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[ 83%] [32m[1mLinking CXX executable /home/dawn/great-DJI-competition/basic_dev/devel/.private/ego_planner/lib/ego_planner/traj_server[0m
 [ 83%] Built target traj_server
-[100%] [32m[1mLinking CXX executable /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/ego_planner/lib/ego_planner/ego_planner_node[0m
+[100%] [32m[1mLinking CXX executable /home/dawn/great-DJI-competition/basic_dev/devel/.private/ego_planner/lib/ego_planner/ego_planner_node[0m
 [100%] Built target ego_planner_node

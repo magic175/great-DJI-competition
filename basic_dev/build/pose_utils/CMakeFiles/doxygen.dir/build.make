@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/pose_utils
+CMAKE_SOURCE_DIR = /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/pose_utils
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/pose_utils
+CMAKE_BINARY_DIR = /home/dawn/great-DJI-competition/basic_dev/build/pose_utils
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/hldrz/IntelligentUAVChampionship/basic_dev/build/pose_utils && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/pose_utils /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/pose_utils /home/hldrz/IntelligentUAVChampionship/basic_dev/build/pose_utils /home/hldrz/IntelligentUAVChampionship/basic_dev/build/pose_utils /home/hldrz/IntelligentUAVChampionship/basic_dev/build/pose_utils/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dawn/great-DJI-competition/basic_dev/build/pose_utils && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/pose_utils /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/pose_utils /home/dawn/great-DJI-competition/basic_dev/build/pose_utils /home/dawn/great-DJI-competition/basic_dev/build/pose_utils /home/dawn/great-DJI-competition/basic_dev/build/pose_utils/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

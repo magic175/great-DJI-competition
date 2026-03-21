@@ -1,28 +1,28 @@
 
 "use strict";
 
-let GimbalAngleQuatCmd = require('./GimbalAngleQuatCmd.js');
-let RotorPWM = require('./RotorPWM.js');
-let GPSYaw = require('./GPSYaw.js');
-let PoseCmd = require('./PoseCmd.js');
+let VelCmdGroup = require('./VelCmdGroup.js');
+let VelCmd = require('./VelCmd.js');
 let CarControls = require('./CarControls.js');
-let GimbalAngleEulerCmd = require('./GimbalAngleEulerCmd.js');
+let PoseCmd = require('./PoseCmd.js');
+let GPSYaw = require('./GPSYaw.js');
+let CarState = require('./CarState.js');
+let GimbalAngleQuatCmd = require('./GimbalAngleQuatCmd.js');
 let Environment = require('./Environment.js');
 let Altimeter = require('./Altimeter.js');
-let VelCmd = require('./VelCmd.js');
-let CarState = require('./CarState.js');
-let VelCmdGroup = require('./VelCmdGroup.js');
+let GimbalAngleEulerCmd = require('./GimbalAngleEulerCmd.js');
+let RotorPWM = require('./RotorPWM.js');
 
 module.exports = {
-  GimbalAngleQuatCmd: GimbalAngleQuatCmd,
-  RotorPWM: RotorPWM,
-  GPSYaw: GPSYaw,
-  PoseCmd: PoseCmd,
+  VelCmdGroup: VelCmdGroup,
+  VelCmd: VelCmd,
   CarControls: CarControls,
-  GimbalAngleEulerCmd: GimbalAngleEulerCmd,
+  PoseCmd: PoseCmd,
+  GPSYaw: GPSYaw,
+  CarState: CarState,
+  GimbalAngleQuatCmd: GimbalAngleQuatCmd,
   Environment: Environment,
   Altimeter: Altimeter,
-  VelCmd: VelCmd,
-  CarState: CarState,
-  VelCmdGroup: VelCmdGroup,
+  GimbalAngleEulerCmd: GimbalAngleEulerCmd,
+  RotorPWM: RotorPWM,
 };

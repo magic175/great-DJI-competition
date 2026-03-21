@@ -1,1 +1,1 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_sender/share/gennodejs/ros/path_sender/_index.js
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/path_sender/share/gennodejs/ros/path_sender/_index.js

@@ -2,7 +2,7 @@
 
 message(STATUS "livox_ros_driver2: 2 messages, 0 services")
 
-set(MSG_I_FLAGS "-Ilivox_ros_driver2:/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ilivox_ros_driver2:/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,14 +17,14 @@ add_custom_target(livox_ros_driver2_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg" NAME_WE)
 add_custom_target(_livox_ros_driver2_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "livox_ros_driver2" "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "livox_ros_driver2" "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg" ""
 )
 
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg/CustomMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg/CustomMsg.msg" NAME_WE)
 add_custom_target(_livox_ros_driver2_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "livox_ros_driver2" "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg/CustomMsg.msg" "livox_ros_driver2/CustomPoint:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "livox_ros_driver2" "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg/CustomMsg.msg" "std_msgs/Header:livox_ros_driver2/CustomPoint"
 )
 
 #
@@ -34,15 +34,15 @@ add_custom_target(_livox_ros_driver2_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(livox_ros_driver2
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/livox_ros_driver2
 )
 _generate_msg_cpp(livox_ros_driver2
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg/CustomMsg.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg/CustomMsg.msg"
   "${MSG_I_FLAGS}"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/livox_ros_driver2
 )
 
@@ -60,9 +60,9 @@ add_custom_target(livox_ros_driver2_generate_messages_cpp
 add_dependencies(livox_ros_driver2_generate_messages livox_ros_driver2_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg" NAME_WE)
 add_dependencies(livox_ros_driver2_generate_messages_cpp _livox_ros_driver2_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg/CustomMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg/CustomMsg.msg" NAME_WE)
 add_dependencies(livox_ros_driver2_generate_messages_cpp _livox_ros_driver2_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -75,15 +75,15 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS livox_ros_driver2_generate_messages
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(livox_ros_driver2
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/livox_ros_driver2
 )
 _generate_msg_eus(livox_ros_driver2
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg/CustomMsg.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg/CustomMsg.msg"
   "${MSG_I_FLAGS}"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/livox_ros_driver2
 )
 
@@ -101,9 +101,9 @@ add_custom_target(livox_ros_driver2_generate_messages_eus
 add_dependencies(livox_ros_driver2_generate_messages livox_ros_driver2_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg" NAME_WE)
 add_dependencies(livox_ros_driver2_generate_messages_eus _livox_ros_driver2_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg/CustomMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg/CustomMsg.msg" NAME_WE)
 add_dependencies(livox_ros_driver2_generate_messages_eus _livox_ros_driver2_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -116,15 +116,15 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS livox_ros_driver2_generate_messages
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(livox_ros_driver2
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/livox_ros_driver2
 )
 _generate_msg_lisp(livox_ros_driver2
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg/CustomMsg.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg/CustomMsg.msg"
   "${MSG_I_FLAGS}"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/livox_ros_driver2
 )
 
@@ -142,9 +142,9 @@ add_custom_target(livox_ros_driver2_generate_messages_lisp
 add_dependencies(livox_ros_driver2_generate_messages livox_ros_driver2_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg" NAME_WE)
 add_dependencies(livox_ros_driver2_generate_messages_lisp _livox_ros_driver2_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg/CustomMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg/CustomMsg.msg" NAME_WE)
 add_dependencies(livox_ros_driver2_generate_messages_lisp _livox_ros_driver2_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -157,15 +157,15 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS livox_ros_driver2_generate_messages
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(livox_ros_driver2
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/livox_ros_driver2
 )
 _generate_msg_nodejs(livox_ros_driver2
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg/CustomMsg.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg/CustomMsg.msg"
   "${MSG_I_FLAGS}"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/livox_ros_driver2
 )
 
@@ -183,9 +183,9 @@ add_custom_target(livox_ros_driver2_generate_messages_nodejs
 add_dependencies(livox_ros_driver2_generate_messages livox_ros_driver2_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg" NAME_WE)
 add_dependencies(livox_ros_driver2_generate_messages_nodejs _livox_ros_driver2_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg/CustomMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg/CustomMsg.msg" NAME_WE)
 add_dependencies(livox_ros_driver2_generate_messages_nodejs _livox_ros_driver2_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -198,15 +198,15 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS livox_ros_driver2_generate_messages
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(livox_ros_driver2
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/livox_ros_driver2
 )
 _generate_msg_py(livox_ros_driver2
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg/CustomMsg.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg/CustomMsg.msg"
   "${MSG_I_FLAGS}"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/livox_ros_driver2
 )
 
@@ -224,9 +224,9 @@ add_custom_target(livox_ros_driver2_generate_messages_py
 add_dependencies(livox_ros_driver2_generate_messages livox_ros_driver2_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg/CustomPoint.msg" NAME_WE)
 add_dependencies(livox_ros_driver2_generate_messages_py _livox_ros_driver2_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg/CustomMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg/CustomMsg.msg" NAME_WE)
 add_dependencies(livox_ros_driver2_generate_messages_py _livox_ros_driver2_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

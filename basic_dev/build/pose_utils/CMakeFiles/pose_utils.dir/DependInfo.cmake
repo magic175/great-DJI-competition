@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/pose_utils/src/pose_utils.cpp" "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/pose_utils/CMakeFiles/pose_utils.dir/src/pose_utils.cpp.o"
+  "/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/pose_utils/src/pose_utils.cpp" "/home/dawn/great-DJI-competition/basic_dev/build/pose_utils/CMakeFiles/pose_utils.dir/src/pose_utils.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -20,7 +20,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/pose_utils/include"
+  "/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/pose_utils/include"
   )
 
 # Targets to which this target links.

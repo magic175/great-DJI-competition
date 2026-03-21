@@ -4,21 +4,21 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/call_back/lidar_common_callback.cpp" "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2/CMakeFiles/livox_ros_driver2_node.dir/src/call_back/lidar_common_callback.cpp.o"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/call_back/livox_lidar_callback.cpp" "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2/CMakeFiles/livox_ros_driver2_node.dir/src/call_back/livox_lidar_callback.cpp.o"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/cache_index.cpp" "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2/CMakeFiles/livox_ros_driver2_node.dir/src/comm/cache_index.cpp.o"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/comm.cpp" "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2/CMakeFiles/livox_ros_driver2_node.dir/src/comm/comm.cpp.o"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/ldq.cpp" "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2/CMakeFiles/livox_ros_driver2_node.dir/src/comm/ldq.cpp.o"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/lidar_imu_data_queue.cpp" "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2/CMakeFiles/livox_ros_driver2_node.dir/src/comm/lidar_imu_data_queue.cpp.o"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/pub_handler.cpp" "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2/CMakeFiles/livox_ros_driver2_node.dir/src/comm/pub_handler.cpp.o"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/semaphore.cpp" "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2/CMakeFiles/livox_ros_driver2_node.dir/src/comm/semaphore.cpp.o"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/driver_node.cpp" "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2/CMakeFiles/livox_ros_driver2_node.dir/src/driver_node.cpp.o"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/lddc.cpp" "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2/CMakeFiles/livox_ros_driver2_node.dir/src/lddc.cpp.o"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/lds.cpp" "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2/CMakeFiles/livox_ros_driver2_node.dir/src/lds.cpp.o"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/lds_lidar.cpp" "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2/CMakeFiles/livox_ros_driver2_node.dir/src/lds_lidar.cpp.o"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/livox_ros_driver2.cpp" "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2/CMakeFiles/livox_ros_driver2_node.dir/src/livox_ros_driver2.cpp.o"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/parse_cfg_file/parse_cfg_file.cpp" "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2/CMakeFiles/livox_ros_driver2_node.dir/src/parse_cfg_file/parse_cfg_file.cpp.o"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/parse_cfg_file/parse_livox_lidar_cfg.cpp" "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2/CMakeFiles/livox_ros_driver2_node.dir/src/parse_cfg_file/parse_livox_lidar_cfg.cpp.o"
+  "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/call_back/lidar_common_callback.cpp" "/home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2/CMakeFiles/livox_ros_driver2_node.dir/src/call_back/lidar_common_callback.cpp.o"
+  "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/call_back/livox_lidar_callback.cpp" "/home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2/CMakeFiles/livox_ros_driver2_node.dir/src/call_back/livox_lidar_callback.cpp.o"
+  "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/cache_index.cpp" "/home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2/CMakeFiles/livox_ros_driver2_node.dir/src/comm/cache_index.cpp.o"
+  "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/comm.cpp" "/home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2/CMakeFiles/livox_ros_driver2_node.dir/src/comm/comm.cpp.o"
+  "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/ldq.cpp" "/home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2/CMakeFiles/livox_ros_driver2_node.dir/src/comm/ldq.cpp.o"
+  "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/lidar_imu_data_queue.cpp" "/home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2/CMakeFiles/livox_ros_driver2_node.dir/src/comm/lidar_imu_data_queue.cpp.o"
+  "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/pub_handler.cpp" "/home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2/CMakeFiles/livox_ros_driver2_node.dir/src/comm/pub_handler.cpp.o"
+  "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/semaphore.cpp" "/home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2/CMakeFiles/livox_ros_driver2_node.dir/src/comm/semaphore.cpp.o"
+  "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/driver_node.cpp" "/home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2/CMakeFiles/livox_ros_driver2_node.dir/src/driver_node.cpp.o"
+  "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/lddc.cpp" "/home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2/CMakeFiles/livox_ros_driver2_node.dir/src/lddc.cpp.o"
+  "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/lds.cpp" "/home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2/CMakeFiles/livox_ros_driver2_node.dir/src/lds.cpp.o"
+  "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/lds_lidar.cpp" "/home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2/CMakeFiles/livox_ros_driver2_node.dir/src/lds_lidar.cpp.o"
+  "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/livox_ros_driver2.cpp" "/home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2/CMakeFiles/livox_ros_driver2_node.dir/src/livox_ros_driver2.cpp.o"
+  "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/parse_cfg_file/parse_cfg_file.cpp" "/home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2/CMakeFiles/livox_ros_driver2_node.dir/src/parse_cfg_file/parse_cfg_file.cpp.o"
+  "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/parse_cfg_file/parse_livox_lidar_cfg.cpp" "/home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2/CMakeFiles/livox_ros_driver2_node.dir/src/parse_cfg_file/parse_livox_lidar_cfg.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -38,12 +38,12 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/livox_ros_driver2/include"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/livox_ros_driver2/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/apr-1.0"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src"
+  "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty"
+  "/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src"
   "/usr/include/vtk-7.1"
   "/usr/include/freetype2"
   "/usr/include/eigen3"

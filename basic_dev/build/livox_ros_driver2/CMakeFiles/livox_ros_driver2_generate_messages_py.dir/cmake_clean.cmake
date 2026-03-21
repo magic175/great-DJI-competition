@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/livox_ros_driver2/lib/python3/dist-packages/livox_ros_driver2/msg/_CustomMsg.py"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/livox_ros_driver2/lib/python3/dist-packages/livox_ros_driver2/msg/_CustomPoint.py"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/livox_ros_driver2/lib/python3/dist-packages/livox_ros_driver2/msg/__init__.py"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/livox_ros_driver2/lib/python3/dist-packages/livox_ros_driver2/msg/_CustomMsg.py"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/livox_ros_driver2/lib/python3/dist-packages/livox_ros_driver2/msg/_CustomPoint.py"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/livox_ros_driver2/lib/python3/dist-packages/livox_ros_driver2/msg/__init__.py"
   "CMakeFiles/livox_ros_driver2_generate_messages_py"
 )
 

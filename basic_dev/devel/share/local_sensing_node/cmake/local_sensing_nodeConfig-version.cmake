@@ -1,1 +1,1 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/local_sensing_node/share/local_sensing_node/cmake/local_sensing_nodeConfig-version.cmake
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/local_sensing_node/share/local_sensing_node/cmake/local_sensing_nodeConfig-version.cmake

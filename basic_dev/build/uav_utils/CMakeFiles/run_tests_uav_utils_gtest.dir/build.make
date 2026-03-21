@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/uav_utils
+CMAKE_SOURCE_DIR = /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/uav_utils
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/uav_utils
+CMAKE_BINARY_DIR = /home/dawn/great-DJI-competition/basic_dev/build/uav_utils
 
 # Utility rule file for run_tests_uav_utils_gtest.
 
@@ -67,6 +67,6 @@ CMakeFiles/run_tests_uav_utils_gtest.dir/clean:
 .PHONY : CMakeFiles/run_tests_uav_utils_gtest.dir/clean
 
 CMakeFiles/run_tests_uav_utils_gtest.dir/depend:
-	cd /home/hldrz/IntelligentUAVChampionship/basic_dev/build/uav_utils && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/uav_utils /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/uav_utils /home/hldrz/IntelligentUAVChampionship/basic_dev/build/uav_utils /home/hldrz/IntelligentUAVChampionship/basic_dev/build/uav_utils /home/hldrz/IntelligentUAVChampionship/basic_dev/build/uav_utils/CMakeFiles/run_tests_uav_utils_gtest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dawn/great-DJI-competition/basic_dev/build/uav_utils && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/uav_utils /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/uav_utils /home/dawn/great-DJI-competition/basic_dev/build/uav_utils /home/dawn/great-DJI-competition/basic_dev/build/uav_utils /home/dawn/great-DJI-competition/basic_dev/build/uav_utils/CMakeFiles/run_tests_uav_utils_gtest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests_uav_utils_gtest.dir/depend
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/drone_detect
+# Install script for directory: /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/drone_detect
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/hldrz/IntelligentUAVChampionship/basic_dev/install")
+  set(CMAKE_INSTALL_PREFIX "/home/dawn/great-DJI-competition/basic_dev/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,113 +49,113 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/hldrz/IntelligentUAVChampionship/basic_dev/install/_setup_util.py")
+   "/home/dawn/great-DJI-competition/basic_dev/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/hldrz/IntelligentUAVChampionship/basic_dev/install" TYPE PROGRAM FILES "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/drone_detect/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/dawn/great-DJI-competition/basic_dev/install" TYPE PROGRAM FILES "/home/dawn/great-DJI-competition/basic_dev/build/drone_detect/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/hldrz/IntelligentUAVChampionship/basic_dev/install/env.sh")
+   "/home/dawn/great-DJI-competition/basic_dev/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/hldrz/IntelligentUAVChampionship/basic_dev/install" TYPE PROGRAM FILES "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/drone_detect/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/dawn/great-DJI-competition/basic_dev/install" TYPE PROGRAM FILES "/home/dawn/great-DJI-competition/basic_dev/build/drone_detect/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/hldrz/IntelligentUAVChampionship/basic_dev/install/setup.bash;/home/hldrz/IntelligentUAVChampionship/basic_dev/install/local_setup.bash")
+   "/home/dawn/great-DJI-competition/basic_dev/install/setup.bash;/home/dawn/great-DJI-competition/basic_dev/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/hldrz/IntelligentUAVChampionship/basic_dev/install" TYPE FILE FILES
-    "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/drone_detect/catkin_generated/installspace/setup.bash"
-    "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/drone_detect/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/dawn/great-DJI-competition/basic_dev/install" TYPE FILE FILES
+    "/home/dawn/great-DJI-competition/basic_dev/build/drone_detect/catkin_generated/installspace/setup.bash"
+    "/home/dawn/great-DJI-competition/basic_dev/build/drone_detect/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/hldrz/IntelligentUAVChampionship/basic_dev/install/setup.sh;/home/hldrz/IntelligentUAVChampionship/basic_dev/install/local_setup.sh")
+   "/home/dawn/great-DJI-competition/basic_dev/install/setup.sh;/home/dawn/great-DJI-competition/basic_dev/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/hldrz/IntelligentUAVChampionship/basic_dev/install" TYPE FILE FILES
-    "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/drone_detect/catkin_generated/installspace/setup.sh"
-    "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/drone_detect/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/dawn/great-DJI-competition/basic_dev/install" TYPE FILE FILES
+    "/home/dawn/great-DJI-competition/basic_dev/build/drone_detect/catkin_generated/installspace/setup.sh"
+    "/home/dawn/great-DJI-competition/basic_dev/build/drone_detect/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/hldrz/IntelligentUAVChampionship/basic_dev/install/setup.zsh;/home/hldrz/IntelligentUAVChampionship/basic_dev/install/local_setup.zsh")
+   "/home/dawn/great-DJI-competition/basic_dev/install/setup.zsh;/home/dawn/great-DJI-competition/basic_dev/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/hldrz/IntelligentUAVChampionship/basic_dev/install" TYPE FILE FILES
-    "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/drone_detect/catkin_generated/installspace/setup.zsh"
-    "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/drone_detect/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/dawn/great-DJI-competition/basic_dev/install" TYPE FILE FILES
+    "/home/dawn/great-DJI-competition/basic_dev/build/drone_detect/catkin_generated/installspace/setup.zsh"
+    "/home/dawn/great-DJI-competition/basic_dev/build/drone_detect/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/hldrz/IntelligentUAVChampionship/basic_dev/install/setup.fish;/home/hldrz/IntelligentUAVChampionship/basic_dev/install/local_setup.fish")
+   "/home/dawn/great-DJI-competition/basic_dev/install/setup.fish;/home/dawn/great-DJI-competition/basic_dev/install/local_setup.fish")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/hldrz/IntelligentUAVChampionship/basic_dev/install" TYPE FILE FILES
-    "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/drone_detect/catkin_generated/installspace/setup.fish"
-    "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/drone_detect/catkin_generated/installspace/local_setup.fish"
+file(INSTALL DESTINATION "/home/dawn/great-DJI-competition/basic_dev/install" TYPE FILE FILES
+    "/home/dawn/great-DJI-competition/basic_dev/build/drone_detect/catkin_generated/installspace/setup.fish"
+    "/home/dawn/great-DJI-competition/basic_dev/build/drone_detect/catkin_generated/installspace/local_setup.fish"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/hldrz/IntelligentUAVChampionship/basic_dev/install/.rosinstall")
+   "/home/dawn/great-DJI-competition/basic_dev/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/hldrz/IntelligentUAVChampionship/basic_dev/install" TYPE FILE FILES "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/drone_detect/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/dawn/great-DJI-competition/basic_dev/install" TYPE FILE FILES "/home/dawn/great-DJI-competition/basic_dev/build/drone_detect/catkin_generated/installspace/.rosinstall")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/drone_detect/catkin_generated/installspace/drone_detect.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/dawn/great-DJI-competition/basic_dev/build/drone_detect/catkin_generated/installspace/drone_detect.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/drone_detect/cmake" TYPE FILE FILES
-    "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/drone_detect/catkin_generated/installspace/drone_detectConfig.cmake"
-    "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/drone_detect/catkin_generated/installspace/drone_detectConfig-version.cmake"
+    "/home/dawn/great-DJI-competition/basic_dev/build/drone_detect/catkin_generated/installspace/drone_detectConfig.cmake"
+    "/home/dawn/great-DJI-competition/basic_dev/build/drone_detect/catkin_generated/installspace/drone_detectConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/drone_detect" TYPE FILE FILES "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/drone_detect/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/drone_detect" TYPE FILE FILES "/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/drone_detect/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -165,12 +165,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/drone_detect/drone_detect"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drone_detect" TYPE EXECUTABLE FILES "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/drone_detect/lib/drone_detect/drone_detect")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drone_detect" TYPE EXECUTABLE FILES "/home/dawn/great-DJI-competition/basic_dev/devel/.private/drone_detect/lib/drone_detect/drone_detect")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/drone_detect/drone_detect" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/drone_detect/drone_detect")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/drone_detect/drone_detect"
-         OLD_RPATH "/opt/ros/noetic/lib:"
+         OLD_RPATH "/usr/local/cuda-12.8/lib64:/opt/ros/noetic/lib:/usr/local/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/drone_detect/drone_detect")
@@ -179,16 +179,16 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/drone_detect" TYPE DIRECTORY FILES "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/drone_detect/include/drone_detect/" FILES_MATCHING REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/drone_detect" TYPE DIRECTORY FILES "/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/drone_detect/include/drone_detect/" FILES_MATCHING REGEX "/[^/]*\\.h$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/drone_detect" TYPE DIRECTORY FILES "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/drone_detect/doc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/drone_detect" TYPE DIRECTORY FILES "/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/drone_detect/doc")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/hldrz/IntelligentUAVChampionship/basic_dev/build/drone_detect/gtest/cmake_install.cmake")
+  include("/home/dawn/great-DJI-competition/basic_dev/build/drone_detect/gtest/cmake_install.cmake")
 
 endif()
 
@@ -200,5 +200,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/drone_detect/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/dawn/great-DJI-competition/basic_dev/build/drone_detect/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

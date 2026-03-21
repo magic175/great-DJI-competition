@@ -1,1 +1,1 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/moving_obstacles/share/moving_obstacles/cmake/moving_obstaclesConfig.cmake
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/moving_obstacles/share/moving_obstacles/cmake/moving_obstaclesConfig.cmake

@@ -1,1 +1,1 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/lib/pkgconfig/quadrotor_msgs.pc
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/quadrotor_msgs/lib/pkgconfig/quadrotor_msgs.pc

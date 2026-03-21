@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/airsim_ros/include/airsim_ros/PoseCmd.h
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/airsim_ros/include/airsim_ros/PoseCmd.h
 string
 -
 vector
@@ -22,25 +22,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/airsim_ros/include/airsim_ros/RotorPWM.h
-string
--
-vector
--
-memory
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
-std_msgs/Header.h
--
-
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/airsim_ros/include/airsim_ros/VelCmd.h
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/airsim_ros/include/airsim_ros/RotorPWM.h
 string
 -
 vector
@@ -58,7 +40,25 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/include/quadrotor_msgs/PositionCommand.h
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/airsim_ros/include/airsim_ros/VelCmd.h
+string
+-
+vector
+-
+memory
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+std_msgs/Header.h
+-
+
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/quadrotor_msgs/include/quadrotor_msgs/PositionCommand.h
 string
 -
 vector
@@ -84,7 +84,7 @@ geometry_msgs/Vector3.h
 geometry_msgs/Vector3.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_utils/include/traj_utils/PolyTraj.h
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_utils/include/traj_utils/PolyTraj.h
 string
 -
 vector
@@ -100,7 +100,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/traj_server.cpp
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/traj_server.cpp
 nav_msgs/Odometry.h
 -
 traj_utils/PolyTraj.h
@@ -120,15 +120,15 @@ ros/ros.h
 tf/transform_datatypes.h
 -
 airsim_ros/VelCmd.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/airsim_ros/VelCmd.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/airsim_ros/VelCmd.h
 airsim_ros/PoseCmd.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/airsim_ros/PoseCmd.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/airsim_ros/PoseCmd.h
 Eigen/Dense
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/traj_opt/include/optimizer/poly_traj_utils.hpp
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/traj_opt/include/optimizer/poly_traj_utils.hpp
 root_finder.hpp
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/traj_opt/include/optimizer/root_finder.hpp
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/traj_opt/include/optimizer/root_finder.hpp
 iostream
 -
 cmath
@@ -138,7 +138,7 @@ vector
 Eigen/Eigen
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/traj_opt/include/optimizer/root_finder.hpp
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/traj_opt/include/optimizer/root_finder.hpp
 cfloat
 -
 cmath

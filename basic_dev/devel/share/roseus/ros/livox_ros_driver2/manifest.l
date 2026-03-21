@@ -1,1 +1,1 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/livox_ros_driver2/share/roseus/ros/livox_ros_driver2/manifest.l
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/livox_ros_driver2/share/roseus/ros/livox_ros_driver2/manifest.l

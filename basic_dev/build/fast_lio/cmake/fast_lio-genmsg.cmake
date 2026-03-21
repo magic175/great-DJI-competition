@@ -2,7 +2,7 @@
 
 message(STATUS "fast_lio: 1 messages, 0 services")
 
-set(MSG_I_FLAGS "-Ifast_lio:/home/hldrz/IntelligentUAVChampionship/basic_dev/src/FAST_LIO/msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ifast_lio:/home/dawn/great-DJI-competition/basic_dev/src/FAST_LIO/msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,9 +17,9 @@ add_custom_target(fast_lio_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/FAST_LIO/msg/Pose6D.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/FAST_LIO/msg/Pose6D.msg" NAME_WE)
 add_custom_target(_fast_lio_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "fast_lio" "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/FAST_LIO/msg/Pose6D.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "fast_lio" "/home/dawn/great-DJI-competition/basic_dev/src/FAST_LIO/msg/Pose6D.msg" ""
 )
 
 #
@@ -29,7 +29,7 @@ add_custom_target(_fast_lio_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(fast_lio
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/FAST_LIO/msg/Pose6D.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/FAST_LIO/msg/Pose6D.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/fast_lio
@@ -49,7 +49,7 @@ add_custom_target(fast_lio_generate_messages_cpp
 add_dependencies(fast_lio_generate_messages fast_lio_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/FAST_LIO/msg/Pose6D.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/FAST_LIO/msg/Pose6D.msg" NAME_WE)
 add_dependencies(fast_lio_generate_messages_cpp _fast_lio_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -62,7 +62,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS fast_lio_generate_messages_cpp)
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(fast_lio
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/FAST_LIO/msg/Pose6D.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/FAST_LIO/msg/Pose6D.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/fast_lio
@@ -82,7 +82,7 @@ add_custom_target(fast_lio_generate_messages_eus
 add_dependencies(fast_lio_generate_messages fast_lio_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/FAST_LIO/msg/Pose6D.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/FAST_LIO/msg/Pose6D.msg" NAME_WE)
 add_dependencies(fast_lio_generate_messages_eus _fast_lio_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -95,7 +95,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS fast_lio_generate_messages_eus)
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(fast_lio
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/FAST_LIO/msg/Pose6D.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/FAST_LIO/msg/Pose6D.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/fast_lio
@@ -115,7 +115,7 @@ add_custom_target(fast_lio_generate_messages_lisp
 add_dependencies(fast_lio_generate_messages fast_lio_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/FAST_LIO/msg/Pose6D.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/FAST_LIO/msg/Pose6D.msg" NAME_WE)
 add_dependencies(fast_lio_generate_messages_lisp _fast_lio_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -128,7 +128,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS fast_lio_generate_messages_lisp)
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(fast_lio
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/FAST_LIO/msg/Pose6D.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/FAST_LIO/msg/Pose6D.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/fast_lio
@@ -148,7 +148,7 @@ add_custom_target(fast_lio_generate_messages_nodejs
 add_dependencies(fast_lio_generate_messages fast_lio_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/FAST_LIO/msg/Pose6D.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/FAST_LIO/msg/Pose6D.msg" NAME_WE)
 add_dependencies(fast_lio_generate_messages_nodejs _fast_lio_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -161,7 +161,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS fast_lio_generate_messages_nodejs)
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(fast_lio
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/FAST_LIO/msg/Pose6D.msg"
+  "/home/dawn/great-DJI-competition/basic_dev/src/FAST_LIO/msg/Pose6D.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/fast_lio
@@ -181,7 +181,7 @@ add_custom_target(fast_lio_generate_messages_py
 add_dependencies(fast_lio_generate_messages fast_lio_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/FAST_LIO/msg/Pose6D.msg" NAME_WE)
+get_filename_component(_filename "/home/dawn/great-DJI-competition/basic_dev/src/FAST_LIO/msg/Pose6D.msg" NAME_WE)
 add_dependencies(fast_lio_generate_messages_py _fast_lio_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

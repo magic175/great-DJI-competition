@@ -8,9 +8,9 @@ Not searching for unused variables given on the command line.
 [36m--[0m Detecting CXX compile features - done
 [36m--[0m livox_ros_driver2 version: 1.0.0
 [36m--[0m Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.54") found components: system thread chrono
-[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/livox_ros_driver2
-[36m--[0m Using CMAKE_PREFIX_PATH: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel;/home/hldrz/catkin_ws/devel;/opt/ros/noetic
-[36m--[0m This workspace overlays: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel;/home/hldrz/catkin_ws/devel;/opt/ros/noetic
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/dawn/great-DJI-competition/basic_dev/devel/.private/livox_ros_driver2
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/dawn/great-DJI-competition/basic_dev/devel;/opt/ros/noetic
+[36m--[0m This workspace overlays: /home/dawn/great-DJI-competition/basic_dev/devel;/opt/ros/noetic
 [36m--[0m Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")
 [36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python3
 [36m--[0m Using Debian Python package layout
@@ -18,7 +18,7 @@ Not searching for unused variables given on the command line.
 [36m--[0m Using empy: /usr/lib/python3/dist-packages/em.py
 [36m--[0m Using CATKIN_ENABLE_TESTING: ON
 [36m--[0m Call enable_testing()
-[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2/test_results
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2/test_results
 [36m--[0m Forcing gtest/gmock from source, though one was otherwise available.
 [36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
 [36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
@@ -152,4 +152,4 @@ but not all the files it references.
 apr-1
 [36m--[0m Configuring done
 [36m--[0m Generating done
-[36m--[0m Build files have been written to: /home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2
+[36m--[0m Build files have been written to: /home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2

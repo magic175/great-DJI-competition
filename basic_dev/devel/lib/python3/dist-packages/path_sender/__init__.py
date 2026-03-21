@@ -1,1 +1,1 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_sender/lib/python3/dist-packages/path_sender/__init__.py
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/path_sender/lib/python3/dist-packages/path_sender/__init__.py

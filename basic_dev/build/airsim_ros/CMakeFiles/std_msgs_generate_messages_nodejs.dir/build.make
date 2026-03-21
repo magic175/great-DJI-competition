@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros
+CMAKE_SOURCE_DIR = /home/dawn/great-DJI-competition/basic_dev/src/airsim_ros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/airsim_ros
+CMAKE_BINARY_DIR = /home/dawn/great-DJI-competition/basic_dev/build/airsim_ros
 
 # Utility rule file for std_msgs_generate_messages_nodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
 
 CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/hldrz/IntelligentUAVChampionship/basic_dev/build/airsim_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros /home/hldrz/IntelligentUAVChampionship/basic_dev/src/airsim_ros /home/hldrz/IntelligentUAVChampionship/basic_dev/build/airsim_ros /home/hldrz/IntelligentUAVChampionship/basic_dev/build/airsim_ros /home/hldrz/IntelligentUAVChampionship/basic_dev/build/airsim_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dawn/great-DJI-competition/basic_dev/build/airsim_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dawn/great-DJI-competition/basic_dev/src/airsim_ros /home/dawn/great-DJI-competition/basic_dev/src/airsim_ros /home/dawn/great-DJI-competition/basic_dev/build/airsim_ros /home/dawn/great-DJI-competition/basic_dev/build/airsim_ros /home/dawn/great-DJI-competition/basic_dev/build/airsim_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
 

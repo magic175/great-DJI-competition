@@ -67,14 +67,14 @@ set(path_sender_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(path_sender_SOURCE_PREFIX /home/hldrz/IntelligentUAVChampionship/basic_dev/src/path_sender)
-  set(path_sender_DEVEL_PREFIX /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_sender)
+  set(path_sender_SOURCE_PREFIX /home/dawn/great-DJI-competition/basic_dev/src/path_sender)
+  set(path_sender_DEVEL_PREFIX /home/dawn/great-DJI-competition/basic_dev/devel/.private/path_sender)
   set(path_sender_INSTALL_PREFIX "")
   set(path_sender_PREFIX ${path_sender_DEVEL_PREFIX})
 else()
   set(path_sender_SOURCE_PREFIX "")
   set(path_sender_DEVEL_PREFIX "")
-  set(path_sender_INSTALL_PREFIX /home/hldrz/IntelligentUAVChampionship/basic_dev/install)
+  set(path_sender_INSTALL_PREFIX /home/dawn/great-DJI-competition/basic_dev/install)
   set(path_sender_PREFIX ${path_sender_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(path_sender_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_sender/include;/home/hldrz/IntelligentUAVChampionship/basic_dev/src/path_sender/include " STREQUAL " ")
+if(NOT "/home/dawn/great-DJI-competition/basic_dev/devel/.private/path_sender/include;/home/dawn/great-DJI-competition/basic_dev/src/path_sender/include " STREQUAL " ")
   set(path_sender_INCLUDE_DIRS "")
-  set(_include_dirs "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_sender/include;/home/hldrz/IntelligentUAVChampionship/basic_dev/src/path_sender/include")
+  set(_include_dirs "/home/dawn/great-DJI-competition/basic_dev/devel/.private/path_sender/include;/home/dawn/great-DJI-competition/basic_dev/src/path_sender/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_sen
         message(FATAL_ERROR "Project 'path_sender' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'path_sender' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/hldrz/IntelligentUAVChampionship/basic_dev/src/path_sender/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'path_sender' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/dawn/great-DJI-competition/basic_dev/src/path_sender/${idir}'.  ${_report}")
     endif()
     _list_append_unique(path_sender_INCLUDE_DIRS ${include})
   endforeach()
@@ -156,7 +156,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_sender/lib;/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib;/home/hldrz/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/dawn/great-DJI-competition/basic_dev/devel/.private/path_sender/lib;/home/dawn/great-DJI-competition/basic_dev/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

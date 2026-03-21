@@ -1,1 +1,1 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_utils/share/gennodejs/ros/traj_utils/_index.js
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_utils/share/gennodejs/ros/traj_utils/_index.js

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/basic_dev/src/basic_dev.cpp" "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/basic_dev/CMakeFiles/basic_dev.dir/src/basic_dev.cpp.o"
+  "/home/dawn/great-DJI-competition/basic_dev/src/basic_dev/src/basic_dev.cpp" "/home/dawn/great-DJI-competition/basic_dev/build/basic_dev/CMakeFiles/basic_dev.dir/src/basic_dev.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,9 +17,9 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/basic_dev/include"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/airsim_ros/include"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/fast_lio/include"
+  "/home/dawn/great-DJI-competition/basic_dev/src/basic_dev/include"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/airsim_ros/include"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/fast_lio/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/eigen3"

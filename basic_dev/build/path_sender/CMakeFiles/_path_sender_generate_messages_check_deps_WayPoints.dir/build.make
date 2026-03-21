@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/src/path_sender
+CMAKE_SOURCE_DIR = /home/dawn/great-DJI-competition/basic_dev/src/path_sender
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/path_sender
+CMAKE_BINARY_DIR = /home/dawn/great-DJI-competition/basic_dev/build/path_sender
 
 # Utility rule file for _path_sender_generate_messages_check_deps_WayPoints.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/path_s
 include CMakeFiles/_path_sender_generate_messages_check_deps_WayPoints.dir/progress.make
 
 CMakeFiles/_path_sender_generate_messages_check_deps_WayPoints:
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py path_sender /home/hldrz/IntelligentUAVChampionship/basic_dev/src/path_sender/msg/WayPoints.msg geometry_msgs/Point
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py path_sender /home/dawn/great-DJI-competition/basic_dev/src/path_sender/msg/WayPoints.msg geometry_msgs/Point
 
 _path_sender_generate_messages_check_deps_WayPoints: CMakeFiles/_path_sender_generate_messages_check_deps_WayPoints
 _path_sender_generate_messages_check_deps_WayPoints: CMakeFiles/_path_sender_generate_messages_check_deps_WayPoints.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/_path_sender_generate_messages_check_deps_WayPoints.dir/clean:
 .PHONY : CMakeFiles/_path_sender_generate_messages_check_deps_WayPoints.dir/clean
 
 CMakeFiles/_path_sender_generate_messages_check_deps_WayPoints.dir/depend:
-	cd /home/hldrz/IntelligentUAVChampionship/basic_dev/build/path_sender && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hldrz/IntelligentUAVChampionship/basic_dev/src/path_sender /home/hldrz/IntelligentUAVChampionship/basic_dev/src/path_sender /home/hldrz/IntelligentUAVChampionship/basic_dev/build/path_sender /home/hldrz/IntelligentUAVChampionship/basic_dev/build/path_sender /home/hldrz/IntelligentUAVChampionship/basic_dev/build/path_sender/CMakeFiles/_path_sender_generate_messages_check_deps_WayPoints.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dawn/great-DJI-competition/basic_dev/build/path_sender && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dawn/great-DJI-competition/basic_dev/src/path_sender /home/dawn/great-DJI-competition/basic_dev/src/path_sender /home/dawn/great-DJI-competition/basic_dev/build/path_sender /home/dawn/great-DJI-competition/basic_dev/build/path_sender /home/dawn/great-DJI-competition/basic_dev/build/path_sender/CMakeFiles/_path_sender_generate_messages_check_deps_WayPoints.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_path_sender_generate_messages_check_deps_WayPoints.dir/depend
 

@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_utils/share/roseus/ros/traj_utils/manifest.l"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_utils/share/roseus/ros/traj_utils/msg/DataDisp.l"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_utils/share/roseus/ros/traj_utils/msg/MINCOTraj.l"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_utils/share/roseus/ros/traj_utils/msg/PolyTraj.l"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_utils/share/roseus/ros/traj_utils/manifest.l"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_utils/share/roseus/ros/traj_utils/msg/DataDisp.l"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_utils/share/roseus/ros/traj_utils/msg/MINCOTraj.l"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_utils/share/roseus/ros/traj_utils/msg/PolyTraj.l"
   "CMakeFiles/traj_utils_generate_messages_eus"
 )
 

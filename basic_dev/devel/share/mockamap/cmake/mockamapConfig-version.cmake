@@ -1,1 +1,1 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/mockamap/share/mockamap/cmake/mockamapConfig-version.cmake
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/mockamap/share/mockamap/cmake/mockamapConfig-version.cmake

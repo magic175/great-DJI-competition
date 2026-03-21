@@ -1,8 +1,8 @@
-prefix=/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/basic_dev
+prefix=/home/dawn/great-DJI-competition/basic_dev/devel/.private/basic_dev
 
 Name: basic_dev
 Description: Description of basic_dev
 Version: 0.0.0
-Cflags: -I/home/hldrz/IntelligentUAVChampionship/basic_dev/src/basic_dev/include
+Cflags: -I/home/dawn/great-DJI-competition/basic_dev/src/basic_dev/include
 Libs: -L${prefix}/lib 
 Requires: message_runtime roscpp std_msgs

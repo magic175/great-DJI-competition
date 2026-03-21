@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/quadrotor_msgs
+CMAKE_SOURCE_DIR = /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/quadrotor_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/quadrotor_msgs
+CMAKE_BINARY_DIR = /home/dawn/great-DJI-competition/basic_dev/build/quadrotor_msgs
 
 # Utility rule file for _quadrotor_msgs_generate_messages_check_deps_GoalSet.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/quadro
 include CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_GoalSet.dir/progress.make
 
 CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_GoalSet:
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py quadrotor_msgs /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/quadrotor_msgs/msg/GoalSet.msg 
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py quadrotor_msgs /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/quadrotor_msgs/msg/GoalSet.msg 
 
 _quadrotor_msgs_generate_messages_check_deps_GoalSet: CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_GoalSet
 _quadrotor_msgs_generate_messages_check_deps_GoalSet: CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_GoalSet.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_GoalSet.dir/clean:
 .PHONY : CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_GoalSet.dir/clean
 
 CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_GoalSet.dir/depend:
-	cd /home/hldrz/IntelligentUAVChampionship/basic_dev/build/quadrotor_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/quadrotor_msgs /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/quadrotor_msgs /home/hldrz/IntelligentUAVChampionship/basic_dev/build/quadrotor_msgs /home/hldrz/IntelligentUAVChampionship/basic_dev/build/quadrotor_msgs /home/hldrz/IntelligentUAVChampionship/basic_dev/build/quadrotor_msgs/CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_GoalSet.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dawn/great-DJI-competition/basic_dev/build/quadrotor_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/quadrotor_msgs /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/quadrotor_msgs /home/dawn/great-DJI-competition/basic_dev/build/quadrotor_msgs /home/dawn/great-DJI-competition/basic_dev/build/quadrotor_msgs /home/dawn/great-DJI-competition/basic_dev/build/quadrotor_msgs/CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_GoalSet.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_GoalSet.dir/depend
 

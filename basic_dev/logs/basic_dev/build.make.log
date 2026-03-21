@@ -1,4 +1,4 @@
 [35m[1mScanning dependencies of target basic_dev[0m
 [ 50%] [32mBuilding CXX object CMakeFiles/basic_dev.dir/src/basic_dev.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/basic_dev/lib/basic_dev/basic_dev[0m
+[100%] [32m[1mLinking CXX executable /home/dawn/great-DJI-competition/basic_dev/devel/.private/basic_dev/lib/basic_dev/basic_dev[0m
 [100%] Built target basic_dev

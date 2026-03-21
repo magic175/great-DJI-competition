@@ -11,7 +11,7 @@
 
 # since this file is sourced either use the provided _CATKIN_SETUP_DIR
 # or fall back to the destination set at configure time
-: ${_CATKIN_SETUP_DIR:=/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/swarm_bridge}
+: ${_CATKIN_SETUP_DIR:=/home/dawn/great-DJI-competition/basic_dev/devel/.private/swarm_bridge}
 _SETUP_UTIL="$_CATKIN_SETUP_DIR/_setup_util.py"
 unset _CATKIN_SETUP_DIR
 

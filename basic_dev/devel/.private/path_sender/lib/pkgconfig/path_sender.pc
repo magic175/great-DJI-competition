@@ -1,8 +1,8 @@
-prefix=/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_sender
+prefix=/home/dawn/great-DJI-competition/basic_dev/devel/.private/path_sender
 
 Name: path_sender
 Description: Description of path_sender
 Version: 0.0.0
-Cflags: -I/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_sender/include -I/home/hldrz/IntelligentUAVChampionship/basic_dev/src/path_sender/include
+Cflags: -I/home/dawn/great-DJI-competition/basic_dev/devel/.private/path_sender/include -I/home/dawn/great-DJI-competition/basic_dev/src/path_sender/include
 Libs: -L${prefix}/lib 
 Requires: message_runtime roscpp std_msgs

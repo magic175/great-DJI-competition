@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_utils/include/traj_utils/MINCOTraj.h
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_utils/include/traj_utils/MINCOTraj.h
 string
 -
 vector
@@ -22,7 +22,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/moving_obstacles/src/moving_obstacles.cpp
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/moving_obstacles/src/moving_obstacles.cpp
 Eigen/Eigen
 -
 ros/ros.h
@@ -48,9 +48,9 @@ traj_utils/planning_visualization.h
 optimizer/poly_traj_utils.hpp
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/traj_opt/include/optimizer/poly_traj_utils.hpp
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/traj_opt/include/optimizer/poly_traj_utils.hpp
 root_finder.hpp
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/traj_opt/include/optimizer/root_finder.hpp
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/traj_opt/include/optimizer/root_finder.hpp
 iostream
 -
 cmath
@@ -60,7 +60,7 @@ vector
 Eigen/Eigen
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/traj_opt/include/optimizer/root_finder.hpp
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/traj_opt/include/optimizer/root_finder.hpp
 cfloat
 -
 cmath
@@ -70,7 +70,7 @@ set
 Eigen/Eigen
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/traj_utils/include/traj_utils/planning_visualization.h
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/traj_utils/include/traj_utils/planning_visualization.h
 eigen3/Eigen/Eigen
 -
 algorithm

@@ -77,7 +77,7 @@ private:
         {260.547, -414.272, 2.46838}
     };
 
-
+    
 
 public:
     ros::Subscriber initial_pose_suber, end_pose_suber, gps_pose_suber; // gps数据
@@ -85,17 +85,15 @@ public:
     void end_pose_cb(const geometry_msgs::PoseStamped::ConstPtr& msg);
     void gps_pose_cb(const geometry_msgs::PoseStamped::ConstPtr& msg);
     void POintSet();
-    double dist3D(const geometry_msgs::Point& a,const geometry_msgs::Point& b);
     ros::Publisher waypoint_publisher, edited_gps_publisher;
     geometry_msgs::Point station[13];
     geometry_msgs::Point Transit_hub[13];
     geometry_msgs::Point end_point[13];
-    geometry_msgs::Point current_pos_;
     bool initial_num_get = false;
     bool end_num_get = false;
     bool path_get  = false;
 
-    int initial_num=0, end_num=0;
+    int initial_num, end_num;
     std::vector<geometry_msgs::Point> path;
     PathSender(ros::NodeHandle *nh);
     void timeCB(const ros::TimerEvent& event);

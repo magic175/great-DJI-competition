@@ -1,1 +1,1 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_utils/share/common-lisp/ros/traj_utils/msg/traj_utils-msg.asd
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_utils/share/common-lisp/ros/traj_utils/msg/traj_utils-msg.asd

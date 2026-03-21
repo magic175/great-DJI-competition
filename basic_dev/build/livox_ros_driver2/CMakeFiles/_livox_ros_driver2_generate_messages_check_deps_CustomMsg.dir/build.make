@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2
+CMAKE_SOURCE_DIR = /home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2
+CMAKE_BINARY_DIR = /home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2
 
 # Utility rule file for _livox_ros_driver2_generate_messages_check_deps_CustomMsg.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_
 include CMakeFiles/_livox_ros_driver2_generate_messages_check_deps_CustomMsg.dir/progress.make
 
 CMakeFiles/_livox_ros_driver2_generate_messages_check_deps_CustomMsg:
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py livox_ros_driver2 /home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/msg/CustomMsg.msg livox_ros_driver2/CustomPoint:std_msgs/Header
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py livox_ros_driver2 /home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/msg/CustomMsg.msg std_msgs/Header:livox_ros_driver2/CustomPoint
 
 _livox_ros_driver2_generate_messages_check_deps_CustomMsg: CMakeFiles/_livox_ros_driver2_generate_messages_check_deps_CustomMsg
 _livox_ros_driver2_generate_messages_check_deps_CustomMsg: CMakeFiles/_livox_ros_driver2_generate_messages_check_deps_CustomMsg.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/_livox_ros_driver2_generate_messages_check_deps_CustomMsg.dir/clean:
 .PHONY : CMakeFiles/_livox_ros_driver2_generate_messages_check_deps_CustomMsg.dir/clean
 
 CMakeFiles/_livox_ros_driver2_generate_messages_check_deps_CustomMsg.dir/depend:
-	cd /home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2 /home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2 /home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2 /home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2 /home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2/CMakeFiles/_livox_ros_driver2_generate_messages_check_deps_CustomMsg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2 /home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2 /home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2 /home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2 /home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2/CMakeFiles/_livox_ros_driver2_generate_messages_check_deps_CustomMsg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_livox_ros_driver2_generate_messages_check_deps_CustomMsg.dir/depend
 

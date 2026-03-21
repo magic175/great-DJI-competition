@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/src/path_sender
+CMAKE_SOURCE_DIR = /home/dawn/great-DJI-competition/basic_dev/src/path_sender
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/path_sender
+CMAKE_BINARY_DIR = /home/dawn/great-DJI-competition/basic_dev/build/path_sender
 
 # Utility rule file for nav_msgs_generate_messages_cpp.
 
@@ -67,6 +67,6 @@ CMakeFiles/nav_msgs_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/nav_msgs_generate_messages_cpp.dir/clean
 
 CMakeFiles/nav_msgs_generate_messages_cpp.dir/depend:
-	cd /home/hldrz/IntelligentUAVChampionship/basic_dev/build/path_sender && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hldrz/IntelligentUAVChampionship/basic_dev/src/path_sender /home/hldrz/IntelligentUAVChampionship/basic_dev/src/path_sender /home/hldrz/IntelligentUAVChampionship/basic_dev/build/path_sender /home/hldrz/IntelligentUAVChampionship/basic_dev/build/path_sender /home/hldrz/IntelligentUAVChampionship/basic_dev/build/path_sender/CMakeFiles/nav_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dawn/great-DJI-competition/basic_dev/build/path_sender && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dawn/great-DJI-competition/basic_dev/src/path_sender /home/dawn/great-DJI-competition/basic_dev/src/path_sender /home/dawn/great-DJI-competition/basic_dev/build/path_sender /home/dawn/great-DJI-competition/basic_dev/build/path_sender /home/dawn/great-DJI-competition/basic_dev/build/path_sender/CMakeFiles/nav_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/nav_msgs_generate_messages_cpp.dir/depend
 

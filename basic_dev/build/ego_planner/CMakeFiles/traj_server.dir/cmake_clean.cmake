@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/ego_planner/lib/ego_planner/traj_server"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/ego_planner/lib/ego_planner/traj_server.pdb"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/ego_planner/lib/ego_planner/traj_server"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/ego_planner/lib/ego_planner/traj_server.pdb"
   "CMakeFiles/traj_server.dir/src/traj_server.cpp.o"
 )
 

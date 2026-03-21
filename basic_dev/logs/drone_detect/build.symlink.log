@@ -1,4 +1,4 @@
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/pkgconfig/drone_detect.pc
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib/drone_detect/drone_detect
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/drone_detect/cmake/drone_detectConfig-version.cmake
-Symlinking /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/share/drone_detect/cmake/drone_detectConfig.cmake
+Linked: (/home/dawn/great-DJI-competition/basic_dev/devel/.private/drone_detect/share/drone_detect/cmake/drone_detectConfig-version.cmake, /home/dawn/great-DJI-competition/basic_dev/devel/share/drone_detect/cmake/drone_detectConfig-version.cmake)
+Linked: (/home/dawn/great-DJI-competition/basic_dev/devel/.private/drone_detect/share/drone_detect/cmake/drone_detectConfig.cmake, /home/dawn/great-DJI-competition/basic_dev/devel/share/drone_detect/cmake/drone_detectConfig.cmake)
+Linked: (/home/dawn/great-DJI-competition/basic_dev/devel/.private/drone_detect/lib/pkgconfig/drone_detect.pc, /home/dawn/great-DJI-competition/basic_dev/devel/lib/pkgconfig/drone_detect.pc)
+Linked: (/home/dawn/great-DJI-competition/basic_dev/devel/.private/drone_detect/lib/drone_detect/drone_detect, /home/dawn/great-DJI-competition/basic_dev/devel/lib/drone_detect/drone_detect)

@@ -1,21 +1,21 @@
 [35m[1mScanning dependencies of target path_sender[0m
 [  0%] Built target std_msgs_generate_messages_py
-[  0%] Built target geometry_msgs_generate_messages_cpp
-[  0%] Built target std_msgs_generate_messages_cpp
 [  0%] Built target geometry_msgs_generate_messages_py
-[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_cpp
 [  0%] Built target geometry_msgs_generate_messages_lisp
-[  0%] Built target std_msgs_generate_messages_lisp
 [  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
 [  0%] Built target geometry_msgs_generate_messages_eus
 [  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
 [ 11%] [32mBuilding CXX object CMakeFiles/path_sender.dir/src/path_sender.cpp.o[0m
 [ 11%] Built target _path_sender_generate_messages_check_deps_WayPoints
-[ 22%] Built target path_sender_generate_messages_cpp
-[ 33%] Built target path_sender_generate_messages_nodejs
-[ 55%] Built target path_sender_generate_messages_eus
-[ 77%] Built target path_sender_generate_messages_py
-[ 88%] Built target path_sender_generate_messages_lisp
+[ 55%] Built target path_sender_generate_messages_cpp
+[ 55%] Built target path_sender_generate_messages_nodejs
+[ 55%] Built target path_sender_generate_messages_py
+[ 66%] Built target path_sender_generate_messages_lisp
+[ 88%] Built target path_sender_generate_messages_eus
 [ 88%] Built target path_sender_generate_messages
-[100%] [32m[1mLinking CXX executable /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_sender/lib/path_sender/path_sender[0m
+[100%] [32m[1mLinking CXX executable /home/dawn/great-DJI-competition/basic_dev/devel/.private/path_sender/lib/path_sender/path_sender[0m
 [100%] Built target path_sender

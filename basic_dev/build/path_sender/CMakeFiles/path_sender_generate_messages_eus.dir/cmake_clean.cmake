@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_sender/share/roseus/ros/path_sender/manifest.l"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_sender/share/roseus/ros/path_sender/msg/WayPoints.l"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/path_sender/share/roseus/ros/path_sender/manifest.l"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/path_sender/share/roseus/ros/path_sender/msg/WayPoints.l"
   "CMakeFiles/path_sender_generate_messages_eus"
 )
 

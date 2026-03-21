@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/manual_take_over/src/ground_station.cpp
+/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/manual_take_over/src/ground_station.cpp
 Eigen/Eigen
 -
 ros/ros.h

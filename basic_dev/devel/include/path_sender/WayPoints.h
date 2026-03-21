@@ -1,1 +1,1 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_sender/include/path_sender/WayPoints.h
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/path_sender/include/path_sender/WayPoints.h

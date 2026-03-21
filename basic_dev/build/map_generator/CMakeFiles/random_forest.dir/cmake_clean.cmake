@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/map_generator/lib/map_generator/random_forest"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/map_generator/lib/map_generator/random_forest.pdb"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/map_generator/lib/map_generator/random_forest"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/map_generator/lib/map_generator/random_forest.pdb"
   "CMakeFiles/random_forest.dir/src/random_forest_sensing.cpp.o"
 )
 

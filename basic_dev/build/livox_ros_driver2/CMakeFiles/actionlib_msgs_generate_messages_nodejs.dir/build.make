@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2
+CMAKE_SOURCE_DIR = /home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2
+CMAKE_BINARY_DIR = /home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2
 
 # Utility rule file for actionlib_msgs_generate_messages_nodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/clean
 
 CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2 /home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2 /home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2 /home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2 /home/hldrz/IntelligentUAVChampionship/basic_dev/build/livox_ros_driver2/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2 /home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2 /home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2 /home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2 /home/dawn/great-DJI-competition/basic_dev/build/livox_ros_driver2/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/depend
 

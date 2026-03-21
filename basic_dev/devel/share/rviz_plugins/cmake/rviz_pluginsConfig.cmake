@@ -1,1 +1,1 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/rviz_plugins/share/rviz_plugins/cmake/rviz_pluginsConfig.cmake
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/rviz_plugins/share/rviz_plugins/cmake/rviz_pluginsConfig.cmake

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_utils/lib/libtraj_utils.pdb"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_utils/lib/libtraj_utils.so"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_utils/lib/libtraj_utils.pdb"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_utils/lib/libtraj_utils.so"
   "CMakeFiles/traj_utils.dir/src/planning_visualization.cpp.o"
 )
 

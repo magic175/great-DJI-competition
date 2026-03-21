@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/livox_ros_driver2/include/livox_ros_driver2/CustomMsg.h
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/livox_ros_driver2/include/livox_ros_driver2/CustomMsg.h
 string
 -
 vector
@@ -26,7 +26,7 @@ std_msgs/Header.h
 livox_ros_driver2/CustomPoint.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/livox_ros_driver2/include/livox_ros_driver2/CustomPoint.h
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/livox_ros_driver2/include/livox_ros_driver2/CustomPoint.h
 string
 -
 vector
@@ -42,129 +42,129 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/allocators.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/allocators.h
 rapidjson.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/rapidjson.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/rapidjson.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/document.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/document.h
 limits
 -
 new
 -
 encodedstream.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/encodedstream.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/encodedstream.h
 internal/meta.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/meta.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/meta.h
 internal/strfunc.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/strfunc.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/strfunc.h
 memorystream.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/memorystream.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/memorystream.h
 reader.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/reader.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/reader.h
 iterator
 -
 utility
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/encodedstream.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/encodedstream.h
 memorystream.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/memorystream.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/memorystream.h
 stream.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/stream.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/stream.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/encodings.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/encodings.h
 rapidjson.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/rapidjson.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/rapidjson.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/error/error.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/error/error.h
 ../rapidjson.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/rapidjson.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/rapidjson.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/filereadstream.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/filereadstream.h
 cstdio
 -
 stream.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/stream.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/stream.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/biginteger.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/biginteger.h
 ../rapidjson.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/rapidjson.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/rapidjson.h
 intrin.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/clzll.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/clzll.h
 ../rapidjson.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/rapidjson.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/rapidjson.h
 intrin.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/diyfp.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/diyfp.h
 limits
 -
 ../rapidjson.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/rapidjson.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/rapidjson.h
 clzll.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/clzll.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/clzll.h
 intrin.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/ieee754.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/ieee754.h
 ../rapidjson.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/rapidjson.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/rapidjson.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/meta.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/meta.h
 ../rapidjson.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/rapidjson.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/rapidjson.h
 type_traits
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/pow10.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/pow10.h
 ../rapidjson.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/rapidjson.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/rapidjson.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/stack.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/stack.h
 cstddef
 -
 ../allocators.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/allocators.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/allocators.h
 swap.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/swap.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/swap.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/strfunc.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/strfunc.h
 cwchar
 -
 ../stream.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/stream.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/stream.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/strtod.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/strtod.h
 climits
 -
 limits
 -
 biginteger.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/biginteger.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/biginteger.h
 diyfp.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/diyfp.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/diyfp.h
 ieee754.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/ieee754.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/ieee754.h
 pow10.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/pow10.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/pow10.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/swap.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/swap.h
 ../rapidjson.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/rapidjson.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/rapidjson.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/memorystream.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/memorystream.h
 stream.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/stream.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/stream.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/msinttypes/inttypes.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/msinttypes/inttypes.h
 stdint.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/msinttypes/stdint.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/msinttypes/stdint.h
 inttypes.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/msinttypes/stdint.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/msinttypes/stdint.h
 stdint.h
 -
 limits.h
@@ -172,19 +172,19 @@ limits.h
 wchar.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/rapidjson.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/rapidjson.h
 cstdlib
 -
 cstring
 -
 rapidjson/...
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/rapidjson/...
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/rapidjson/...
 string
 -
 msinttypes/inttypes.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/msinttypes/inttypes.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/msinttypes/inttypes.h
 msinttypes/stdint.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/msinttypes/stdint.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/msinttypes/stdint.h
 inttypes.h
 -
 stdint.h
@@ -192,27 +192,27 @@ stdint.h
 endian.h
 -
 rapidjson/...
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/rapidjson/...
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/rapidjson/...
 cassert
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/reader.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/reader.h
 limits
 -
 allocators.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/allocators.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/allocators.h
 encodedstream.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/encodedstream.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/encodedstream.h
 internal/clzll.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/clzll.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/clzll.h
 internal/meta.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/meta.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/meta.h
 internal/stack.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/stack.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/stack.h
 internal/strtod.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/strtod.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/strtod.h
 stream.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/stream.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/stream.h
 intrin.h
 -
 nmmintrin.h
@@ -224,43 +224,43 @@ arm_neon.h
 stdexcept
 -
 rapidjson/error/error.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/rapidjson/error/error.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/rapidjson/error/error.h
 rapidjson/reader.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/rapidjson/reader.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/rapidjson/reader.h
 error/error.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/error/error.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/error/error.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/stream.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/stream.h
 rapidjson.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/rapidjson.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/rapidjson.h
 encodings.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/encodings.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/encodings.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/stringbuffer.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/stringbuffer.h
 internal/stack.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/stack.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/stack.h
 stream.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/stream.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/stream.h
 utility
 -
 internal/stack.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/stack.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/3rdparty/rapidjson/internal/stack.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/call_back/lidar_common_callback.cpp
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/call_back/lidar_common_callback.cpp
 lidar_common_callback.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/call_back/lidar_common_callback.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/call_back/lidar_common_callback.h
 ../lds_lidar.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/lds_lidar.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/lds_lidar.h
 string
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/call_back/lidar_common_callback.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/call_back/lidar_common_callback.h
 comm/comm.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/call_back/comm/comm.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/call_back/comm/comm.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/call_back/livox_lidar_callback.cpp
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/call_back/livox_lidar_callback.cpp
 livox_lidar_callback.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/call_back/livox_lidar_callback.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/call_back/livox_lidar_callback.h
 string
 -
 thread
@@ -268,25 +268,25 @@ thread
 iostream
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/call_back/livox_lidar_callback.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/call_back/livox_lidar_callback.h
 ../lds.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/lds.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/lds.h
 ../lds_lidar.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/lds_lidar.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/lds_lidar.h
 ../comm/comm.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/comm.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/comm.h
 livox_lidar_api.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/call_back/livox_lidar_api.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/call_back/livox_lidar_api.h
 livox_lidar_def.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/call_back/livox_lidar_def.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/call_back/livox_lidar_def.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/cache_index.cpp
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/cache_index.cpp
 cache_index.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/cache_index.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/cache_index.h
 livox_lidar_def.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/livox_lidar_def.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/livox_lidar_def.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/cache_index.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/cache_index.h
 mutex
 -
 array
@@ -296,17 +296,17 @@ map
 string
 -
 comm/comm.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/comm/comm.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/comm/comm.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/comm.cpp
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/comm.cpp
 comm/comm.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/comm/comm.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/comm/comm.h
 string.h
 -
 arpa/inet.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/comm.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/comm.h
 math.h
 -
 stdint.h
@@ -326,29 +326,29 @@ memory
 map
 -
 lidar_imu_data_queue.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/lidar_imu_data_queue.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/lidar_imu_data_queue.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/ldq.cpp
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/ldq.cpp
 stdio.h
 -
 string.h
 -
 ldq.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/ldq.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/ldq.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/ldq.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/ldq.h
 stdint.h
 -
 vector
 -
 comm/comm.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/comm/comm.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/comm/comm.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/lidar_imu_data_queue.cpp
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/lidar_imu_data_queue.cpp
 lidar_imu_data_queue.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/lidar_imu_data_queue.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/lidar_imu_data_queue.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/lidar_imu_data_queue.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/lidar_imu_data_queue.h
 list
 -
 mutex
@@ -356,9 +356,9 @@ mutex
 cstdint
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/pub_handler.cpp
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/pub_handler.cpp
 pub_handler.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/pub_handler.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/pub_handler.h
 chrono
 -
 iostream
@@ -366,7 +366,7 @@ iostream
 limits
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/pub_handler.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/pub_handler.h
 atomic
 -
 cstring
@@ -386,35 +386,35 @@ mutex
 thread
 -
 livox_lidar_def.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/livox_lidar_def.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/livox_lidar_def.h
 livox_lidar_api.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/livox_lidar_api.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/livox_lidar_api.h
 comm/comm.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/comm/comm.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/comm/comm.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/semaphore.cpp
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/semaphore.cpp
 semaphore.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/semaphore.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/semaphore.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/semaphore.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/semaphore.h
 mutex
 -
 condition_variable
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/driver_node.cpp
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/driver_node.cpp
 driver_node.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/driver_node.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/driver_node.h
 lddc.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/lddc.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/lddc.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/driver_node.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/driver_node.h
 include/ros_headers.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/include/ros_headers.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/include/ros_headers.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/include/livox_ros_driver2.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/include/livox_ros_driver2.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/include/ros1_headers.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/include/ros1_headers.h
 thread
 -
 future
@@ -430,11 +430,11 @@ sensor_msgs/Imu.h
 sensor_msgs/PointCloud2.h
 -
 livox_ros_driver2/CustomMsg.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/include/livox_ros_driver2/CustomMsg.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/include/livox_ros_driver2/CustomMsg.h
 livox_ros_driver2/CustomPoint.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/include/livox_ros_driver2/CustomPoint.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/include/livox_ros_driver2/CustomPoint.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/include/ros2_headers.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/include/ros2_headers.h
 thread
 -
 future
@@ -448,23 +448,23 @@ sensor_msgs/msg/point_cloud2.hpp
 sensor_msgs/msg/imu.hpp
 -
 livox_ros_driver2/msg/custom_point.hpp
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/include/livox_ros_driver2/msg/custom_point.hpp
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/include/livox_ros_driver2/msg/custom_point.hpp
 livox_ros_driver2/msg/custom_msg.hpp
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/include/livox_ros_driver2/msg/custom_msg.hpp
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/include/livox_ros_driver2/msg/custom_msg.hpp
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/include/ros_headers.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/include/ros_headers.h
 ros1_headers.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/include/ros1_headers.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/include/ros1_headers.h
 ros2_headers.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/include/ros2_headers.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/include/ros2_headers.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/lddc.cpp
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/lddc.cpp
 lddc.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/lddc.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/lddc.h
 comm/ldq.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/ldq.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/ldq.h
 comm/comm.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/comm.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/comm.h
 inttypes.h
 -
 iostream
@@ -474,21 +474,21 @@ math.h
 stdint.h
 -
 include/ros_headers.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/include/ros_headers.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/include/ros_headers.h
 driver_node.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/driver_node.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/driver_node.h
 lds_lidar.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/lds_lidar.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/lds_lidar.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/lddc.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/lddc.h
 include/livox_ros_driver2.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/include/livox_ros_driver2.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/include/livox_ros_driver2.h
 driver_node.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/driver_node.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/driver_node.h
 lds.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/lds.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/lds.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/lds.cpp
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/lds.cpp
 math.h
 -
 stdio.h
@@ -502,23 +502,23 @@ chrono
 algorithm
 -
 lds.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/lds.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/lds.h
 comm/ldq.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/ldq.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/ldq.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/lds.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/lds.h
 map
 -
 comm/semaphore.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/semaphore.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/semaphore.h
 comm/comm.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/comm.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/comm.h
 comm/cache_index.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/cache_index.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/cache_index.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/lds_lidar.cpp
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/lds_lidar.cpp
 lds_lidar.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/lds_lidar.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/lds_lidar.h
 stdio.h
 -
 string.h
@@ -542,19 +542,19 @@ arpa/inet.h
 unistd.h
 -
 comm/comm.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/comm.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/comm.h
 comm/pub_handler.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/pub_handler.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/pub_handler.h
 parse_cfg_file/parse_cfg_file.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/parse_cfg_file/parse_cfg_file.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/parse_cfg_file/parse_cfg_file.h
 parse_cfg_file/parse_livox_lidar_cfg.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/parse_cfg_file/parse_livox_lidar_cfg.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/parse_cfg_file/parse_livox_lidar_cfg.h
 call_back/lidar_common_callback.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/call_back/lidar_common_callback.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/call_back/lidar_common_callback.h
 call_back/livox_lidar_callback.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/call_back/livox_lidar_callback.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/call_back/livox_lidar_callback.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/lds_lidar.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/lds_lidar.h
 memory
 -
 mutex
@@ -562,17 +562,17 @@ mutex
 vector
 -
 lds.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/lds.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/lds.h
 comm/comm.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/comm.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/comm.h
 livox_lidar_api.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/livox_lidar_api.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/livox_lidar_api.h
 livox_lidar_def.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/livox_lidar_def.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/livox_lidar_def.h
 rapidjson/document.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/rapidjson/document.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/rapidjson/document.h
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/livox_ros_driver2.cpp
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/livox_ros_driver2.cpp
 iostream
 -
 chrono
@@ -584,21 +584,21 @@ csignal
 thread
 -
 include/livox_ros_driver2.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/include/livox_ros_driver2.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/include/livox_ros_driver2.h
 include/ros_headers.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/include/ros_headers.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/include/ros_headers.h
 driver_node.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/driver_node.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/driver_node.h
 lddc.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/lddc.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/lddc.h
 lds_lidar.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/lds_lidar.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/lds_lidar.h
 rclcpp_components/register_node_macro.hpp
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/parse_cfg_file/parse_cfg_file.cpp
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/parse_cfg_file/parse_cfg_file.cpp
 parse_cfg_file.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/parse_cfg_file/parse_cfg_file.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/parse_cfg_file/parse_cfg_file.h
 iostream
 -
 cstdio
@@ -606,37 +606,37 @@ cstdio
 arpa/inet.h
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/parse_cfg_file/parse_cfg_file.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/parse_cfg_file/parse_cfg_file.h
 ../comm/comm.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/comm/comm.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/comm/comm.h
 rapidjson/document.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/parse_cfg_file/rapidjson/document.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/parse_cfg_file/rapidjson/document.h
 rapidjson/filereadstream.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/parse_cfg_file/rapidjson/filereadstream.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/parse_cfg_file/rapidjson/filereadstream.h
 rapidjson/stringbuffer.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/parse_cfg_file/rapidjson/stringbuffer.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/parse_cfg_file/rapidjson/stringbuffer.h
 string
 -
 vector
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/parse_cfg_file/parse_livox_lidar_cfg.cpp
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/parse_cfg_file/parse_livox_lidar_cfg.cpp
 parse_livox_lidar_cfg.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/parse_cfg_file/parse_livox_lidar_cfg.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/parse_cfg_file/parse_livox_lidar_cfg.h
 iostream
 -
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/parse_cfg_file/parse_livox_lidar_cfg.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/parse_cfg_file/parse_livox_lidar_cfg.h
 comm/comm.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/parse_cfg_file/comm/comm.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/parse_cfg_file/comm/comm.h
 livox_lidar_def.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/parse_cfg_file/livox_lidar_def.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/parse_cfg_file/livox_lidar_def.h
 rapidjson/document.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/parse_cfg_file/rapidjson/document.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/parse_cfg_file/rapidjson/document.h
 rapidjson/filereadstream.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/parse_cfg_file/rapidjson/filereadstream.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/parse_cfg_file/rapidjson/filereadstream.h
 rapidjson/stringbuffer.h
-/home/hldrz/IntelligentUAVChampionship/basic_dev/src/livox_ros_driver2/src/parse_cfg_file/rapidjson/stringbuffer.h
+/home/dawn/great-DJI-competition/basic_dev/src/livox_ros_driver2/src/parse_cfg_file/rapidjson/stringbuffer.h
 iostream
 -
 string

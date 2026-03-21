@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/uav_simulator/so3_quadrotor_simulator
+CMAKE_SOURCE_DIR = /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/uav_simulator/so3_quadrotor_simulator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/so3_quadrotor_simulator
+CMAKE_BINARY_DIR = /home/dawn/great-DJI-competition/basic_dev/build/so3_quadrotor_simulator
 
 # Include any dependencies generated for this target.
 include CMakeFiles/quadrotor_dynamics.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/quadrotor_dynamics.dir/progress.make
 include CMakeFiles/quadrotor_dynamics.dir/flags.make
 
 CMakeFiles/quadrotor_dynamics.dir/src/dynamics/Quadrotor.cpp.o: CMakeFiles/quadrotor_dynamics.dir/flags.make
-CMakeFiles/quadrotor_dynamics.dir/src/dynamics/Quadrotor.cpp.o: /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/uav_simulator/so3_quadrotor_simulator/src/dynamics/Quadrotor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hldrz/IntelligentUAVChampionship/basic_dev/build/so3_quadrotor_simulator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/quadrotor_dynamics.dir/src/dynamics/Quadrotor.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/quadrotor_dynamics.dir/src/dynamics/Quadrotor.cpp.o -c /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/uav_simulator/so3_quadrotor_simulator/src/dynamics/Quadrotor.cpp
+CMakeFiles/quadrotor_dynamics.dir/src/dynamics/Quadrotor.cpp.o: /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/uav_simulator/so3_quadrotor_simulator/src/dynamics/Quadrotor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dawn/great-DJI-competition/basic_dev/build/so3_quadrotor_simulator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/quadrotor_dynamics.dir/src/dynamics/Quadrotor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/quadrotor_dynamics.dir/src/dynamics/Quadrotor.cpp.o -c /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/uav_simulator/so3_quadrotor_simulator/src/dynamics/Quadrotor.cpp
 
 CMakeFiles/quadrotor_dynamics.dir/src/dynamics/Quadrotor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quadrotor_dynamics.dir/src/dynamics/Quadrotor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/uav_simulator/so3_quadrotor_simulator/src/dynamics/Quadrotor.cpp > CMakeFiles/quadrotor_dynamics.dir/src/dynamics/Quadrotor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/uav_simulator/so3_quadrotor_simulator/src/dynamics/Quadrotor.cpp > CMakeFiles/quadrotor_dynamics.dir/src/dynamics/Quadrotor.cpp.i
 
 CMakeFiles/quadrotor_dynamics.dir/src/dynamics/Quadrotor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quadrotor_dynamics.dir/src/dynamics/Quadrotor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/uav_simulator/so3_quadrotor_simulator/src/dynamics/Quadrotor.cpp -o CMakeFiles/quadrotor_dynamics.dir/src/dynamics/Quadrotor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/uav_simulator/so3_quadrotor_simulator/src/dynamics/Quadrotor.cpp -o CMakeFiles/quadrotor_dynamics.dir/src/dynamics/Quadrotor.cpp.s
 
 # Object files for target quadrotor_dynamics
 quadrotor_dynamics_OBJECTS = \
@@ -77,14 +77,14 @@ quadrotor_dynamics_OBJECTS = \
 # External object files for target quadrotor_dynamics
 quadrotor_dynamics_EXTERNAL_OBJECTS =
 
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/so3_quadrotor_simulator/lib/libquadrotor_dynamics.so: CMakeFiles/quadrotor_dynamics.dir/src/dynamics/Quadrotor.cpp.o
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/so3_quadrotor_simulator/lib/libquadrotor_dynamics.so: CMakeFiles/quadrotor_dynamics.dir/build.make
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/so3_quadrotor_simulator/lib/libquadrotor_dynamics.so: CMakeFiles/quadrotor_dynamics.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hldrz/IntelligentUAVChampionship/basic_dev/build/so3_quadrotor_simulator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/so3_quadrotor_simulator/lib/libquadrotor_dynamics.so"
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/so3_quadrotor_simulator/lib/libquadrotor_dynamics.so: CMakeFiles/quadrotor_dynamics.dir/src/dynamics/Quadrotor.cpp.o
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/so3_quadrotor_simulator/lib/libquadrotor_dynamics.so: CMakeFiles/quadrotor_dynamics.dir/build.make
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/so3_quadrotor_simulator/lib/libquadrotor_dynamics.so: CMakeFiles/quadrotor_dynamics.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dawn/great-DJI-competition/basic_dev/build/so3_quadrotor_simulator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/dawn/great-DJI-competition/basic_dev/devel/.private/so3_quadrotor_simulator/lib/libquadrotor_dynamics.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/quadrotor_dynamics.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/quadrotor_dynamics.dir/build: /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/so3_quadrotor_simulator/lib/libquadrotor_dynamics.so
+CMakeFiles/quadrotor_dynamics.dir/build: /home/dawn/great-DJI-competition/basic_dev/devel/.private/so3_quadrotor_simulator/lib/libquadrotor_dynamics.so
 
 .PHONY : CMakeFiles/quadrotor_dynamics.dir/build
 
@@ -93,6 +93,6 @@ CMakeFiles/quadrotor_dynamics.dir/clean:
 .PHONY : CMakeFiles/quadrotor_dynamics.dir/clean
 
 CMakeFiles/quadrotor_dynamics.dir/depend:
-	cd /home/hldrz/IntelligentUAVChampionship/basic_dev/build/so3_quadrotor_simulator && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/uav_simulator/so3_quadrotor_simulator /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/uav_simulator/so3_quadrotor_simulator /home/hldrz/IntelligentUAVChampionship/basic_dev/build/so3_quadrotor_simulator /home/hldrz/IntelligentUAVChampionship/basic_dev/build/so3_quadrotor_simulator /home/hldrz/IntelligentUAVChampionship/basic_dev/build/so3_quadrotor_simulator/CMakeFiles/quadrotor_dynamics.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dawn/great-DJI-competition/basic_dev/build/so3_quadrotor_simulator && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/uav_simulator/so3_quadrotor_simulator /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/uav_simulator/so3_quadrotor_simulator /home/dawn/great-DJI-competition/basic_dev/build/so3_quadrotor_simulator /home/dawn/great-DJI-competition/basic_dev/build/so3_quadrotor_simulator /home/dawn/great-DJI-competition/basic_dev/build/so3_quadrotor_simulator/CMakeFiles/quadrotor_dynamics.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/quadrotor_dynamics.dir/depend
 

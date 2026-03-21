@@ -1,1 +1,1 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/swarm_bridge/share/swarm_bridge/cmake/swarm_bridgeConfig-version.cmake
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/swarm_bridge/share/swarm_bridge/cmake/swarm_bridgeConfig-version.cmake

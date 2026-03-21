@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "quadrotor_msgs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "manual_take_over"
-PROJECT_SPACE_DIR = "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/manual_take_over"
+PROJECT_SPACE_DIR = "/home/dawn/great-DJI-competition/basic_dev/devel/.private/manual_take_over"
 PROJECT_VERSION = "0.0.0"

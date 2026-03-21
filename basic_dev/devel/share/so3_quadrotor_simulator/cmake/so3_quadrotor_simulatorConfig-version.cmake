@@ -1,1 +1,1 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/so3_quadrotor_simulator/share/so3_quadrotor_simulator/cmake/so3_quadrotor_simulatorConfig-version.cmake
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/so3_quadrotor_simulator/share/so3_quadrotor_simulator/cmake/so3_quadrotor_simulatorConfig-version.cmake

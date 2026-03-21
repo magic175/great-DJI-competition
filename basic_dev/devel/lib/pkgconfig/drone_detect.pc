@@ -1,1 +1,1 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/drone_detect/lib/pkgconfig/drone_detect.pc
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/drone_detect/lib/pkgconfig/drone_detect.pc

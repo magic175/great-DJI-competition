@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/uav_simulator/so3_quadrotor_simulator/src/quadrotor_simulator_so3.cpp" "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/so3_quadrotor_simulator/CMakeFiles/quadrotor_simulator_so3.dir/src/quadrotor_simulator_so3.cpp.o"
+  "/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/uav_simulator/so3_quadrotor_simulator/src/quadrotor_simulator_so3.cpp" "/home/dawn/great-DJI-competition/basic_dev/build/so3_quadrotor_simulator/CMakeFiles/quadrotor_simulator_so3.dir/src/quadrotor_simulator_so3.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,17 +18,17 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/eigen3"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/uav_simulator/so3_quadrotor_simulator/include/ode"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/uav_simulator/so3_quadrotor_simulator/include"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/include"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/uav_utils/include"
+  "/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/uav_simulator/so3_quadrotor_simulator/include/ode"
+  "/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/uav_simulator/so3_quadrotor_simulator/include"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/quadrotor_msgs/include"
+  "/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/uav_utils/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/so3_quadrotor_simulator/CMakeFiles/quadrotor_dynamics.dir/DependInfo.cmake"
+  "/home/dawn/great-DJI-competition/basic_dev/build/so3_quadrotor_simulator/CMakeFiles/quadrotor_dynamics.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

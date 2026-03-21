@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/src/FAST_LIO
+CMAKE_SOURCE_DIR = /home/dawn/great-DJI-competition/basic_dev/src/FAST_LIO
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hldrz/IntelligentUAVChampionship/basic_dev/build/fast_lio
+CMAKE_BINARY_DIR = /home/dawn/great-DJI-competition/basic_dev/build/fast_lio
 
 # Utility rule file for nodelet_topic_tools_gencfg.
 
@@ -67,6 +67,6 @@ CMakeFiles/nodelet_topic_tools_gencfg.dir/clean:
 .PHONY : CMakeFiles/nodelet_topic_tools_gencfg.dir/clean
 
 CMakeFiles/nodelet_topic_tools_gencfg.dir/depend:
-	cd /home/hldrz/IntelligentUAVChampionship/basic_dev/build/fast_lio && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hldrz/IntelligentUAVChampionship/basic_dev/src/FAST_LIO /home/hldrz/IntelligentUAVChampionship/basic_dev/src/FAST_LIO /home/hldrz/IntelligentUAVChampionship/basic_dev/build/fast_lio /home/hldrz/IntelligentUAVChampionship/basic_dev/build/fast_lio /home/hldrz/IntelligentUAVChampionship/basic_dev/build/fast_lio/CMakeFiles/nodelet_topic_tools_gencfg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dawn/great-DJI-competition/basic_dev/build/fast_lio && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dawn/great-DJI-competition/basic_dev/src/FAST_LIO /home/dawn/great-DJI-competition/basic_dev/src/FAST_LIO /home/dawn/great-DJI-competition/basic_dev/build/fast_lio /home/dawn/great-DJI-competition/basic_dev/build/fast_lio /home/dawn/great-DJI-competition/basic_dev/build/fast_lio/CMakeFiles/nodelet_topic_tools_gencfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/nodelet_topic_tools_gencfg.dir/depend
 

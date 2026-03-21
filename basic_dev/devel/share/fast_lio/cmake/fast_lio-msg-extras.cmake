@@ -1,1 +1,1 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/fast_lio/share/fast_lio/cmake/fast_lio-msg-extras.cmake
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/fast_lio/share/fast_lio/cmake/fast_lio-msg-extras.cmake

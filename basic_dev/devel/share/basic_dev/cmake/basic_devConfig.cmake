@@ -1,1 +1,1 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/basic_dev/share/basic_dev/cmake/basic_devConfig.cmake
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/basic_dev/share/basic_dev/cmake/basic_devConfig.cmake

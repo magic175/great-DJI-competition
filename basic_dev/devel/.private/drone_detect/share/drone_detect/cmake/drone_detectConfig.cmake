@@ -67,14 +67,14 @@ set(drone_detect_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(drone_detect_SOURCE_PREFIX /home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/drone_detect)
-  set(drone_detect_DEVEL_PREFIX /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/drone_detect)
+  set(drone_detect_SOURCE_PREFIX /home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/drone_detect)
+  set(drone_detect_DEVEL_PREFIX /home/dawn/great-DJI-competition/basic_dev/devel/.private/drone_detect)
   set(drone_detect_INSTALL_PREFIX "")
   set(drone_detect_PREFIX ${drone_detect_DEVEL_PREFIX})
 else()
   set(drone_detect_SOURCE_PREFIX "")
   set(drone_detect_DEVEL_PREFIX "")
-  set(drone_detect_INSTALL_PREFIX /home/hldrz/IntelligentUAVChampionship/basic_dev/install)
+  set(drone_detect_INSTALL_PREFIX /home/dawn/great-DJI-competition/basic_dev/install)
   set(drone_detect_PREFIX ${drone_detect_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(drone_detect_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/drone_detect/include;/usr/include/eigen3;/usr/include/opencv4;/usr/include " STREQUAL " ")
+if(NOT "/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/drone_detect/include;/usr/include/eigen3;/usr/local/include/opencv4;/usr/include " STREQUAL " ")
   set(drone_detect_INCLUDE_DIRS "")
-  set(_include_dirs "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/drone_detect/include;/usr/include/eigen3;/usr/include/opencv4;/usr/include")
+  set(_include_dirs "/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/drone_detect/include;/usr/include/eigen3;/usr/local/include/opencv4;/usr/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,13 +110,13 @@ if(NOT "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/pla
         message(FATAL_ERROR "Project 'drone_detect' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'drone_detect' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/drone_detect/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'drone_detect' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/drone_detect/${idir}'.  ${_report}")
     endif()
     _list_append_unique(drone_detect_INCLUDE_DIRS ${include})
   endforeach()
 endif()
 
-set(libraries "/usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_dnn.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_ml.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_video.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_datasets.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_dnn_objdetect.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_dnn_superres.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_dpm.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_face.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_freetype.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_hdf.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_hfs.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_img_hash.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_optflow.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_plot.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_quality.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_reg.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_saliency.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_shape.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_stereo.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_superres.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_text.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_tracking.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_videostab.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_viz.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.4.2.0;/usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.4.2.0")
+set(libraries "/usr/local/lib/libopencv_calib3d.so.4.10.0;/usr/local/lib/libopencv_core.so.4.10.0;/usr/local/lib/libopencv_dnn.so.4.10.0;/usr/local/lib/libopencv_features2d.so.4.10.0;/usr/local/lib/libopencv_flann.so.4.10.0;/usr/local/lib/libopencv_gapi.so.4.10.0;/usr/local/lib/libopencv_highgui.so.4.10.0;/usr/local/lib/libopencv_imgcodecs.so.4.10.0;/usr/local/lib/libopencv_imgproc.so.4.10.0;/usr/local/lib/libopencv_ml.so.4.10.0;/usr/local/lib/libopencv_objdetect.so.4.10.0;/usr/local/lib/libopencv_photo.so.4.10.0;/usr/local/lib/libopencv_stitching.so.4.10.0;/usr/local/lib/libopencv_video.so.4.10.0;/usr/local/lib/libopencv_videoio.so.4.10.0;/usr/local/lib/libopencv_alphamat.so.4.10.0;/usr/local/lib/libopencv_aruco.so.4.10.0;/usr/local/lib/libopencv_bgsegm.so.4.10.0;/usr/local/lib/libopencv_bioinspired.so.4.10.0;/usr/local/lib/libopencv_ccalib.so.4.10.0;/usr/local/lib/libopencv_cudaarithm.so.4.10.0;/usr/local/lib/libopencv_cudabgsegm.so.4.10.0;/usr/local/lib/libopencv_cudacodec.so.4.10.0;/usr/local/lib/libopencv_cudafeatures2d.so.4.10.0;/usr/local/lib/libopencv_cudafilters.so.4.10.0;/usr/local/lib/libopencv_cudaimgproc.so.4.10.0;/usr/local/lib/libopencv_cudalegacy.so.4.10.0;/usr/local/lib/libopencv_cudaobjdetect.so.4.10.0;/usr/local/lib/libopencv_cudaoptflow.so.4.10.0;/usr/local/lib/libopencv_cudastereo.so.4.10.0;/usr/local/lib/libopencv_cudawarping.so.4.10.0;/usr/local/lib/libopencv_cudev.so.4.10.0;/usr/local/lib/libopencv_datasets.so.4.10.0;/usr/local/lib/libopencv_dnn_objdetect.so.4.10.0;/usr/local/lib/libopencv_dnn_superres.so.4.10.0;/usr/local/lib/libopencv_dpm.so.4.10.0;/usr/local/lib/libopencv_face.so.4.10.0;/usr/local/lib/libopencv_freetype.so.4.10.0;/usr/local/lib/libopencv_fuzzy.so.4.10.0;/usr/local/lib/libopencv_hdf.so.4.10.0;/usr/local/lib/libopencv_hfs.so.4.10.0;/usr/local/lib/libopencv_img_hash.so.4.10.0;/usr/local/lib/libopencv_intensity_transform.so.4.10.0;/usr/local/lib/libopencv_line_descriptor.so.4.10.0;/usr/local/lib/libopencv_mcc.so.4.10.0;/usr/local/lib/libopencv_optflow.so.4.10.0;/usr/local/lib/libopencv_phase_unwrapping.so.4.10.0;/usr/local/lib/libopencv_plot.so.4.10.0;/usr/local/lib/libopencv_quality.so.4.10.0;/usr/local/lib/libopencv_rapid.so.4.10.0;/usr/local/lib/libopencv_reg.so.4.10.0;/usr/local/lib/libopencv_rgbd.so.4.10.0;/usr/local/lib/libopencv_saliency.so.4.10.0;/usr/local/lib/libopencv_sfm.so.4.10.0;/usr/local/lib/libopencv_shape.so.4.10.0;/usr/local/lib/libopencv_signal.so.4.10.0;/usr/local/lib/libopencv_stereo.so.4.10.0;/usr/local/lib/libopencv_structured_light.so.4.10.0;/usr/local/lib/libopencv_superres.so.4.10.0;/usr/local/lib/libopencv_surface_matching.so.4.10.0;/usr/local/lib/libopencv_text.so.4.10.0;/usr/local/lib/libopencv_tracking.so.4.10.0;/usr/local/lib/libopencv_videostab.so.4.10.0;/usr/local/lib/libopencv_viz.so.4.10.0;/usr/local/lib/libopencv_wechat_qrcode.so.4.10.0;/usr/local/lib/libopencv_xfeatures2d.so.4.10.0;/usr/local/lib/libopencv_ximgproc.so.4.10.0;/usr/local/lib/libopencv_xobjdetect.so.4.10.0;/usr/local/lib/libopencv_xphoto.so.4.10.0")
 foreach(library ${libraries})
   # keep build configuration keywords, generator expressions, target names, and absolute libraries as-is
   if("${library}" MATCHES "^(debug|optimized|general)$")
@@ -156,7 +156,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/drone_detect/lib;/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/lib;/home/hldrz/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/dawn/great-DJI-competition/basic_dev/devel/.private/drone_detect/lib;/home/dawn/great-DJI-competition/basic_dev/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

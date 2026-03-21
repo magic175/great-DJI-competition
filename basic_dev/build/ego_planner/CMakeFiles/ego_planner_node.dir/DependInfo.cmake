@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/ego_planner_node.cpp" "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/ego_planner/CMakeFiles/ego_planner_node.dir/src/ego_planner_node.cpp.o"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/ego_replan_fsm.cpp" "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/ego_planner/CMakeFiles/ego_planner_node.dir/src/ego_replan_fsm.cpp.o"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/planner_manager.cpp" "/home/hldrz/IntelligentUAVChampionship/basic_dev/build/ego_planner/CMakeFiles/ego_planner_node.dir/src/planner_manager.cpp.o"
+  "/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/ego_planner_node.cpp" "/home/dawn/great-DJI-competition/basic_dev/build/ego_planner/CMakeFiles/ego_planner_node.dir/src/ego_planner_node.cpp.o"
+  "/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/ego_replan_fsm.cpp" "/home/dawn/great-DJI-competition/basic_dev/build/ego_planner/CMakeFiles/ego_planner_node.dir/src/ego_replan_fsm.cpp.o"
+  "/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/plan_manage/src/planner_manager.cpp" "/home/dawn/great-DJI-competition/basic_dev/build/ego_planner/CMakeFiles/ego_planner_node.dir/src/planner_manager.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -22,20 +22,20 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/plan_manage/../px4ctrl/include"
+  "/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/plan_manage/../px4ctrl/include"
   "/usr/include/vtk-7.1"
   "/usr/include/freetype2"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/plan_manage/include"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/airsim_ros/include"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/include"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/traj_utils/include"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/path_sender/include"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/path_sender/include"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/plan_env/include"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/path_searching/include"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/traj_utils/include"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/planner/traj_opt/include"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/src/EGO-Planner/src/Utils/uav_utils/include"
+  "/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/plan_manage/include"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/airsim_ros/include"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/quadrotor_msgs/include"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/traj_utils/include"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/path_sender/include"
+  "/home/dawn/great-DJI-competition/basic_dev/src/path_sender/include"
+  "/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/plan_env/include"
+  "/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/path_searching/include"
+  "/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/traj_utils/include"
+  "/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/planner/traj_opt/include"
+  "/home/dawn/great-DJI-competition/basic_dev/src/EGO-Planner/src/Utils/uav_utils/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/opencv4"

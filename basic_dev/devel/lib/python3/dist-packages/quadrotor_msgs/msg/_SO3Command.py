@@ -1,1 +1,1 @@
-/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SO3Command.py
+/home/dawn/great-DJI-competition/basic_dev/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SO3Command.py

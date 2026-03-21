@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/drone_detect/lib/drone_detect/drone_detect"
-  "/home/hldrz/IntelligentUAVChampionship/basic_dev/devel/.private/drone_detect/lib/drone_detect/drone_detect.pdb"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/drone_detect/lib/drone_detect/drone_detect"
+  "/home/dawn/great-DJI-competition/basic_dev/devel/.private/drone_detect/lib/drone_detect/drone_detect.pdb"
   "CMakeFiles/drone_detect.dir/src/drone_detect_node.cpp.o"
   "CMakeFiles/drone_detect.dir/src/drone_detector.cpp.o"
 )

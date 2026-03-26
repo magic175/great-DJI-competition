@@ -59,3 +59,11 @@ basic_dev/src/Livox-SDK2.zip
 catkin_tools/
 basic_dev/.catkin_tools/
 basic_dev/scripts
+setup.bash
+setup_local.bash
+setup.sh
+setup.zsh
+local_setup.bash
+local_setup.sh
+local_setup.zsh
+env.sh

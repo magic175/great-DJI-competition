@@ -57,3 +57,5 @@ CATKIN_IGNORE
 #.zip
 basic_dev/src/Livox-SDK2.zip
 catkin_tools/
+basic_dev/.catkin_tools/
+basic_dev/scripts

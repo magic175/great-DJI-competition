@@ -2,6 +2,7 @@
 #include <plan_manage/ego_replan_fsm.h>
 #include <tf2_geometry_msgs/tf2_geometry_msgs.h>
 
+geometry_msgs::Point temp_path_end_={};
 namespace ego_planner
 {
 
@@ -120,13 +121,14 @@ Eigen::Vector3d p_A_base(odom_A.pose.pose.position.x,
       points_sub_ = nh.subscribe("/waypoints", 10, &EGOReplanFSM::WayPointsCallback, this);
 
       ROS_INFO("Wait for points.");
-      while (ros::ok() && flag_points_subd_ == false)
-      {
-        ros::spinOnce();
-        ros::Duration(0.001).sleep();
-      }
+      // while (ros::ok() && flag_points_subd_ == false)
+      // {
+      //   ros::spinOnce();
+      //   ros::Duration(0.001).sleep();
+      // }
 
-      readGivenWpsAndPlan();
+      // readGivenWpsAndPlan();
+      // have_trigger_ = true;
     }
     else
       cout << "Wrong target_type_ value! target_type_=" << target_type_ << endl;
@@ -300,7 +302,8 @@ Eigen::Vector3d p_A_base(odom_A.pose.pose.position.x,
         {
           // prepare for next round
           wpt_id_ = 0;
-          planNextWaypoint(wps_[wpt_id_]);
+          // planNextWaypoint(wps_[wpt_id_]);
+          // flag_points_subd_ = false;
         }
 
         /* The navigation task completed */
@@ -992,9 +995,18 @@ Eigen::Vector3d p_A_base(odom_A.pose.pose.position.x,
 
   void EGOReplanFSM::WayPointsCallback(const path_sender::WayPoints &msg)
   {
+    if(temp_path_end_.x != msg.points[msg.points.size()-1].x ||
+       temp_path_end_.y != msg.points[msg.points.size()-1].y ||
+       temp_path_end_.z != msg.points[msg.points.size()-1].z )
+       {
+        flag_points_subd_ = false;
+        temp_path_end_.x = msg.points[msg.points.size()-1].x;
+        temp_path_end_.y = msg.points[msg.points.size()-1].y;
+        temp_path_end_.z = msg.points[msg.points.size()-1].z;
+       }//检查路径是否更新
     if (flag_points_subd_)
       return;
-
+    ROS_ERROR("Callback triggered! state=%d, flag=%d", (int)exec_state_, (int)flag_points_subd_);
     waypoint_num_ = msg.points.size();
     for (int i = 0; i < waypoint_num_; i++)
     {
@@ -1002,11 +1014,22 @@ Eigen::Vector3d p_A_base(odom_A.pose.pose.position.x,
       waypoints_[i][1] = msg.points[i].y;
       waypoints_[i][2] = msg.points[i].z + 0.32;
     }
+    flag_points_subd_ = true;
 
     std::cout << "Received " << waypoint_num_ << " waypoints." << std::endl;
 
-    flag_points_subd_ = true;
-  }
+    while (ros::ok() && exec_state_ != FSM_EXEC_STATE::WAIT_TARGET)//保护，防止途中重规划
+      {
+        ros::spinOnce();
+        ros::Duration(0.001).sleep();
+      }
+    // wpt_id_ = 0;
+     
+    have_trigger_ = true;  // 保险点1：确保能立即执行，不依赖外部 trigger
+
+    readGivenWpsAndPlan();   // 保险点2：立即调用，不等待
+}
+  
 
   bool EGOReplanFSM::measureGroundHeight(double &height)
   {

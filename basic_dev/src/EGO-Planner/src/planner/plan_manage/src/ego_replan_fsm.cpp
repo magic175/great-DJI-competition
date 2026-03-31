@@ -300,8 +300,8 @@ Eigen::Vector3d p_A_base(odom_A.pose.pose.position.x,
 
         if (target_type_ == TARGET_TYPE::PRESET_TARGET || target_type_ == TARGET_TYPE::SUBED_POINTS)
         {
-          // prepare for next round
-          wpt_id_ = 0;
+          // 不自动重置 wpt_id_，等待新的路径更新
+          // wpt_id_ = 0;
           // planNextWaypoint(wps_[wpt_id_]);
           // flag_points_subd_ = false;
         }
@@ -1018,17 +1018,11 @@ Eigen::Vector3d p_A_base(odom_A.pose.pose.position.x,
 
     std::cout << "Received " << waypoint_num_ << " waypoints." << std::endl;
 
-    while (ros::ok() && exec_state_ != FSM_EXEC_STATE::WAIT_TARGET)//保护，防止途中重规划
-      {
-        ros::spinOnce();
-        ros::Duration(0.001).sleep();
-      }
-    // wpt_id_ = 0;
-     
-    have_trigger_ = true;  // 保险点1：确保能立即执行，不依赖外部 trigger
-
-    readGivenWpsAndPlan();   // 保险点2：立即调用，不等待
-}
+    // 立即处理新路径，不等待当前任务完成
+    wpt_id_ = 0;  // 重置航点索引
+    have_trigger_ = true;  // 确保能立即执行，不依赖外部 trigger
+    readGivenWpsAndPlan();   // 立即调用，不等待
+} 
   
 
   bool EGOReplanFSM::measureGroundHeight(double &height)

@@ -149,6 +149,15 @@ void Controller::update(
 	SO3_Controller_Output_t& u_so3
 )
 {
+	// 如果期望速度非零，则计算速度方向角作为期望偏航角
+if (des.v.norm() > 0.1) {
+    double yaw_from_vel = atan2(des.v(1), des.v(0));
+    // 将 yaw 归一化到 [-pi, pi]
+    while (yaw_from_vel > M_PI) yaw_from_vel -= 2*M_PI;
+    while (yaw_from_vel < -M_PI) yaw_from_vel += 2*M_PI;
+    const_cast<Desired_State_t&>(des).yaw = yaw_from_vel;
+    const_cast<Desired_State_t&>(des).head_rate = 0.0; // 不使用偏航率指令
+}
 
 	//hzchzc
 	/*

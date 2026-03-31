@@ -232,38 +232,23 @@ void PathSender::timeCB(const ros::TimerEvent& event)
           std::reverse(temp_path.begin(),temp_path.end());//将终点到第转运站的路径倒序
           path.insert(path.end(),temp_path.begin(), temp_path.end());//将转运站到终点的路径加入
           path.emplace_back(end_point[end_num]);//终点后面一点
-        //   geometry_msgs::Point temp_point;
-        //   temp_point.x=end_point[end_num].x;
-        //   temp_point.y=end_point[end_num].y;
-        //   temp_point.z=end_point[end_num].z;//+150
-        //   path.emplace_back(temp_point);//终点后面一点向上150m
-        //   temp_point.x=end_point[initial_num].x;
-        //   temp_point.y=end_point[initial_num].y;
-        //   temp_point.z=end_point[initial_num].z+150;
-        //   path.emplace_back(temp_point);//起点后面一点向上150m
-        //   path.emplace_back(end_point[initial_num]);//起点后面一点
-        //   path.emplace_back(station[initial_num]);//起点后面一点
           std::cout<<"path_get"<<std::endl;
 
           path_get=true;
 
-          path_sender::WayPoints path;
-          path.points = this->path;
-          waypoint_publisher.publish(path);
+          path_sender::WayPoints path_msg;
+          path_msg.points = this->path;
+          waypoint_publisher.publish(path_msg);
           ROS_ERROR("path_get=true;");
       }
     }
     else
     {
-      path_sender::WayPoints path;
-      path.points = this->path;
-      waypoint_publisher.publish(path);
+      // 即使path_get为true，也需要定期发布路径，确保规划器能接收到最新路径
+      path_sender::WayPoints path_msg;
+      path_msg.points = this->path;
+      waypoint_publisher.publish(path_msg);
       ROS_WARN("--SENDING--");
-    //   if(PathSender::dist3D(current_pos_ , end_point_NED[end_num]) < 5.0)
-    //     {
-    //     //    initial_num_get = false;
-    //        end_num_get = false;
-    //        path_get = false;
       if(!initial_path_done)initial_path_done = true;
         
     }  
